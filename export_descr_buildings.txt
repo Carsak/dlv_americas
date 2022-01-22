@@ -84,7 +84,7 @@ building core_building
                 wall_level 1
                 gate_strength 1
                 tower_level 1
-                free_upkeep bonus 3
+                free_upkeep bonus 5
                 happiness_bonus bonus 1
                 recruitment_slots 2
             }
@@ -149,7 +149,7 @@ building core_building
                 wall_level 2
                 tower_level 1
                 gate_strength 1
-                free_upkeep bonus 4
+                free_upkeep bonus 7
                 happiness_bonus bonus 1
                 recruitment_slots 2
             }
@@ -206,7 +206,7 @@ building core_building
                 wall_level 3
                 tower_level 1
                 gate_strength 2
-                free_upkeep bonus 5
+                free_upkeep bonus 9
                 happiness_bonus bonus 2
                 recruitment_slots 3
             }
@@ -268,7 +268,7 @@ building core_building
                 wall_level 4
                 tower_level 1
                 gate_strength 2
-                free_upkeep bonus 6
+                free_upkeep bonus 12
                 happiness_bonus bonus 3
                 recruitment_slots 3
             }
