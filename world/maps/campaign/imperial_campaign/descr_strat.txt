@@ -27,7 +27,7 @@ rebelling_characters_active
 gladiator_uprising_disabled
 night_battles_enabled
 ;show_date_as_turns
-brigand_spawn_value 80
+brigand_spawn_value 999
 pirate_spawn_value 80
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
