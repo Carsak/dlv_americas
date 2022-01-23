@@ -259,7 +259,7 @@
    <misc>
       <allow_resource_forts bool="false"/>       <!-- do we allow forts and watchtowers to be built on resource locations -->
       <fort_devastation_distance uint="20"/>     <!-- maximum movement point extents for determining devastation tile targets for forts -->
-      <army_devastation_distance uint="20"/>     <!-- maximum movement point extents for determining devastation tile targets for field armies -->
+      <army_devastation_distance uint="40"/>     <!-- maximum movement point extents for determining devastation tile targets for field armies -->
       <fort_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for forts -->
       <army_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for field armies -->
       <enable_hotseat_messages bool="true"/>          <!-- do we allow hotseat messages to be send between human players -->
