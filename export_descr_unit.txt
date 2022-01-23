@@ -1870,10 +1870,10 @@ mount_effect     elephant -4, camel -4, horse +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, frighten_foot, free_upkeep_unit
 formation        1.6, 4.4, 7, 10, 2, square, wedge
 stat_health      2, 0
-stat_pri         10, 14, no, 0, 0, melee, melee_blade, piercing, spear, 0, 1.85
+stat_pri         10, 14, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.85
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         12, 7, no, 0, 0, melee, melee_blade, piercing, sword, 0, 1.0
+stat_sec         12, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1.0
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
 stat_pri_armour  9, 18, 4, metal
@@ -1883,7 +1883,7 @@ stat_heat        3
 stat_ground      0, 0, -4, 0
 stat_mental      14, normal, trained
 stat_charge_dist 65
-stat_fire_delay  -1000
+stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1180, 220, 130, 100, 1080, 4, 220
 armour_ug_levels 3, 4
