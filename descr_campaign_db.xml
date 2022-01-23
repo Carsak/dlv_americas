@@ -264,5 +264,6 @@
       <army_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for field armies -->
       <enable_hotseat_messages bool="true"/>          <!-- do we allow hotseat messages to be send between human players -->
       <enable_unit_accent_overrides bool="true"/>	<!-- do we use unit db accent overrides for campaign unit selection -->
+      <siege_movement_points_modifier float="1.0"/>
    </misc>
 </root>
