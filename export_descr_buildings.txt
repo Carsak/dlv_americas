@@ -14,20 +14,20 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }      and hidden_resource america 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
                 
                
            
-                recruit_pool "Chichimec Scout"  1   0.5   2  0  requires factions { chichimeca, } 
+                recruit_pool "Chichimec Scout"  1   0.1   2  0  requires factions { chichimeca, } 
            
-                recruit_pool "Al holpop militia"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Al holpop militia"  1   0.1   2  0  requires factions { mayans, } 
                 recruit_pool "Crossbowmen"  0   0.000001   0.999  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  0   0.000001   0.999  0  requires factions { england, france, } 
                 recruit_pool "Musketeers"  0   0.000001   0.999  0  requires factions { england, france, } 
                 recruit_pool "New World Cuirassers"  0   0.000001   0.999  0  requires factions { england, france, } 
                 recruit_pool "Demi Lancers"  0   0.000001   0.999  0  requires factions { england, france, } 
                 recruit_pool "Aventurier"  0   0.000001   0.999  0  requires factions { france, } 
-                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }    and hidden_resource america
+                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
                
                 wall_level 0
                 tower_level 1
@@ -50,22 +50,22 @@ building core_building
             {
              
       
-                recruit_pool "Chichimec Scout"  1   0.7   3  0  requires factions { chichimeca, } 
+                recruit_pool "Chichimec Scout"  1   0.1   3  0  requires factions { chichimeca, } 
         
-                recruit_pool "Al holpop militia"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Aztec Spearmen"  1   0.4   2  0  requires factions { aztecs, } 
+                recruit_pool "Al holpop militia"  1   0.1   3  0  requires factions { mayans, } 
+                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
                  
-                recruit_pool "Chichimec Lancers"  1   0.4   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.4   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.4   2  0  requires factions { tarascans, } 
+                recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, } 
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
           
-                recruit_pool "Crossbowmen"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.4   2  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
                 recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
                 
                 recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
@@ -95,26 +95,26 @@ building core_building
                 recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }
                 
             
-                recruit_pool "Chichimec Scout"  1   1   5  0  requires factions { chichimeca, } 
+                recruit_pool "Chichimec Scout"  1   0.2   5  0  requires factions { chichimeca, } 
               
-                recruit_pool "Al holpop militia"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Aztec Spearmen"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Chichimec Lancers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.5   2  0  requires factions { tarascans, } 
+                recruit_pool "Al holpop militia"  1   0.2   5  0  requires factions { mayans, } 
+                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, } 
                 
-                recruit_pool "Zacatecos Raiders"  1   0.4   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.4   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.4   2  0  requires factions { tarascans, } 
+                recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, } 
              
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
         
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.5   2  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
                 recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
          
                 wall_level 2
@@ -139,17 +139,17 @@ building core_building
             {
                 recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }
               
-                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, } 
+                recruit_pool "Papal Guard"  1   0.1   2  0  requires factions { papal_states, } 
                 recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }
                
                 recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
        
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.7   3  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   3  0  requires factions { france, } 
                 recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
           
                 wall_level 3
@@ -172,21 +172,21 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { spain, } 
+                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, } 
         
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.1   2  0  requires factions { spain, } 
       
          
                 recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
              
                 recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, } 
               
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   1   5  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.2   5  0  requires factions { france, } 
         
                 wall_level 4
                 tower_level 1
@@ -473,17 +473,11 @@ building barracks
         {
             capability
             {
-                recruit_pool "Town Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.5   2  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.5   2  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.5   2  0  requires factions { Saxons, } 
-                recruit_pool "Pikemen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { spain, }  and hidden_resource america 
+                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 
+                
+                
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Swordsmen Militia"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 
                 law_bonus bonus 1
             }
             material wooden
@@ -499,24 +493,15 @@ building barracks
         {
             capability
             {
-                recruit_pool "New World Cuirassers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Italian Spear Militia"  1   0.5   2  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.5   2  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.5   2  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                
+                recruit_pool "Sword and Buckler Men"  1   0.1   2  0  requires factions { spain, } and hidden_resource america 
+                
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } and hidden_resource america 
+                
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, } and hidden_resource america 
                 law_bonus bonus 2
             }
             material wooden
@@ -532,37 +517,19 @@ building barracks
         {
             capability
             {
-                recruit_pool "Demi Lancers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.5   2  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.5   2  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.5   2  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.5   2  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.5   2  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { hre, denmark, portugal, } 
+
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, } 
+         
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
+ 
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, } 
+
                 law_bonus bonus 3
             }
             material wooden
@@ -578,49 +545,23 @@ building barracks
         {
             capability
             {
-                recruit_pool "Halberd Militia"  1   0.5   2  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.5   2  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.5   2  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.7   3  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.7   3  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.7   3  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, }
+                recruit_pool "Tercio Pikemen"  1   0.1   2  0  requires factions { spain, } 
+             
+                recruit_pool "Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
+                 
+                recruit_pool "Dismounted Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, } 
+        
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+       
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
+    
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, } 
+
 		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
                 law_bonus bonus 3
             }
@@ -637,58 +578,25 @@ building barracks
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   0.5   2  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   0.5   2  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   0.7   3  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.7   3  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.7   3  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.7   3  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.7   3  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.7   3  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, }
+                recruit_pool "Spanish Dragoons"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
+     
+                recruit_pool "Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
+           
+                recruit_pool "Dismounted Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+               
+           
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+           
+                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, } 
+                
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+              
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
+
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, } 
+             
 		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
                 law_bonus bonus 3
             }
@@ -705,62 +613,25 @@ building barracks
         {
             capability
             {
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Portuguese Arquebusiers"  1   0.5   2  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Sudanese Gunners"  1   0.5   2  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Archers"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   0.7   3  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   0.7   3  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   0.7   3  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.7   3  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.7   3  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   1   5  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   1   5  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   1   5  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   1   5  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   1   5  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   1   5  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   1   5  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, }
+                recruit_pool "Spanish Dragoons"  1   0.15   3  0  requires factions { spain, } 
+
+                recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
+
+                recruit_pool "Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+
+                recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+
+                recruit_pool "Sword and Buckler Men"  1   0.2   5  0  requires factions { spain, } 
+
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
+
+                recruit_pool "Pike Militia"  1   0.2   5  0  requires factions { spain, } 
+    
+                recruit_pool "Swordsmen Militia"  1   0.2   5  0  requires factions { spain, } 
+
 		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
                 law_bonus bonus 3
             }
@@ -777,64 +648,64 @@ building barracks
         {
             capability
             {
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { portugal, milan, venice, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Musketeers"  1   0.5   2  0  requires factions { turks, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Arquebusiers"  1   0.7   3  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Portuguese Arquebusiers"  1   0.7   3  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Sudanese Gunners"  1   0.7   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Archers"  1   0.7   3  0  requires factions { turks, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   1   5  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   1   5  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   1   5  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   1   5  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   1   5  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   1   5  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   1   5  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   1   5  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   1   5  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   1   5  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   1   5  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   1   5  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   1   5  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   1   5  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, }
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { portugal, milan, venice, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Janissary Musketeers"  1   0.1   2  0  requires factions { turks, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Arquebusiers"  1   0.15   3  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Portuguese Arquebusiers"  1   0.15   3  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Sudanese Gunners"  1   0.15   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Janissary Archers"  1   0.15   3  0  requires factions { turks, } 
+                recruit_pool "Pike Militia"  1   0.2   5  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Hand Gunners"  1   0.2   5  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Spanish Dragoons"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Berdiche Axemen"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "Arquebusiers"  1   0.2   5  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Varangian Guard"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Hand Gunners"  1   0.2   5  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Tabardariyya"  1   0.2   5  0  requires factions { egypt, } 
+                recruit_pool "Hand Gunners"  1   0.15   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Halberd Militia"  1   0.2   5  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
+                recruit_pool "Swordstaff Militia"  1   0.2   5  0  requires factions { denmark, } 
+                recruit_pool "Tercio Pikemen"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.2   5  0  requires factions { portugal, } 
+                recruit_pool "Italian Cavalry Militia"  1   0.2   5  0  requires factions { milan, venice, } 
+                recruit_pool "EE Cavalry Militia"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "Byzantine Infantry"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "Urban Militia"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "ME Halberd Militia"  1   0.2   5  0  requires factions { egypt, turks, timurids, } 
+                recruit_pool "Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, } 
+                recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Genoese Crossbow Militia"  1   0.2   5  0  requires factions { milan, } 
+                recruit_pool "Pavise Crossbow Militia"  1   0.2   5  0  requires factions { venice, papal_states, sicily, hungary, } 
+                recruit_pool "EE Crossbow Militia"  1   0.2   5  0  requires factions { poland, russia, } 
+                recruit_pool "S Archer Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Crossbow Militia"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "Saracen Militia"  1   0.2   5  0  requires factions { egypt, turks, } 
+                recruit_pool "Sabadar Militia"  1   0.2   5  0  requires factions { timurids, } 
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Spear Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, Normans, } 
+                recruit_pool "Sword and Buckler Men"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Italian Spear Militia"  1   0.2   5  0  requires factions { milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Spear Militia"  1   0.2   5  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "SE Spear Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Spear Militia"  1   0.2   5  0  requires factions { moors, egypt, turks, timurids, } 
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Town Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, Normans, } 
+                recruit_pool "Pike Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Italian Militia"  1   0.2   5  0  requires factions { milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Town Militia"  1   0.2   5  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Archer Militia"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "SE Town Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Town Militia"  1   0.2   5  0  requires factions { moors, turks, timurids, } 
+                recruit_pool "ME Archer Militia"  1   0.2   5  0  requires factions { egypt, } 
+                recruit_pool "Peasant Spearmen"  1   0.2   5  0  requires factions { Saxons, } 
+                recruit_pool "ME Spear Militia"  1   0.15   3  1  requires factions { mongols, } 
+                recruit_pool "Spear Militia"  1   0.15   3  0  requires factions { Normans, } 
+                recruit_pool "Swordsmen Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "ME Town Militia"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "Town Militia"  1   0.2   5  0  requires factions { Normans, } 
+                recruit_pool "Peasant Spearmen"  1   0.2   5  0  requires factions { Saxons, }
 		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
                 law_bonus bonus 3
             }
@@ -974,13 +845,9 @@ building missiles
         {
             capability
             {
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "S Peasant Archers"  1   0.5   2  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   0.5   2  0  requires factions { poland, russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   0.5   2  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+
+                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, } and hidden_resource america 
             }
             material wooden
             construction  4 
@@ -995,25 +862,13 @@ building missiles
         {
             capability
             {
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Sicilian Muslim Archers"  1   0.5   2  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   0.5   2  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   0.5   2  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   0.5   2  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   0.5   2  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   0.5   2  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   0.7   3  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "S Peasant Archers"  1   0.7   3  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   0.7   3  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   0.7   3  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { spain, } and hidden_resource america 
+
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, } 
+
+                recruit_pool "Crossbow Militia"  1   0.15   3  0  requires factions { spain, } and hidden_resource america 
             }
             material wooden
             construction  6 
@@ -1028,37 +883,12 @@ building missiles
         {
             capability
             {
-                recruit_pool "Aventurier"  1   0.5   2  0  requires factions { france, } 
-                recruit_pool "Pavise Crossbowmen"  1   0.5   2  0  requires factions { hre, portugal, papal_states, sicily, } 
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { denmark, hungary, } 
-                recruit_pool "Mounted Crossbowmen"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbowmen"  1   0.5   2  0  requires factions { milan, } 
-                recruit_pool "Venetian Archers"  1   0.5   2  0  requires factions { venice, } 
-                recruit_pool "Lithuanian Cavalry"  1   0.5   2  0  requires factions { poland, } 
-                recruit_pool "Dismounted Dvor"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Byzantine Guard Archers"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Peasant Crossbowmen"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Nubian Archers"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Ottoman Infantry"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Sicilian Muslim Archers"  1   0.7   3  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   0.7   3  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   0.7   3  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   0.7   3  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "S Peasant Archers"  1   1   5  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   1   5  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { spain, } 
             }
             material wooden
             construction  8 
@@ -1073,40 +903,40 @@ building missiles
         {
             capability
             {
-                recruit_pool "Mounted Crossbowmen"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Granadine CB Cav"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Aventurier"  1   0.7   3  0  requires factions { france, } 
-                recruit_pool "Pavise Crossbowmen"  1   0.7   3  0  requires factions { hre, portugal, papal_states, sicily, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { denmark, hungary, } 
-                recruit_pool "Mounted Crossbowmen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbowmen"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Venetian Archers"  1   0.7   3  0  requires factions { venice, } 
-                recruit_pool "Lithuanian Cavalry"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "Byzantine Guard Archers"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Peasant Crossbowmen"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Nubian Archers"  1   0.7   3  1  requires factions { egypt, } 
-                recruit_pool "Ottoman Infantry"  1   0.7   3  1  requires factions { turks, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   1   5  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   1   5  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Sicilian Muslim Archers"  1   1   5  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   1   5  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   1   5  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   1   5  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "S Peasant Archers"  1   1   5  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   1   5  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Arquebusiers"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Granadine CB Cav"  1   0.1   2  0  requires factions { moors, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Aventurier"  1   0.15   3  0  requires factions { france, } 
+                recruit_pool "Pavise Crossbowmen"  1   0.15   3  0  requires factions { hre, portugal, papal_states, sicily, } 
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { denmark, hungary, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Genoese Crossbowmen"  1   0.15   3  0  requires factions { milan, } 
+                recruit_pool "Venetian Archers"  1   0.15   3  0  requires factions { venice, } 
+                recruit_pool "Lithuanian Cavalry"  1   0.15   3  0  requires factions { poland, } 
+                recruit_pool "Byzantine Guard Archers"  1   0.15   3  0  requires factions { byzantium, } 
+                recruit_pool "ME Peasant Crossbowmen"  1   0.15   3  0  requires factions { moors, } 
+                recruit_pool "Nubian Archers"  1   0.15   3  1  requires factions { egypt, } 
+                recruit_pool "Ottoman Infantry"  1   0.15   3  1  requires factions { turks, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Peasant Crossbowmen"  1   0.2   5  0  requires factions { hre, portugal, milan, venice, papal_states, } 
+                recruit_pool "Norse Archers"  1   0.2   5  0  requires factions { denmark, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Sicilian Muslim Archers"  1   0.2   5  0  requires factions { sicily, } 
+                recruit_pool "Lithuanian Archers"  1   0.2   5  0  requires factions { poland, } 
+                recruit_pool "Bosnian Archers"  1   0.2   5  0  requires factions { hungary, } 
+                recruit_pool "Trebizond Archers"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "Desert Archers"  1   0.2   5  0  requires factions { moors, egypt, } 
+                recruit_pool "Turkish Archers"  1   0.2   5  0  requires factions { turks, timurids, } 
+                recruit_pool "Mongol Foot Archers"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Peasant Archers"  1   0.2   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
+                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "S Peasant Archers"  1   0.2   5  0  requires factions { sicily, hungary, byzantium, } 
+                recruit_pool "EE Peasant Archers"  1   0.2   5  0  requires factions { poland, } 
+                recruit_pool "EE Peasant Archers"  1   0.2   5  1  requires factions { russia, } 
+                recruit_pool "Sudanese Javelinmen"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "ME Peasant Archers"  1   0.2   5  0  requires factions { egypt, turks, mongols, timurids, } 
             }
             material wooden
             construction  10 
@@ -1258,15 +1088,15 @@ building cannon
                 recruit_pool "EE Grand Bombard"  1   0.4   2  0  requires factions { russia, } 
                 recruit_pool "ME Grand Bombard"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
                 recruit_pool "AS Grand Bombard"  1   0.4   2  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   0.5   2  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   0.5   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   0.5   2  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.5   2  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.5   2  0  requires factions { timurids, } 
+                recruit_pool "NE Bombard"  1   0.1   2  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Bombard"  1   0.1   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Bombard"  1   0.1   2  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "GR Bombard"  1   0.1   2  0  requires factions { byzantium, } 
+                recruit_pool "ME Bombard"  1   0.1   2  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Rocket Launcher"  1   0.1   2  0  requires factions { mongols, } 
+                recruit_pool "AS Bombard"  1   0.1   2  0  requires factions { timurids, } 
                 weapon_naval_gunpowder 1
             }
             material wooden
@@ -1293,22 +1123,22 @@ building cannon
                 recruit_pool "NE Serpentine"  1   0.4   2  0  requires factions { france, hre, } 
                 recruit_pool "NE Cannon"  1   0.4   2  0  requires factions { denmark, } 
                 recruit_pool "EE Cannon"  1   0.4   2  0  requires factions { poland, } 
-                recruit_pool "NE Mortar"  1   0.5   2  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Grand Bombard"  1   0.5   2  0  requires factions { france, hre, spain, portugal, milan, } 
-                recruit_pool "NE Ribault"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "EE Ribault"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Grand Bombard"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "ME Grand Bombard"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Grand Bombard"  1   0.5   2  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   0.7   3  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   0.7   3  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   0.7   3  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   0.7   3  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.7   3  0  requires factions { timurids, } 
+                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Grand Bombard"  1   0.1   2  0  requires factions { france, hre, spain, portugal, milan, } 
+                recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { denmark, } 
+                recruit_pool "EE Ribault"  1   0.1   2  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Grand Bombard"  1   0.1   2  0  requires factions { russia, } 
+                recruit_pool "ME Grand Bombard"  1   0.1   2  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Grand Bombard"  1   0.1   2  0  requires factions { timurids, } 
+                recruit_pool "NE Bombard"  1   0.15   3  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Ribault"  1   0.15   3  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Bombard"  1   0.15   3  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Bombard"  1   0.15   3  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "GR Bombard"  1   0.15   3  0  requires factions { byzantium, } 
+                recruit_pool "ME Bombard"  1   0.15   3  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Rocket Launcher"  1   0.15   3  0  requires factions { mongols, } 
+                recruit_pool "AS Bombard"  1   0.15   3  0  requires factions { timurids, } 
                 weapon_naval_gunpowder 1
             }
             material wooden
@@ -1328,33 +1158,33 @@ building cannon
                 recruit_pool "NE Monster Ribault"  1   0.4   2  0  requires factions { milan, venice, } 
                 recruit_pool "EE Basilisk"  1   0.4   2  0  requires factions { russia, hungary, } 
                 recruit_pool "ME Monster Bombard"  1   0.4   2  0  requires factions { turks, } 
-                recruit_pool "NE Culverin"  1   0.5   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, } 
-                recruit_pool "NE Cannon"  1   0.5   2  0  requires factions { hre, sicily, } 
-                recruit_pool "NE Serpentine"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "EE Serpentine"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Cannon"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "ME Cannon"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Cannon"  1   0.5   2  0  requires factions { timurids, } 
+                recruit_pool "NE Culverin"  1   0.1   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, } 
+                recruit_pool "NE Cannon"  1   0.1   2  0  requires factions { hre, sicily, } 
+                recruit_pool "NE Serpentine"  1   0.1   2  0  requires factions { denmark, } 
+                recruit_pool "EE Serpentine"  1   0.1   2  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Cannon"  1   0.1   2  0  requires factions { russia, } 
+                recruit_pool "ME Cannon"  1   0.1   2  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Cannon"  1   0.1   2  0  requires factions { timurids, } 
                 recruit_pool "NE Ribault"  1   0.4   2  0  requires factions { england, } 
                 recruit_pool "NE Serpentine"  1   0.4   2  0  requires factions { france, hre, } 
                 recruit_pool "NE Cannon"  1   0.4   2  0  requires factions { denmark, } 
                 recruit_pool "EE Cannon"  1   0.4   2  0  requires factions { poland, } 
-                recruit_pool "NE Mortar"  1   0.7   3  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Grand Bombard"  1   0.7   3  0  requires factions { france, hre, spain, portugal, milan, } 
-                recruit_pool "NE Ribault"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "EE Ribault"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Grand Bombard"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "ME Grand Bombard"  1   0.7   3  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Grand Bombard"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   1   5  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   1   5  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   1   5  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   1   5  0  requires factions { timurids, } 
+                recruit_pool "NE Mortar"  1   0.15   3  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Grand Bombard"  1   0.15   3  0  requires factions { france, hre, spain, portugal, milan, } 
+                recruit_pool "NE Ribault"  1   0.15   3  0  requires factions { denmark, } 
+                recruit_pool "EE Ribault"  1   0.15   3  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Grand Bombard"  1   0.15   3  0  requires factions { russia, } 
+                recruit_pool "ME Grand Bombard"  1   0.15   3  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Grand Bombard"  1   0.15   3  0  requires factions { timurids, } 
+                recruit_pool "NE Bombard"  1   0.2   5  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Ribault"  1   0.2   5  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Bombard"  1   0.2   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Bombard"  1   0.2   5  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "GR Bombard"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Bombard"  1   0.2   5  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Rocket Launcher"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "AS Bombard"  1   0.2   5  0  requires factions { timurids, } 
                 weapon_naval_gunpowder 1
             }
             material wooden
@@ -4379,11 +4209,11 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.5   2  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Batab Militia"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, } 
                 religion_level bonus 1
                 law_bonus bonus 1
                 agent_limit priest 1
@@ -4403,17 +4233,17 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Jaguar Warriors"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Raiders"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.5   2  0  requires factions { tarascans, } 
-                recruit_pool "Coyote Priests"  1   0.5   2  0  requires factions { aztecs, } 
+                recruit_pool "Aztec Spearmen"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Batab Militia"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Lancers"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Warriors"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, } 
+                recruit_pool "Coyote Priests"  1   0.1   2  0  requires factions { aztecs, } 
                 religion_level bonus 2
                 law_bonus bonus 1
                 stage_races 1
@@ -4434,21 +4264,21 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   1   5  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Jaguar Warriors"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Raiders"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Coyote Priests"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Temple Guard"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Shamen"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Priests of Quetzalcoatl"  1   0.7   3  0  requires factions { tlaxcalans, tarascans, } 
-                recruit_pool "Cuahchiqueh"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Aztec Spearmen"  1   0.2   5  0  requires factions { aztecs, } 
+                recruit_pool "Batab Militia"  1   0.2   5  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Lancers"  1   0.2   5  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.2   5  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.2   5  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Warriors"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Jaguar Warriors"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Raiders"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Warriors"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Coyote Priests"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Temple Guard"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Shamen"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Priests of Quetzalcoatl"  1   0.15   3  0  requires factions { tlaxcalans, tarascans, } 
+                recruit_pool "Cuahchiqueh"  1   0.1   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
                 religion_level bonus 3
                 law_bonus bonus 2
                 stage_races 2
@@ -4479,11 +4309,11 @@ building meso_palace
             {
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   0.5   2  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Archers"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Mayan Archers"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Archers"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.1   2  0  requires factions { tarascans, } 
                 population_health_bonus bonus 1
                 population_growth_bonus bonus 1
                 law_bonus bonus 1
@@ -4504,16 +4334,16 @@ building meso_palace
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Spear Throwers"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Javelinmen"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spear Throwers"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spear Throwers"  1   0.5   2  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Archers"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Mayan Archers"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Archers"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spear Throwers"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Mayan Javelinmen"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Archers"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spear Throwers"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spear Throwers"  1   0.1   2  0  requires factions { tarascans, } 
                 population_health_bonus bonus 2
                 population_growth_bonus bonus 2
                 law_bonus bonus 2
@@ -4534,16 +4364,16 @@ building meso_palace
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   1   5  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Spear Throwers"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Javelinmen"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spear Throwers"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spear Throwers"  1   0.7   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Archers"  1   0.2   5  0  requires factions { aztecs, } 
+                recruit_pool "Mayan Archers"  1   0.2   5  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Archers"  1   0.2   5  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.2   5  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.2   5  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spear Throwers"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Mayan Javelinmen"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Archers"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spear Throwers"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spear Throwers"  1   0.15   3  0  requires factions { tarascans, } 
                 population_health_bonus bonus 3
                 population_growth_bonus bonus 3
                 law_bonus bonus 3
@@ -4571,7 +4401,7 @@ building meso_market
         {
             capability
             {
-                recruit_pool "Holkans"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Holkans"  1   0.1   2  0  requires factions { mayans, } 
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1
             }
@@ -4588,7 +4418,7 @@ building meso_market
         {
             capability
             {
-                recruit_pool "Holkans"  1   0.7   3  0  requires factions { mayans, } 
+                recruit_pool "Holkans"  1   0.15   3  0  requires factions { mayans, } 
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 1
             }
@@ -4605,7 +4435,7 @@ building meso_market
         {
             capability
             {
-                recruit_pool "Holkans"  1   1   5  0  requires factions { mayans, } 
+                recruit_pool "Holkans"  1   0.2   5  0  requires factions { mayans, } 
                 trade_base_income_bonus bonus 5
                 population_growth_bonus bonus 2
             }
@@ -4631,7 +4461,7 @@ building observatory
         {
             capability
             {
-                recruit_pool "Priests Of Kukulcan"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Priests Of Kukulcan"  1   0.1   2  0  requires factions { mayans, } 
                 religion_level bonus 1
                 agent_limit priest 1
             }
@@ -4733,9 +4563,9 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Nacom Warriors"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Guachichil Warriors"  1   0.5   2  0  requires factions { chichimeca, } 
+                recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Nacom Warriors"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Guachichil Warriors"  1   0.1   2  0  requires factions { chichimeca, } 
                 happiness_bonus bonus 1
                 armour 1
                 religion_level bonus 1
@@ -4753,11 +4583,11 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.7   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Nacom Warriors"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Guachichil Warriors"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Jaguar Warriors"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Hornet Throwers"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Eagle Warriors"  1   0.15   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Nacom Warriors"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Guachichil Warriors"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Hornet Throwers"  1   0.1   2  0  requires factions { mayans, } 
                 happiness_bonus bonus 3
                 armour 1
                 religion_level bonus 2
@@ -4784,9 +4614,9 @@ building skull_rack
         {
             capability
             {
-                recruit_pool "Arrow Warriors"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Chichimec Riders"  1   0.5   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
-                recruit_pool "Chichimec Gunners"  1   0.5   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1 
+                recruit_pool "Arrow Warriors"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Chichimec Riders"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
+                recruit_pool "Chichimec Gunners"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1 
                 religion_level bonus 1
                 happiness_bonus bonus 1
             }
@@ -4881,7 +4711,7 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Rabbit Boys"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 1
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -4900,8 +4730,8 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Dog Soldiers"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Rabbit Boys"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Dog Soldiers"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 2
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -4920,9 +4750,9 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Dog Soldiers"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Koitsenko"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Rabbit Boys"  1   0.2   5  0  requires factions { apachean, } 
+                recruit_pool "Dog Soldiers"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Koitsenko"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
@@ -4990,7 +4820,7 @@ building raiders_tent
             capability
             {
                 agent spy  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 1
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -5011,8 +4841,8 @@ building raiders_tent
             {
                 agent spy  0  requires factions { nativeindian, } 
                 agent assassin  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Apachean Scouts"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Apachean Scouts"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 2
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -5033,9 +4863,9 @@ building raiders_tent
             {
                 agent spy  0  requires factions { nativeindian, } 
                 agent assassin  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Apachean Scouts"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Onde's Men"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.2   5  0  requires factions { apachean, } 
+                recruit_pool "Apachean Scouts"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Onde's Men"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
@@ -5153,7 +4983,7 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Mounted Apache"  1   0.1   2  0  requires factions { apachean, } 
             }
             material wooden
             construction  2 
@@ -5168,8 +4998,8 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Mounted Thunder Brave"  1   0.5   2  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
+                recruit_pool "Mounted Apache"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Mounted Thunder Brave"  1   0.1   2  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
             }
             material wooden
             construction  4 
@@ -5184,8 +5014,8 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Mounted Thunder Brave"  1   0.7   3  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
+                recruit_pool "Mounted Apache"  1   0.2   5  0  requires factions { apachean, } 
+                recruit_pool "Mounted Thunder Brave"  1   0.15   3  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
                 heavy_cavalry_bonus bonus 1
             }
             material wooden
@@ -5210,7 +5040,7 @@ building gun_tent
         {
             capability
             {
-                recruit_pool "Thunder Brave"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Thunder Brave"  1   0.1   2  0  requires factions { apachean, } 
             }
             material wooden
             construction  2 
@@ -5225,7 +5055,7 @@ building gun_tent
         {
             capability
             {
-                recruit_pool "Thunder Brave"  1   1   5  0  requires factions { apachean, } 
+                recruit_pool "Thunder Brave"  1   0.2   5  0  requires factions { apachean, } 
             }
             material wooden
             construction  4 
@@ -5302,7 +5132,7 @@ building hogan
         {
             capability
             {
-                recruit_pool "Medicine Men"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Medicine Men"  1   0.1   2  0  requires factions { apachean, } 
                 religion_level bonus 2
                 law_bonus bonus 1
                 agent_limit priest 1
