@@ -75,7 +75,7 @@
          <pip_max value="20"/>
       </factor>
       <factor name="SOF_TAX_BONUS">
-         <pip_modifier value="1.0"/>
+         <pip_modifier value="0.7"/>
       </factor>
       <factor name="SOF_TRIUMPH">
          <pip_modifier value="1.0"/>
