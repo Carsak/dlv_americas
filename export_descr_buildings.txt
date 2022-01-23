@@ -14,24 +14,21 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.2   1  0  requires factions { spain, }      and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Aztec Peasants"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }      and hidden_resource america 
+                
+               
+           
                 recruit_pool "Chichimec Scout"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   0.5   2  0  requires factions { tarascans, } 
+           
                 recruit_pool "Al holpop militia"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Crossbowmen"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.2   1  0  requires factions { france, } 
-                recruit_pool "Swordsmen Militia"  1   0.2   1  0  requires factions { spain, }    and hidden_resource america
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Crossbowmen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  0   0.000001   0.999  0  requires factions { france, } 
+                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }    and hidden_resource america
+               
                 wall_level 0
                 tower_level 1
                 free_upkeep bonus 2
@@ -51,36 +48,27 @@ building core_building
         {
             capability
             {
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Aztec Peasants"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   0.7   3  0  requires factions { mayans, } 
+             
+      
                 recruit_pool "Chichimec Scout"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   0.7   3  0  requires factions { tarascans, } 
+        
                 recruit_pool "Al holpop militia"  1   0.7   3  0  requires factions { mayans, } 
                 recruit_pool "Aztec Spearmen"  1   0.4   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.4   2  0  requires factions { mayans, } 
+                 
                 recruit_pool "Chichimec Lancers"  1   0.4   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.4   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tarascan Spearmen"  1   0.4   2  0  requires factions { tarascans, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { portugal, }  and hidden_resource america
+                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+          
                 recruit_pool "Crossbowmen"  1   0.4   2  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   0.4   2  0  requires factions { england, france, } 
                 recruit_pool "Musketeers"  1   0.4   2  0  requires factions { england, france, } 
                 recruit_pool "New World Cuirassers"  1   0.4   2  0  requires factions { england, france, } 
                 recruit_pool "Demi Lancers"  1   0.4   2  0  requires factions { england, france, } 
                 recruit_pool "Aventurier"  1   0.4   2  0  requires factions { france, } 
-                recruit_pool "Pike Militia"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                
+                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
                 wall_level 1
                 gate_strength 1
                 tower_level 1
@@ -101,51 +89,34 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, } 
-                recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Aztec Peasants"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   1   5  0  requires factions { mayans, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
+                
+        
+                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }
+                
+            
                 recruit_pool "Chichimec Scout"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   1   5  0  requires factions { tarascans, } 
+              
                 recruit_pool "Al holpop militia"  1   1   5  0  requires factions { mayans, } 
                 recruit_pool "Aztec Spearmen"  1   0.5   2  0  requires factions { aztecs, } 
                 recruit_pool "Chichimec Lancers"  1   0.5   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.5   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tarascan Spearmen"  1   0.5   2  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.4   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.4   2  0  requires factions { mayans, } 
+                
                 recruit_pool "Zacatecos Raiders"  1   0.4   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Warriors"  1   0.4   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tarascan Warriors"  1   0.4   2  0  requires factions { tarascans, } 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
+             
+                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+        
                 recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   0.5   2  0  requires factions { england, france, } 
                 recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, } 
                 recruit_pool "New World Cuirassers"  1   0.5   2  0  requires factions { england, france, } 
                 recruit_pool "Demi Lancers"  1   0.5   2  0  requires factions { england, france, } 
                 recruit_pool "Aventurier"  1   0.5   2  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america
-                recruit_pool "Jinetes"  1   0.2   1  0  requires factions { portugal, } 
-                recruit_pool "Mongol Horse Archers"  1   0.2   1  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+         
                 wall_level 2
                 tower_level 1
                 gate_strength 1
@@ -166,43 +137,21 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Conquistadores"  1   0.4   2  1  requires factions { portugal, }  and hidden_resource america
+                recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }
+              
                 recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, } 
-                recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Crossbow Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  0   0.000001   0.999  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  0   0.000001   0.999  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  0   0.000001   0.999  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  0   0.000001   0.999  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  0   0.000001   0.999  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  0   0.000001   0.999  0  requires factions { timurids, } 
+                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }
+               
+                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+       
                 recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
                 recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, } 
                 recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
                 recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
                 recruit_pool "Aventurier"  1   0.7   3  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Mongol Horse Archers"  1   0.2   1  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
+          
                 wall_level 3
                 tower_level 1
                 gate_strength 2
@@ -224,47 +173,21 @@ building core_building
             capability
             {
                 recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Conquistadores"  1   0.5   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Swiss Guard"  1   0.5   2  0  requires factions { papal_states, } 
-                recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "Cossack Musketeers"  1   0.5   2  0  requires factions { russia, }  and event_counter gunpowder_discovered 1 
+        
                 recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.5   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Crossbow Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  0   0.000001   0.999  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  0   0.000001   0.999  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  0   0.000001   0.999  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  0   0.000001   0.999  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  0   0.000001   0.999  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  0   0.000001   0.999  0  requires factions { timurids, } 
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Mongol Horse Archers"  1   0.4   2  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.4   2  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.4   2  0  requires factions { Saxons, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Dismounted Broken Lances"  1   0.4   2  0  requires factions { milan, } 
-                recruit_pool "Christian Guard"  1   0.4   2  0  requires factions { moors, } 
+      
+         
+                recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+             
+                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, } 
+              
                 recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
                 recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, } 
                 recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
                 recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
                 recruit_pool "Aventurier"  1   1   5  0  requires factions { france, } 
-                recruit_pool "Broken Lances"  1   0.5   2  0  requires factions { milan, venice, papal_states, } 
+        
                 wall_level 4
                 tower_level 1
                 gate_strength 2
@@ -4277,6 +4200,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Dismounted Conquistadores"  1   0.2   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 				
             }
             material stone
             construction  1 
@@ -4291,6 +4216,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Dismounted Conquistadores"  1   0.2   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america
             }
             material stone
             construction  1 
@@ -4304,6 +4231,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Dismounted Conquistadores"  1   0.2   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 
             }
             material stone
             construction  1 
