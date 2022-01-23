@@ -174,7 +174,7 @@ resource	grain,	37,	63
 faction	spain, balanced smith
 ai_label		 default 
 denari	30000
-denari_kings_purse	5000
+denari_kings_purse	100
 name_faction spy aztecs
 settlement
 {
@@ -326,7 +326,7 @@ relative 	Diego Velazquez,	Castellana,	Pedro, Manuela, Sancha, Vaasco,	end
 faction	aztecs, balanced smith
 ai_label	default 
 denari	15000
-denari_kings_purse	1500
+denari_kings_purse	1
 settlement
 {
 	level city
@@ -745,7 +745,7 @@ relative	Moctezuma,	Ayauhcihuatl,   Xiloxochitl, Miyaoaxochitl, Teyacapan, Miahu
 faction	mayans, balanced smith
 ai_label	default 
 denari	15000
-denari_kings_purse	1500
+denari_kings_purse	1
 settlement
 {
 	level city
@@ -1173,8 +1173,8 @@ relative 	Chuen, 		Pichanto, 	Belachina, Vucub, end
 
 faction	tlaxcalans, balanced smith
 ai_label	default 
-denari	20000
-denari_kings_purse	1000
+denari	55000
+denari_kings_purse	1500
 settlement
 {
 	level large_town
@@ -1355,7 +1355,7 @@ relative	Temilotecatl,	Quiauhxochitl, Tototl, end
 faction	tarascans, balanced smith
 ai_label	default 
 denari	20000
-denari_kings_purse	1000
+denari_kings_purse	1
 settlement
 {
 	level large_town
