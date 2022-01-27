@@ -63,7 +63,7 @@
       <max_age_for_marriage_for_female uint="40"/>
       <max_age_before_death uint="90"/>
       <max_age_of_child uint="10"/>
-      <old_age uint="28"/>
+      <old_age uint="50"/>
       <age_of_manhood uint="14"/>
       <daughters_age_of_consent uint="14"/>
       <daughters_retirement_age uint="40"/>
@@ -261,7 +261,7 @@
       <fort_devastation_distance uint="20"/>     <!-- maximum movement point extents for determining devastation tile targets for forts -->
       <army_devastation_distance uint="40"/>     <!-- maximum movement point extents for determining devastation tile targets for field armies -->
       <fort_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for forts -->
-      <army_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for field armies -->
+      <army_devastation_modifier float="2.0"/>   <!-- num devastated tiles modifier for field armies -->
       <enable_hotseat_messages bool="true"/>          <!-- do we allow hotseat messages to be send between human players -->
       <enable_unit_accent_overrides bool="true"/>	<!-- do we use unit db accent overrides for campaign unit selection -->
       <siege_movement_points_modifier float="1.0"/>
