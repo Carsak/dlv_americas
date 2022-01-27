@@ -173,8 +173,8 @@ resource	grain,	37,	63
 
 faction	spain, balanced smith
 ai_label		 default 
-denari	50000
-denari_kings_purse	100
+denari	30000
+denari_kings_purse	5000
 name_faction spy aztecs
 settlement
 {
