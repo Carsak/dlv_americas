@@ -323,7 +323,7 @@ Tlaxcala_r
 	tlaxcalans
 	Mexican_Rebels
 	238 217 96
-	silver, chocolate, textiles, tobacco, atlantic, no_pirates
+	silver, chocolate, textiles, tobacco, atlantic, no_pirates, tlaxcala
 	0
 	7
 	religions { catholic 0 orthodox 0 islam 6 pagan 94 heretic 0 }
