@@ -441,7 +441,6 @@ building equestrian
 }
 building barracks
 {
-    religion catholic
     levels town_watch town_guard city_watch militia_drill_square militia_barracks army_barracks royal_armoury 
     {
         town_watch city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
@@ -813,7 +812,6 @@ building professional_military
 }
 building missiles
 {
-    religion catholic
     levels bowyer practice_range archery_range marksmans_range 
     {
         bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
@@ -1028,7 +1026,6 @@ building castle_siege
 }
 building cannon
 {
-    religion catholic
     levels gunsmith cannon_maker cannon_foundry royal_arsenal 
     {
         gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
@@ -1284,7 +1281,6 @@ building urban_equestrian
 }
 building smith
 {
-    religion catholic
     levels leather_tanner blacksmith armourer heavy_armourer plate_armourer gothic_armourer 
     {
         leather_tanner city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
@@ -1481,7 +1477,6 @@ building castle_smith
 }
 building port
 {
-    religion catholic
     levels port shipwright dockyard naval_drydock 
     {
         port city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 
@@ -1755,7 +1750,6 @@ building castle_port
 }
 building sea_trade
 {
-    religion catholic
     levels merchants_wharf warehouse docklands 
     {
         merchants_wharf city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
@@ -1852,7 +1846,6 @@ building admiralty
 }
 building market
 {
-    religion catholic
     levels corn_exchange market fairground great_market merchants_quarter 
     {
         corn_exchange city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1 
@@ -2266,7 +2259,6 @@ building hospital
 }
 building academic
 {
-    religion catholic
     levels alchemists_lab alchemy_school university 
     {
         alchemists_lab city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level market great_market
@@ -2785,7 +2777,6 @@ building temple_muslim_castle
 }
 building taverns
 {
-    religion catholic
     levels brothel inn tavern coaching_house pleasure_palace 
     {
         brothel city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, } 
@@ -2914,7 +2905,6 @@ building taverns
 }
 building city_hall
 {
-    religion catholic
     levels town_hall council_chambers city_hall mayors_palace 
     {
         town_hall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1 
