@@ -191,7 +191,7 @@ settlement
 	}
 	building
 	{
-		type barracks town_guard
+		type barracks city_watch
 	}
 	building
 	{
@@ -221,7 +221,7 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
