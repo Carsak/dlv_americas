@@ -44,10 +44,9 @@ building core_building
             capability
             {
                 recruit_pool "Chichimec Scout"  1   0.1   3  0  requires factions { chichimeca, }
-                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
+                
                 recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, } 
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
                 recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
@@ -81,13 +80,13 @@ building core_building
                 recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
                 recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
                 recruit_pool "Chichimec Scout"  1   0.2   5  0  requires factions { chichimeca, }  
-                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
+                
                 recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, }    
+  
                 recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, } 
+                
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
                 recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
                 recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
@@ -4149,7 +4148,7 @@ building temple_pagan
                 recruit_pool "Al holpop militia"  1   0.2   3  0  requires factions { mayans, }                
                 recruit_pool "Chichimec Lancers"  1   0.15   3  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.11   2  0  requires factions { tarascans, } 
                 recruit_pool "Aztec Warriors"  1   0.1   2  0  requires factions { aztecs, } 
                 recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { mayans, } 
                 recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
@@ -4181,7 +4180,7 @@ building temple_pagan
                 recruit_pool "Al holpop militia"  1   0.2   3  0  requires factions { mayans, }                
                 recruit_pool "Chichimec Lancers"  1   0.2   5  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Spearmen"  1   0.2   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.2   5  0  requires factions { tarascans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, } 
                 recruit_pool "Aztec Warriors"  1   0.15   3  0  requires factions { aztecs, } 
                 recruit_pool "Jaguar Warriors"  1   0.15   3  0  requires factions { mayans, } 
                 recruit_pool "Zacatecos Raiders"  1   0.15   3  0  requires factions { chichimeca, } 
@@ -4279,7 +4278,7 @@ building meso_palace
                 recruit_pool "Aztec Archers"  1   0.2   5  0  requires factions { aztecs, } 
                 recruit_pool "Chichimec Archers"  1   0.2   5  0  requires factions { chichimeca, } 
                 recruit_pool "Tlaxcalan Archers"  1   0.2   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   0.2   5  0  requires factions { tarascans, } 
+                recruit_pool "Tarascan Archers"  1   0.15   3  0  requires factions { tarascans, } 
                 recruit_pool "Aztec Spear Throwers"  1   0.15   3  0  requires factions { aztecs, } 
                 recruit_pool "Mayan Javelinmen"  1   0.15   3  0  requires factions { mayans, } 
                 recruit_pool "Zacatecos Archers"  1   0.15   3  0  requires factions { chichimeca, } 
@@ -4493,9 +4492,9 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.15   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Eagle Warriors"  1   0.11   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
                 recruit_pool "Guachichil Warriors"  1   0.15   3  0  requires factions { chichimeca, } 
-                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { aztecs, tarascans, }
+                recruit_pool "Jaguar Warriors"  1   0.11   2  0  requires factions { aztecs, tarascans, }
                 recruit_pool "Jaguar Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
                 recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
                 recruit_pool "Nacom Warriors"  1   0.15   3  0  requires factions { mayans, }
