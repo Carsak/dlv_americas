@@ -3647,7 +3647,7 @@ end_monitor
 	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 5
+ 		and I_TurnNumber = 25
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 5000
@@ -3705,7 +3705,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 15
+ 		and I_TurnNumber = 25
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3733,7 +3733,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 20
+ 		and I_TurnNumber = 27
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3761,7 +3761,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 25
+ 		and I_TurnNumber = 30
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3789,7 +3789,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 30
+ 		and I_TurnNumber = 35
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3817,7 +3817,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 35
+ 		and I_TurnNumber = 38
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3845,7 +3845,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 40
+ 		and I_TurnNumber = 44
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3874,7 +3874,7 @@ end_monitor
  	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 50
+ 		and I_TurnNumber = 54
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3903,7 +3903,7 @@ end_monitor
  	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 60
+ 		and I_TurnNumber = 64
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -4680,7 +4680,9 @@ end_monitor
 
 	 	add_money spain 5000
 		increment_kings_purse spain -2000
-		
+		increment_kings_purse chichimeca -1000
+        increment_kings_purse tarascans -900
+        
 		if I_LocalFaction spain
 			add_events
 				event	historic prestige_lord factions { spain, }
@@ -4715,6 +4717,8 @@ end_monitor
 		
 	 	add_money spain 10000
 		increment_kings_purse spain -2000
+        increment_kings_purse chichimeca -1900
+        increment_kings_purse tarascans -800
 
 	 	if I_LocalFaction spain
 			add_events
@@ -5117,11 +5121,11 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 3000
+				increment_kings_purse aztecs 1000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 4000
+				increment_kings_purse mayans 1000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5129,7 +5133,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 4500
+				increment_kings_purse tarascans 2500
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5137,7 +5141,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 4500
+				increment_kings_purse chichimeca 2500
 			end_if
 			
 		terminate_monitor
@@ -5147,15 +5151,15 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 5000
+				increment_kings_purse spain 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 4000
+				increment_kings_purse aztecs 2000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 5000
+				increment_kings_purse mayans 2000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5163,7 +5167,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 6500
+				increment_kings_purse tarascans 3500
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5171,25 +5175,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 6500
-			end_if
-			
-		terminate_monitor
-	end_monitor
-
-	monitor_event FactionTurnStart FactionType chichimeca
-		
-			if I_IsFactionAIControlled chichimeca
-				add_money chichimeca 10000
-			end_if
-			
-		terminate_monitor
-	end_monitor
-	
-	monitor_event FactionTurnStart FactionType tarascans
-		
-			if I_IsFactionAIControlled tarascans
-				add_money tarascans 10000
+				increment_kings_purse chichimeca 3500
 			end_if
 			
 		terminate_monitor
