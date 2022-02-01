@@ -15436,7 +15436,7 @@ stat_mental      25, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 490, 281, 70, 170, 490, 2, 140
+stat_cost        1, 800, 125, 70, 170, 800, 2, 140
 armour_ug_levels 1
 armour_ug_models Indian_Heavy
 ownership        chichimeca
@@ -15453,7 +15453,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_infantry
 soldier          Indian_Light_Spear, 48, 0, 1
-attributes       sea_faring, hide_forest, can_withdraw, peasant
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
@@ -15468,7 +15468,7 @@ stat_pri_armour  0, 3, 3, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 0, 5, -4
-stat_mental      3, normal, trained
+stat_mental      5, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -15489,7 +15489,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 soldier          Indian_Heavy_Archer, 48, 0, 0.8
-attributes       sea_faring, hide_forest, can_withdraw
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15546,7 +15546,7 @@ stat_mental      13, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 510, 93, 75, 180, 510, 2, 150
+stat_cost        1, 600, 93, 75, 180, 600, 2, 150
 armour_ug_levels 1
 armour_ug_models Indian_Heavy
 ownership        chichimeca, slave
@@ -15564,7 +15564,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Indian_Light_Archer, 48, 0, 0.8
-attributes       sea_faring, hide_forest, can_withdraw
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15583,7 +15583,7 @@ stat_mental      5, normal, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 350, 75, 45, 105, 350, 4, 60
+stat_cost        1, 380, 75, 45, 105, 380, 4, 60
 armour_ug_levels 0
 armour_ug_models Indian_Light_Archer
 ownership        chichimeca
@@ -15600,7 +15600,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 soldier          Indian_Light_Spear, 60, 0, 1
-attributes       sea_faring, hide_forest, can_withdraw
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -15637,7 +15637,7 @@ voice_type       Heavy
 accent         Native
 banner faction   main_infantry
 soldier          Indian_Heavy, 48, 0, 1
-attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere, mercenary_unit
+attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere, mercenary_unit, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -15676,7 +15676,7 @@ banner holy      crusade_cavalry
 soldier          American_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, free_upkeep_unit
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
@@ -15694,7 +15694,7 @@ stat_mental      5, normal, untrained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 500, 112, 75, 180, 500, 4, 90
+stat_cost        1, 550, 112, 75, 180, 550, 4, 90
 armour_ug_levels 0
 armour_ug_models American_Cavalry
 ownership        chichimeca
@@ -15712,7 +15712,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          American_Gunner, 48, 0, 0.8
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, free_upkeep_unit
 move_speed_mod   1
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -15731,7 +15731,7 @@ stat_mental      3, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 650, 112, 45, 105, 650, 2, 160
+stat_cost        1, 850, 112, 45, 105, 850, 2, 160
 armour_ug_levels 0
 armour_ug_models American_Gunner
 ownership        chichimeca
@@ -15767,7 +15767,7 @@ stat_mental      25, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 380, 75, 40, 100, 380, 4, 80
+stat_cost        1, 450, 75, 40, 100, 450, 4, 80
 armour_ug_levels 0
 armour_ug_models Medicine_Men
 ownership        chichimeca
