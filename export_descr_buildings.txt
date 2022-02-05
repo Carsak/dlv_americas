@@ -1905,7 +1905,7 @@ building hinterland_roads
             }
             material wooden
             construction  2 
-            cost  2000 
+            cost  2200 
             settlement_min town
             upgrades
             {
@@ -4663,9 +4663,8 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   0.2   5  0  requires factions { apachean, } 
                 recruit_pool "Dog Soldiers"  1   0.15   3  0  requires factions { apachean, } 
-                recruit_pool "Koitsenko"  1   0.1   2  0  requires factions { apachean, } 
+                recruit_pool "Koitsenko"  1   0.15   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
@@ -4776,9 +4775,9 @@ building raiders_tent
             {
                 agent spy  0  requires factions { nativeindian, } 
                 agent assassin  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   0.2   5  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.15   3  0  requires factions { apachean, } 
                 recruit_pool "Apachean Scouts"  1   0.15   3  0  requires factions { apachean, } 
-                recruit_pool "Onde's Men"  1   0.1   2  0  requires factions { apachean, } 
+                recruit_pool "Onde's Men"  1   0.15   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
@@ -4823,7 +4822,7 @@ building traders_tent
             capability
             {
                 agent diplomat  0  requires factions { nativeindian, } 
-                trade_base_income_bonus bonus 3
+                trade_base_income_bonus bonus 4
             }
             material wooden
             construction  3 
@@ -4927,7 +4926,7 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   0.2   5  0  requires factions { apachean, } 
+                recruit_pool "Mounted Apache"  1   0.2   3  0  requires factions { apachean, } 
                 recruit_pool "Mounted Thunder Brave"  1   0.15   3  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
                 heavy_cavalry_bonus bonus 1
             }
@@ -5045,7 +5044,7 @@ building hogan
         {
             capability
             {
-                recruit_pool "Medicine Men"  1   0.1   2  0  requires factions { apachean, } 
+                recruit_pool "Medicine Men"  1   0.15   2  0  requires factions { apachean, } 
                 religion_level bonus 2
                 law_bonus bonus 1
                 agent_limit priest 1
