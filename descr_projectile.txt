@@ -1423,8 +1423,8 @@ damage		0
 radius		0
 mass		0.05
 accuracy_vs_units		0.04
-min_angle	-60
-max_angle	70
+min_angle	-85
+max_angle	85
 velocity	60 85
 display		aimed
 effect_only
