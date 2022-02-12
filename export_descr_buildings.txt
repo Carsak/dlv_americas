@@ -63,7 +63,7 @@ building core_building
             }
             material wooden
             construction  3 
-            cost  2400 
+            cost  3800 
             settlement_min town
             upgrades
             {
@@ -96,14 +96,14 @@ building core_building
             }
             material stone
             construction  4 
-            cost  4800 
+            cost  6000 
             settlement_min large_town
             upgrades
             {
                 large_stone_wall
             }
         }
-        large_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        large_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
@@ -128,14 +128,14 @@ building core_building
             }
             material stone
             construction  4 
-            cost  9600 
+            cost  9900 
             settlement_min city
             upgrades
             {
                 huge_stone_wall
             }
         }
-        huge_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        huge_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
@@ -441,7 +441,7 @@ building barracks
             }
             material wooden
             construction  3 
-            cost  1200 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -464,7 +464,7 @@ building barracks
             }
             material wooden
             construction  4 
-            cost  2400 
+            cost  4800 
             settlement_min large_town
             upgrades
             {
@@ -492,27 +492,25 @@ building barracks
             }
             material wooden
             construction  4 
-            cost  5500 
+            cost  7500 
             settlement_min city
             upgrades
             {
                 militia_drill_square
             }
         }
-        militia_drill_square city requires factions { denmark, hre, france, scotland, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        militia_drill_square city requires factions { denmark, hre, france, scotland, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
                 recruit_pool "Tercio Pikemen"  1   0.1   3  0  requires factions { spain, } 
              
-                recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  1   0.1   1  0  requires factions { spain, } 
                 recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
                  
-                recruit_pool "Dismounted Conquistadores"  1   0.1   3  0  requires factions { spain, } 
+                recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, } 
 
                 recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
-                
-                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, } 
         
                 recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
        
@@ -527,22 +525,20 @@ building barracks
                 militia_barracks
             }
         }
-        militia_barracks city requires factions { denmark, hre, france, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        militia_barracks city requires factions { denmark, hre, france, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
                 recruit_pool "Spanish Dragoons"  1   0.1   2  0  requires factions { spain, } 
                 recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
      
-                recruit_pool "Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  1   0.11   1  0  requires factions { spain, } 
                 recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
            
-                recruit_pool "Dismounted Conquistadores"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, } 
                
            
                 recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
-           
-                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, } 
                 
                 recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
              
@@ -557,22 +553,20 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks city requires factions { denmark, hre, france, england, moors, egypt, turks, poland, russia, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        army_barracks city requires factions { denmark, hre, france, england, moors, egypt, turks, poland, russia, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
-                recruit_pool "Spanish Dragoons"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Spanish Dragoons"  1   0.15   2  0  requires factions { spain, } 
 
                 recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
 
-                recruit_pool "Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  1   0.2   1 0  requires factions { spain, } 
                 recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
 
                 recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, } 
 
                 recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
-
-                recruit_pool "Sword and Buckler Men"  1   0.2   5  0  requires factions { spain, } 
 
                 recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, }
 
@@ -785,34 +779,34 @@ building missiles
 {
     levels bowyer practice_range archery_range marksmans_range 
     {
-        bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
+        bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
             {
                 recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
 
-                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, } and hidden_resource america 
+                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, }
             }
             material wooden
             construction  3 
-            cost  2400 
+            cost  2500 
             settlement_min town
             upgrades
             {
                 practice_range
             }
         }
-        practice_range city requires factions { denmark, hre, scotland, france, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1  and building_present_min_level port port
+        practice_range city requires factions { denmark, hre, scotland, france, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
             {
                 recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
 
-                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { spain, } and hidden_resource america 
+                recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { spain, }
 
                 recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, } 
 
-                recruit_pool "Crossbow Militia"  1   0.15   3  0  requires factions { spain, } and hidden_resource america 
+               
             }
             material wooden
             construction  4 
@@ -823,7 +817,7 @@ building missiles
                 archery_range
             }
         }
-        archery_range city requires factions { denmark, hre, scotland, france, england, egypt, turks, moors, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        archery_range city requires factions { denmark, hre, scotland, france, england, egypt, turks, moors, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
@@ -831,8 +825,7 @@ building missiles
                 recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, } 
                 recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, } 
                 recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
-                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Crossbowmen"  1   0.2   3  0  requires factions { england, france, }
             }
             material wooden
             construction  4 
@@ -999,7 +992,7 @@ building cannon
 {
     levels gunsmith cannon_maker cannon_foundry royal_arsenal 
     {
-        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
@@ -1008,14 +1001,14 @@ building cannon
             }
             material wooden
             construction  3 
-            cost  2500 
+            cost  3200 
             settlement_min city
             upgrades
             {
                 cannon_maker
             }
         }
-        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
@@ -1029,14 +1022,14 @@ building cannon
             }
             material wooden
             construction  4 
-            cost  3200 
+            cost  5500 
             settlement_min large_city
             upgrades
             {
                 cannon_foundry
             }
         }
-        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
@@ -1049,7 +1042,7 @@ building cannon
             }
             material wooden
             construction  4 
-            cost  6400 
+            cost  9600 
             settlement_min huge_city
             upgrades
             {
@@ -1095,7 +1088,7 @@ building cannon
             }
             material wooden
             construction  5 
-            cost  12800 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -1217,7 +1210,7 @@ building smith
 {
     levels leather_tanner blacksmith armourer heavy_armourer plate_armourer gothic_armourer 
     {
-        leather_tanner city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
+        leather_tanner city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
             {
@@ -1225,14 +1218,14 @@ building smith
             }
             material wooden
             construction  3 
-            cost  1200 
+            cost  2800 
             settlement_min town
             upgrades
             {
                 blacksmith
             }
         }
-        blacksmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1  and building_present_min_level port port
+        blacksmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
             {
@@ -1240,14 +1233,14 @@ building smith
             }
             material wooden
             construction  4 
-            cost  2400 
+            cost  5500 
             settlement_min large_town
             upgrades
             {
                 armourer
             }
         }
-        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
@@ -1255,14 +1248,14 @@ building smith
             }
             material wooden
             construction  4 
-            cost  4800 
+            cost  8500 
             settlement_min city
             upgrades
             {
                 heavy_armourer
             }
         }
-        heavy_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        heavy_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
@@ -1270,14 +1263,14 @@ building smith
             }
             material wooden
             construction  4 
-            cost  12800 
+            cost  11000 
             settlement_min large_city
             upgrades
             {
                 plate_armourer
             }
         }
-        plate_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        plate_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
@@ -1285,7 +1278,7 @@ building smith
             }
             material wooden
             construction  5 
-            cost  10000 
+            cost  12000 
             settlement_min huge_city
             upgrades
             {
@@ -1300,7 +1293,7 @@ building smith
             }
             material wooden
             construction  5 
-            cost  30000 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -2064,7 +2057,7 @@ building hinterland_mines
             }
             material wooden
             construction  4 
-            cost  3500 
+            cost  9600 
             settlement_min city
             upgrades
             {
@@ -2205,7 +2198,7 @@ building academic
             }
             material wooden
             construction  4 
-            cost  3200 
+            cost  3800 
             settlement_min large_city
             upgrades
             {
@@ -2221,7 +2214,7 @@ building academic
             }
             material wooden
             construction  4 
-            cost  6400 
+            cost  7500 
             settlement_min huge_city
             upgrades
             {
@@ -2303,7 +2296,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 2
                 religion_level bonus 3
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
             }
             material wooden
@@ -2315,7 +2308,7 @@ building temple_catholic
                 cathedral
             }
         }
-        cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, venice, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, venice, }  and event_counter prestige_rank_count 1
         {
             capability
             {
@@ -2324,7 +2317,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 2
                 religion_level bonus 4
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1
                 population_health_bonus bonus 1
@@ -2347,14 +2340,14 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 3
                 religion_level bonus 5
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1
                 population_health_bonus bonus 3
             }
             material wooden
             construction  5 
-            cost  10000 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -2857,7 +2850,7 @@ building city_hall
             }
             material wooden
             construction  3 
-            cost  1200 
+            cost  2800 
             settlement_min large_town
             upgrades
             {
@@ -2878,7 +2871,7 @@ building city_hall
             }
             material wooden
             construction  4 
-            cost  2400 
+            cost  5200 
             settlement_min city
             upgrades
             {
@@ -2899,7 +2892,7 @@ building city_hall
             }
             material wooden
             construction  4 
-            cost  4800 
+            cost  8500 
             settlement_min large_city
             upgrades
             {
@@ -3962,8 +3955,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
-				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america
-				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 
+				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_viscount 1
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_count 1
             }
             material stone
             construction  1 
