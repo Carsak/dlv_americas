@@ -27,7 +27,7 @@ rebelling_characters_active
 gladiator_uprising_disabled
 night_battles_enabled
 ;show_date_as_turns
-brigand_spawn_value 80
+brigand_spawn_value 999
 pirate_spawn_value 80
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -191,7 +191,7 @@ settlement
 	}
 	building
 	{
-		type barracks town_guard
+		type barracks city_watch
 	}
 	building
 	{
@@ -221,7 +221,7 @@ settlement
 	}
 	building
 	{
-		type barracks town_watch
+		type barracks town_guard
 	}
 	building
 	{
@@ -326,7 +326,7 @@ relative 	Diego Velazquez,	Castellana,	Pedro, Manuela, Sancha, Vaasco,	end
 faction	aztecs, balanced smith
 ai_label	default 
 denari	15000
-denari_kings_purse	1500
+denari_kings_purse	1
 settlement
 {
 	level city
@@ -745,7 +745,7 @@ relative	Moctezuma,	Ayauhcihuatl,   Xiloxochitl, Miyaoaxochitl, Teyacapan, Miahu
 faction	mayans, balanced smith
 ai_label	default 
 denari	15000
-denari_kings_purse	1500
+denari_kings_purse	1
 settlement
 {
 	level city
@@ -1173,8 +1173,8 @@ relative 	Chuen, 		Pichanto, 	Belachina, Vucub, end
 
 faction	tlaxcalans, balanced smith
 ai_label	default 
-denari	20000
-denari_kings_purse	1000
+denari	55000
+denari_kings_purse	1500
 settlement
 {
 	level large_town
@@ -1355,7 +1355,7 @@ relative	Temilotecatl,	Quiauhxochitl, Tototl, end
 faction	tarascans, balanced smith
 ai_label	default 
 denari	20000
-denari_kings_purse	1000
+denari_kings_purse	1800
 settlement
 {
 	level large_town
@@ -1506,20 +1506,20 @@ unit		Cuahchiqueh				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tarascan Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Archers				exp 0 armour 0 weapon_lvl 0
 unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
 
 character	Tariacuri, named character, male, heir, age 25, x 58, y 41
 traits Factionheir 1 , GoodCommander 1 , PublicFaith 1 , GoodAdministrator 2 , ReligionStarter 1 , Berserker 1
@@ -1528,10 +1528,10 @@ unit		War Captain				exp 1 armour 0 weapon_lvl 0
 unit		Priests of Quetzalcoatl				exp 1 armour 0 weapon_lvl 0
 unit		Cuahchiqueh				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
+;unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
@@ -1543,12 +1543,12 @@ unit		War Captain				exp 1 armour 0 weapon_lvl 0
 unit		Priests of Quetzalcoatl				exp 1 armour 0 weapon_lvl 0
 unit		Cuahchiqueh				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Warriors				exp 0 armour 0 weapon_lvl 0
+;unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
 
 character	Hiquingaje, named character, male, age 18, x 63, y 26
@@ -1558,12 +1558,12 @@ unit		War Captain				exp 1 armour 0 weapon_lvl 0
 unit		Priests of Quetzalcoatl			exp 1 armour 0 weapon_lvl 0
 unit		Cuahchiqueh				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Warriors			exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Warriors			exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Warriors			exp 0 armour 0 weapon_lvl 0
 unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
 
 character	Itzquauatzin, general, male, age 34, x 42, y 54			;ahuacatlan
@@ -1589,13 +1589,13 @@ unit		Tarascan Spear Throwers				exp 0 armour 0 weapon_lvl 0
 character	Oquitzin, general, male, age 23, x 47, y 36			;tecoman
 army
 unit		Tarascan Warriors			exp 2 armour 0 weapon_lvl 0
-unit		Tarascan Warriors			exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Warriors			exp 0 armour 0 weapon_lvl 0
 unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Eagle Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Tarascan Spear Throwers			exp 0 armour 0 weapon_lvl 0
-unit		Tarascan Spear Throwers			exp 0 armour 0 weapon_lvl 0
+;unit		Tarascan Spear Throwers			exp 0 armour 0 weapon_lvl 0
 
 
 
@@ -1618,7 +1618,7 @@ relative 	Tangaxoan, 	Malinal,	Tariacuri, Hirepan, Miyaoaxochitl, Hiquingaje, 	e
 faction	chichimeca, balanced smith
 ai_label	default 
 denari	20000
-denari_kings_purse	1000
+denari_kings_purse	3000
 settlement
 {
 	level large_town
@@ -1692,22 +1692,22 @@ ancillaries spymaster
 army
 unit		Chichimec War Leader			exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
-unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
+;unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
+;unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 
 character	Nauyotl, named character, male, heir, age 28, x 49, y 62
 traits Factionheir 1 , GoodCommander 2 , GoodAttacker 2 , ReligionStarter 1 , Nomad 1 
@@ -1720,10 +1720,10 @@ unit		Chichimec Scout				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
 unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Archers				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 
 character	Xomimitl, named character, male, age 24, x 61, y 72
@@ -1731,36 +1731,36 @@ traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Nomad 1 , GoodAm
 army
 unit		Chichimec War Leader			exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
-unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
+;unit		Chichimec Archers				exp 0 armour 0 weapon_lvl 0
 unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
 unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
 
 character	Ahexotl, general, male, age 27, x 47, y 57
 army
 unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+;unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Shamen				exp 1 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Scout				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Lancers				exp 0 armour 0 weapon_lvl 0
 unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
-unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
+;unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
+;unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 
 character	Cuixtli, priest, male, age 33, x 52, y 65 
 traits NaturalPriestSkill 2 , Nomad 1 

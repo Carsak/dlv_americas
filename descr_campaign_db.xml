@@ -63,7 +63,7 @@
       <max_age_for_marriage_for_female uint="40"/>
       <max_age_before_death uint="90"/>
       <max_age_of_child uint="10"/>
-      <old_age uint="28"/>
+      <old_age uint="50"/>
       <age_of_manhood uint="14"/>
       <daughters_age_of_consent uint="14"/>
       <daughters_retirement_age uint="40"/>
@@ -156,10 +156,10 @@
       <rebel_border_modifier float="1.1"/>
       <shadow_border_modifier float="1.1"/>
       <num_units_modifier float="1.05"/>
-      <captain_modifier float="0.4"/>
+      <captain_modifier float="0.1"/>
       <min_revolt_chance float="0.0"/>
       <max_revolt_chance float="80.0"/>
-      <ai_revolt_modifier float="0.25"/>
+      <ai_revolt_modifier float="1.0"/>
       <revolt_additional_armies bool="false"/>
       <revolt_crusading_armies bool="false"/>
    </revolt>
@@ -177,7 +177,7 @@
    </hordes>
    <merchants>
       <base_income_modifier float="0.7"/>
-      <trade_bonus_offset float="10.0"/>
+      <trade_bonus_offset float="30.0"/>
    </merchants>
    <agents>
       <denounce_inquisitor_base_chance float="35.0"/>
@@ -248,7 +248,7 @@
       <priest_religion_export float="0.5"/>      <!-- if my religion in foreign region < religion_export then then we will export our religion in this region -->
       <priest_max_prod_turns float="5.0"/>       <!-- max distance from a production center to a target region in turns -->
       <att_str_modifier float="0.8"/>            <!-- modifies the effective attackers strength when determining the priority of making attack decision (i.e. att_def_strength_ratio = ((att_str*att_str_modifier)/def_str) -->
-      <siege_att_str_modifier float="0.30"/>      <!-- modifies the effective sieging attackers strength when determining the priority of making attack decision -->
+      <siege_att_str_modifier float="0.5"/>      <!-- modifies the effective sieging attackers strength when determining the priority of making attack decision -->
       <crusade_att_str_modifier float="1.0"/>    <!-- modifies the effective crusading sieging attackers strength when determining the priority of making attack decision -->
       <sally_att_str_modifier float="1.0"/>      <!-- modifies the effective sallying attackers strength when determining the priority of making attack decision -->
       <ambush_att_str_modifier float="1.0"/>     <!-- modifies the effective ambushing attackers strength when determining the priority of making attack decision -->
@@ -259,10 +259,11 @@
    <misc>
       <allow_resource_forts bool="false"/>       <!-- do we allow forts and watchtowers to be built on resource locations -->
       <fort_devastation_distance uint="20"/>     <!-- maximum movement point extents for determining devastation tile targets for forts -->
-      <army_devastation_distance uint="20"/>     <!-- maximum movement point extents for determining devastation tile targets for field armies -->
+      <army_devastation_distance uint="40"/>     <!-- maximum movement point extents for determining devastation tile targets for field armies -->
       <fort_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for forts -->
-      <army_devastation_modifier float="1.0"/>   <!-- num devastated tiles modifier for field armies -->
+      <army_devastation_modifier float="2.0"/>   <!-- num devastated tiles modifier for field armies -->
       <enable_hotseat_messages bool="true"/>          <!-- do we allow hotseat messages to be send between human players -->
       <enable_unit_accent_overrides bool="true"/>	<!-- do we use unit db accent overrides for campaign unit selection -->
+      <siege_movement_points_modifier float="1.0"/>
    </misc>
 </root>
