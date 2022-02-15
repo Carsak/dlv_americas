@@ -2184,6 +2184,25 @@ settlement
 settlement
 {
 	level village
+	region Potano_r
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator apachean
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
+settlement
+{
+	level village
 	region Tequesta_Region
 
 	year_founded 0
@@ -2636,6 +2655,19 @@ unit		Native Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Yiska, general, male, age 25, x 197, y 101		;calusa
+army
+unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
+unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
+unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
+unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
+unit		Native Archers				exp 1 armour 0 weapon_lvl 0
+unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
+unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
+unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
+unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
+unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction apachean, Yuma, general, male, age 25, x 195, y 115		;Potano
 army
 unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
 unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0

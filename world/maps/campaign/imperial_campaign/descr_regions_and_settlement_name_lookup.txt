@@ -10,6 +10,8 @@ Choctaw_r
 Choctaw
 Miccosoukee_r
 Miccosoukee
+Potano_r
+Potano
 Calusa_r
 Calusa
 Pitic_r
