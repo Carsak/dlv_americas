@@ -1553,7 +1553,7 @@ end_monitor
 	and not AgentType = merchant	
 	and InEnemyLands
 
-	console_command add_money spain, -500
+	console_command add_money spain, -100
 
 	end_monitor
 
@@ -1570,7 +1570,7 @@ end_monitor
 	and not AgentType = merchant	
 	and InEnemyLands
 
-	console_command add_money spain, -2000
+	console_command add_money spain, -500
 
 	end_monitor
 
@@ -1587,7 +1587,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money spain, -200
+	console_command add_money spain, -50
 
 	end_monitor
 
@@ -1595,6 +1595,23 @@ end_monitor
 	and I_LocalFaction aztecs
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant
+	and InEnemyLands
+
+	console_command add_money aztecs, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType aztecs
+	and I_LocalFaction aztecs
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1611,23 +1628,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType aztecs
 	and I_LocalFaction aztecs
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant
-	and InEnemyLands
-
-	console_command add_money aztecs, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType aztecs
-	and I_LocalFaction aztecs
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1638,7 +1638,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money aztecs, -200
+	console_command add_money aztecs, -50
 
 	end_monitor
 
@@ -1655,7 +1655,7 @@ end_monitor
 	and not AgentType = merchant
 	and InEnemyLands
 
-	console_command add_money mayans, -500
+	console_command add_money mayans, -100
 
 	end_monitor
 	
@@ -1672,7 +1672,7 @@ end_monitor
 	and not AgentType = merchant
 	and InEnemyLands
 
-	console_command add_money mayans, -2000
+	console_command add_money mayans, -500
 
 	end_monitor
 
@@ -1689,7 +1689,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money mayans, -200
+	console_command add_money mayans, -50
 
 	end_monitor
 
@@ -1697,6 +1697,23 @@ end_monitor
 	and I_LocalFaction apachean
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant
+	and InEnemyLands
+
+	console_command add_money apachean, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType apachean
+	and I_LocalFaction apachean
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1713,23 +1730,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType apachean
 	and I_LocalFaction apachean
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant
-	and InEnemyLands
-
-	console_command add_money apachean, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType apachean
-	and I_LocalFaction apachean
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1740,7 +1740,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money apachean, -200
+	console_command add_money apachean, -50
 
 	end_monitor
 
@@ -1748,6 +1748,23 @@ end_monitor
 	and I_LocalFaction chichimeca
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant	
+	and InEnemyLands
+
+	console_command add_money chichimeca, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType chichimeca
+	and I_LocalFaction chichimeca
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1764,23 +1781,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType chichimeca
 	and I_LocalFaction chichimeca
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant	
-	and InEnemyLands
-
-	console_command add_money chichimeca, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType chichimeca
-	and I_LocalFaction chichimeca
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1791,7 +1791,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money chichimeca, -200
+	console_command add_money chichimeca, -50
 
 	end_monitor
 
@@ -1799,6 +1799,23 @@ end_monitor
 	and I_LocalFaction tlaxcalans
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant	
+	and InEnemyLands
+
+	console_command add_money tlaxcalans, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType tlaxcalans
+	and I_LocalFaction tlaxcalans
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1815,23 +1832,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType tlaxcalans
 	and I_LocalFaction tlaxcalans
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant	
-	and InEnemyLands
-
-	console_command add_money tlaxcalans, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType tlaxcalans
-	and I_LocalFaction tlaxcalans
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1842,7 +1842,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money tlaxcalans, -200
+	console_command add_money tlaxcalans, -50
 
 	end_monitor
 
@@ -1850,6 +1850,23 @@ end_monitor
 	and I_LocalFaction tarascans
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant	
+	and InEnemyLands
+
+	console_command add_money tarascans, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType tarascans
+	and I_LocalFaction tarascans
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1866,23 +1883,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType tarascans
 	and I_LocalFaction tarascans
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant	
-	and InEnemyLands
-
-	console_command add_money tarascans, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType tarascans
-	and I_LocalFaction tarascans
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1893,7 +1893,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money tarascans, -200
+	console_command add_money tarascans, -50
 
 	end_monitor
 
@@ -1901,6 +1901,23 @@ end_monitor
 	and I_LocalFaction england
 	and not EndedInSettlement
 	and not IsBesieging
+	and not AgentType = admiral
+	and not AgentType = spy
+	and not AgentType = diplomat
+	and not AgentType = assassin
+	and not AgentType = priest
+	and not AgentType = princess
+	and not AgentType = merchant	
+	and InEnemyLands
+
+	console_command add_money england, -100
+
+	end_monitor
+
+	monitor_event CharacterTurnEnd FactionType england
+	and I_LocalFaction england
+	and not EndedInSettlement
+	and IsBesieging
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1917,23 +1934,6 @@ end_monitor
 	monitor_event CharacterTurnEnd FactionType england
 	and I_LocalFaction england
 	and not EndedInSettlement
-	and IsBesieging
-	and not AgentType = admiral
-	and not AgentType = spy
-	and not AgentType = diplomat
-	and not AgentType = assassin
-	and not AgentType = priest
-	and not AgentType = princess
-	and not AgentType = merchant	
-	and InEnemyLands
-
-	console_command add_money england, -2000
-
-	end_monitor
-
-	monitor_event CharacterTurnEnd FactionType england
-	and I_LocalFaction england
-	and not EndedInSettlement
 	and not AgentType = admiral
 	and not AgentType = spy
 	and not AgentType = diplomat
@@ -1944,7 +1944,7 @@ end_monitor
 	and not AtSea
 	and not InEnemyLands
 
-	console_command add_money england, -200
+	console_command add_money england, -50
 
 	end_monitor
 
@@ -1961,7 +1961,7 @@ end_monitor
 	and not AgentType = merchant	
 	and InEnemyLands
 
-	console_command add_money france, -500
+	console_command add_money france, -100
 
 	end_monitor
 
@@ -1978,7 +1978,7 @@ end_monitor
 	and not AgentType = merchant	
 	and InEnemyLands
 
-	console_command add_money france, -2000
+	console_command add_money france, -500
 
 	end_monitor
 
@@ -2537,10 +2537,10 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_hunters_1	Recruit 20 missile units & Capture 5 settlements
+; indian_hunters_1	Recruit 10 missile units & Capture 3 settlements
 	monitor_event FactionTurnStart FactionType apachean
-		and I_CompareCounter apachean_missile_recruited > 19
-		and I_CompareCounter apachean_settlements_captured > 4
+		and I_CompareCounter apachean_missile_recruited > 9
+		and I_CompareCounter apachean_settlements_captured > 2
 
 		add_events
 			event	counter	indian_hunters_1
@@ -2554,10 +2554,10 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_hunters_2	Recruit 50 missile units & Capture 10 settlements
+; indian_hunters_2	Recruit 20 missile units & Capture 6 settlements
 	monitor_event FactionTurnStart FactionType apachean
-		and I_CompareCounter apachean_missile_recruited > 49
-		and I_CompareCounter apachean_settlements_captured > 9
+		and I_CompareCounter apachean_missile_recruited > 19
+		and I_CompareCounter apachean_settlements_captured > 5
 
 		add_events
 			event	counter	indian_hunters_2
@@ -2571,10 +2571,10 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_raiders_1	20 infantry units & Win 5 battles
+; indian_raiders_1	10 infantry units & Win 8 battles
 	monitor_event FactionTurnStart FactionType apachean
-		and I_CompareCounter apachean_infantry_recruited > 19
-		and I_CompareCounter apachean_settlements_captured > 9
+		and I_CompareCounter apachean_infantry_recruited > 9
+		and I_CompareCounter apachean_settlements_captured > 7
 
 		add_events
 			event	counter	indian_raiders_1
@@ -2588,9 +2588,9 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_raiders_2	Recruit 50 infantry units & Win 10 battles
+; indian_raiders_2	Recruit 20 infantry units & Win 15 battles
 	monitor_event FactionTurnStart FactionType apachean
-		and I_CompareCounter apachean_infantry_recruited > 49
+		and I_CompareCounter apachean_infantry_recruited > 19
 		and I_CompareCounter apachean_settlements_captured > 14
 
 		add_events
@@ -3647,7 +3647,7 @@ end_monitor
 	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 5
+ 		and I_TurnNumber = 25
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 5000
@@ -3705,7 +3705,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 15
+ 		and I_TurnNumber = 25
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3733,7 +3733,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 20
+ 		and I_TurnNumber = 27
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3761,7 +3761,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 25
+ 		and I_TurnNumber = 30
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3789,7 +3789,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 30
+ 		and I_TurnNumber = 35
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3817,7 +3817,7 @@ end_monitor
  	;;; Small force near Apaches
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 35
+ 		and I_TurnNumber = 38
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3845,7 +3845,7 @@ end_monitor
  	;;; Small force near Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 40
+ 		and I_TurnNumber = 44
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3874,7 +3874,7 @@ end_monitor
  	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 50
+ 		and I_TurnNumber = 54
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -3903,7 +3903,7 @@ end_monitor
  	;;; Small force between Apaches and Chichimecs
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 60
+ 		and I_TurnNumber = 64
 		and I_NumberOfSettlements spain > 0
 
  		add_money spain 10000
@@ -4680,7 +4680,9 @@ end_monitor
 
 	 	add_money spain 5000
 		increment_kings_purse spain -2000
-		
+		increment_kings_purse chichimeca -1000
+        increment_kings_purse tarascans -900
+        
 		if I_LocalFaction spain
 			add_events
 				event	historic prestige_lord factions { spain, }
@@ -4715,6 +4717,8 @@ end_monitor
 		
 	 	add_money spain 10000
 		increment_kings_purse spain -2000
+        increment_kings_purse chichimeca -1900
+        increment_kings_purse tarascans -800
 
 	 	if I_LocalFaction spain
 			add_events
@@ -5117,11 +5121,11 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 3000
+				increment_kings_purse aztecs 1000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 4000
+				increment_kings_purse mayans 1000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5129,7 +5133,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 4500
+				increment_kings_purse tarascans 2500
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5137,7 +5141,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 4500
+				increment_kings_purse chichimeca 2500
 			end_if
 			
 		terminate_monitor
@@ -5147,15 +5151,15 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 5000
+				increment_kings_purse spain 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 4000
+				increment_kings_purse aztecs 2000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 5000
+				increment_kings_purse mayans 2000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5163,7 +5167,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 6500
+				increment_kings_purse tarascans 3500
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5171,25 +5175,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 6500
-			end_if
-			
-		terminate_monitor
-	end_monitor
-
-	monitor_event FactionTurnStart FactionType chichimeca
-		
-			if I_IsFactionAIControlled chichimeca
-				add_money chichimeca 10000
-			end_if
-			
-		terminate_monitor
-	end_monitor
-	
-	monitor_event FactionTurnStart FactionType tarascans
-		
-			if I_IsFactionAIControlled tarascans
-				add_money tarascans 10000
+				increment_kings_purse chichimeca 3500
 			end_if
 			
 		terminate_monitor

@@ -16,7 +16,7 @@ gates
 {
 	gate  short_wooden
 	{
-		full_health 200
+		full_health 600
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -24,7 +24,7 @@ gates
 
 	gate  medium_wooden
 	{
-		full_health 200
+		full_health 700
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -33,7 +33,7 @@ gates
 
 	gate  huge_wooden
 	{
-		full_health 250
+		full_health 800
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -41,7 +41,7 @@ gates
 
 	gate  medium_reinforced
 	{
-		full_health 250
+		full_health 750
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -49,7 +49,7 @@ gates
 
 	gate  huge_reinforced
 	{
-		full_health 300
+		full_health 900
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -58,7 +58,7 @@ gates
 
 	gate  medium_iron
 	{
-		full_health 300
+		full_health 900
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -66,7 +66,7 @@ gates
 
 	gate  huge_iron
 	{
-		full_health 350
+		full_health 1050
 		height 10.0		; TODO -
 		pursuit_lockout_radius	80.0
 		blocked_lockout_radius	70.0
@@ -106,10 +106,10 @@ wall
 		; as in descr_unit.txt
 		level
 		{
-			stat		12, 0, arrow, 100, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
+			stat		7, 0, arrow, 100, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
 			stat_attr	no
 			shot_sfx	TOWER_ARROW_FIRING
-			fire_angle	45
+			fire_angle	120
 
 			; unit size 	 reload_ms flaming_reload_ms 
 			fire_rate small  900	   850
@@ -128,7 +128,7 @@ wall
 
 	wall
 	{
-		full_health 400
+		full_health 500
 		battle_stats flammability_medium impact_damage_high
 		localised_name wall
 	}
@@ -154,16 +154,16 @@ wall
 		; as in descr_unit.txt
 		level
 		{
-			stat		12, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
+			stat		7, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
 			stat_attr	no
 			shot_sfx	TOWER_ARROW_FIRING
-			fire_angle	45
+			fire_angle	120
 
 			; unit size 	 reload_ms flaming_reload_ms 
-			fire_rate small  900	   850
-			fire_rate normal 750	   850
-			fire_rate large  750       850
-			fire_rate huge   750       850
+			fire_rate small  1000	   1000
+			fire_rate normal 1000	   1000
+			fire_rate large  1000       1000
+			fire_rate huge   1000       1000
 		}
 	}
 }
@@ -200,16 +200,16 @@ wall
 		; as in descr_unit.txt
 		missile_level
 		{
-			stat		12, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
+			stat		7, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
 			stat_attr	no
 			shot_sfx	TOWER_ARROW_FIRING
-			fire_angle	45
+			fire_angle	120
 
 			; unit size 	 reload_ms flaming_reload_ms 
-			fire_rate small  1500	   1500
-			fire_rate normal 1250	   1500
-			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate small  1500	   1250
+			fire_rate normal 1250	   1250
+			fire_rate large  1250      1250
+			fire_rate huge   1250      1250
 		}
 	}
 	gatehouse
@@ -232,7 +232,7 @@ wall
 			fire_rate small  1500	   1500
 			fire_rate normal 1250	   1500
 			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate huge   1250      1250
 		}
 
 	}
@@ -270,16 +270,16 @@ wall
 		; as in descr_unit.txt
 		missile_level
 		{
-			stat		12, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
+			stat		7, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
 			stat_attr	no
 			shot_sfx	TOWER_ARROW_FIRING
-			fire_angle	45
+			fire_angle	120
 
 			; unit size 	 reload_ms flaming_reload_ms 
 			fire_rate small  1500	   1500
 			fire_rate normal 1250	   1500
 			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate huge   1250      1250
 		}
 
 		missile_level
@@ -327,9 +327,9 @@ wall
 
 			; unit size 	 reload_ms flaming_reload_ms 
 			fire_rate small  1500	   1500
-			fire_rate normal 1250	   1500
-			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate normal 1250	   1250
+			fire_rate large  1250      1250
+			fire_rate huge   1250      1250
 		}
 
 	}
@@ -366,17 +366,17 @@ wall
 		; as in descr_unit.txt
 		missile_level
 		{
-			stat		12, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
+			stat		7, 0, arrow, 120, 10, missile, missile_mechanical, piercing, arrow_tower, 10, 1
 			stat_attr	no
 			shot_sfx	TOWER_ARROW_FIRING
 			shot_gfx	
-			fire_angle	45
+			fire_angle	120
 
 			; unit size 	 reload_ms flaming_reload_ms 
 			fire_rate small  1500	   1500
 			fire_rate normal 1250	   1500
 			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate huge   1250      1250
 		}
 
 		missile_level
@@ -428,7 +428,7 @@ wall
 			fire_rate small  1500	   1500
 			fire_rate normal 1250	   1500
 			fire_rate large  1250      1500
-			fire_rate huge   1250      1500
+			fire_rate huge   1250      1250
 		}
 	}
 }

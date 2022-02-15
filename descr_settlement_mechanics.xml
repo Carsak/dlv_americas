@@ -75,7 +75,7 @@
          <pip_max value="20"/>
       </factor>
       <factor name="SOF_TAX_BONUS">
-         <pip_modifier value="1.0"/>
+         <pip_modifier value="0.7"/>
       </factor>
       <factor name="SOF_TRIUMPH">
          <pip_modifier value="1.0"/>
@@ -141,17 +141,17 @@
          <castle_modifier value="0.5"/>
       </factor>
       <factor name="SIF_FARMS">
-         <pip_modifier value="0.75"/>
+         <pip_modifier value="0.7"/>
       </factor>
       <factor name="SIF_TAXES">
-         <pip_modifier value="0.7"/>
+         <pip_modifier value="0.5"/>
          <castle_modifier value="0.9"/>
       </factor>
       <factor name="SIF_MINING">
          <pip_modifier value="1.0"/>
       </factor>
       <factor name="SIF_TRADE">
-         <pip_modifier value="1.25"/>
+         <pip_modifier value="0.6"/>
          <castle_modifier value="0.5"/>
       </factor>
       <factor name="SIF_BUILDINGS">
@@ -173,7 +173,7 @@
          <pip_modifier value="1.0"/>
       </factor>
       <factor name="SIF_DEVASTATION">
-         <pip_modifier value="1.0"/>
+         <pip_modifier value="2.0"/>
       </factor>
    </factor_modifiers>
    <population_levels>

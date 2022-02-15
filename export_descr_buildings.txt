@@ -4,7 +4,7 @@
 
 
 
-hidden_resources sparta rome italy america atlantic explorers_guild swordsmiths_guild woodsmens_guild teutonic_knights_chapter_house knights_of_santiago_chapter_house crusade jihad arguin horde_target no_pirates no_brigands
+hidden_resources sparta rome italy america atlantic explorers_guild swordsmiths_guild woodsmens_guild teutonic_knights_chapter_house knights_of_santiago_chapter_house crusade jihad arguin horde_target no_pirates no_brigands tlaxcala
 
 building core_building
 {
@@ -14,24 +14,16 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.2   1  0  requires factions { spain, }      and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Aztec Peasants"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Scout"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   0.5   2  0  requires factions { tarascans, } 
-                recruit_pool "Al holpop militia"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Crossbowmen"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.2   1  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.2   1  0  requires factions { france, } 
-                recruit_pool "Swordsmen Militia"  1   0.2   1  0  requires factions { spain, }    and hidden_resource america
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                recruit_pool "Chichimec Scout"  1   0.1   2  0  requires factions { chichimeca, }  
+                recruit_pool "Crossbowmen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  0   0.000001   0.999  0  requires factions { france, } 
+                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
+               
                 wall_level 0
                 tower_level 1
                 free_upkeep bonus 2
@@ -39,7 +31,7 @@ building core_building
                 recruitment_slots 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1200 
             settlement_min village
             upgrades
@@ -51,46 +43,27 @@ building core_building
         {
             capability
             {
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Aztec Peasants"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Scout"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Al holpop militia"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Aztec Spearmen"  1   0.4   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.4   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   0.4   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.4   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.4   2  0  requires factions { tarascans, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Crossbowmen"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.4   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.4   2  0  requires factions { france, } 
-                recruit_pool "Pike Militia"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
+				
                 wall_level 1
                 gate_strength 1
                 tower_level 1
-                free_upkeep bonus 3
+                free_upkeep bonus 5
                 happiness_bonus bonus 1
                 recruitment_slots 2
             }
             material wooden
-            construction  4 
-            cost  2400 
+            construction  3 
+            cost  3800 
             settlement_min town
             upgrades
             {
@@ -101,179 +74,91 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, } 
-                recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, }   and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Aztec Peasants"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Peasants"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Scout"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Peasants"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Peasants"  1   1   5  0  requires factions { tarascans, } 
-                recruit_pool "Al holpop militia"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Aztec Spearmen"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Chichimec Lancers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.5   2  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.4   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.4   2  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Raiders"  1   0.4   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.4   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.4   2  0  requires factions { tarascans, } 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.5   2  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  1   0.2   1  0  requires factions { spain, }   and hidden_resource america
-                recruit_pool "Jinetes"  1   0.2   1  0  requires factions { portugal, } 
-                recruit_pool "Mongol Horse Archers"  1   0.2   1  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
+                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+         
                 wall_level 2
                 tower_level 1
                 gate_strength 1
-                free_upkeep bonus 4
+                free_upkeep bonus 7
                 happiness_bonus bonus 1
                 recruitment_slots 2
             }
             material stone
-            construction  6 
-            cost  4800 
+            construction  4 
+            cost  6000 
             settlement_min large_town
             upgrades
             {
                 large_stone_wall
             }
         }
-        large_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        large_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Conquistadores"  1   0.4   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Papal Guard"  1   0.4   2  0  requires factions { papal_states, } 
-                recruit_pool "Swordsmen Militia"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Crossbow Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  0   0.000001   0.999  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  0   0.000001   0.999  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  0   0.000001   0.999  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  0   0.000001   0.999  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  0   0.000001   0.999  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  0   0.000001   0.999  0  requires factions { timurids, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.7   3  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  1   0.2   1  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Mongol Horse Archers"  1   0.2   1  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.2   1  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.2   1  0  requires factions { Saxons, } 
+                recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }   
+                recruit_pool "Papal Guard"  1   0.1   2  0  requires factions { papal_states, } 
+                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }     
+                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+                recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.1   3  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.1   3  0  requires factions { france, } 
+                recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
+          
                 wall_level 3
                 tower_level 1
                 gate_strength 2
-                free_upkeep bonus 5
+                free_upkeep bonus 9
                 happiness_bonus bonus 2
                 recruitment_slots 3
             }
             material stone
-            construction  6 
-            cost  9600 
+            construction  4 
+            cost  9900 
             settlement_min city
             upgrades
             {
                 huge_stone_wall
             }
         }
-        huge_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        huge_stone_wall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Conquistadores"  1   0.5   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Swiss Guard"  1   0.5   2  0  requires factions { papal_states, } 
-                recruit_pool "Hussars"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "Cossack Musketeers"  1   0.5   2  0  requires factions { russia, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.5   2  1  requires factions { portugal, }  and hidden_resource america
-                recruit_pool "Town Militia"  1   0.2   1  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Militia"  1   0.2   1  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.2   1  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.2   1  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.2   1  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.2   1  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.2   1  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.2   1  0  requires factions { Saxons, } 
-                recruit_pool "Spear Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Italian Spear Militia"  0   0.000001   0.999  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  0   0.000001   0.999  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  0   0.000001   0.999  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Crossbow Militia"  0   0.000001   0.999  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  0   0.000001   0.999  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  0   0.000001   0.999  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  0   0.000001   0.999  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  0   0.000001   0.999  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  0   0.000001   0.999  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  0   0.000001   0.999  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  0   0.000001   0.999  0  requires factions { timurids, } 
-                recruit_pool "Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Mongol Horse Archers"  1   0.4   2  0  requires factions { mongols, } 
-                recruit_pool "Mounted Sergeants"  1   0.4   2  0  requires factions { Normans, } 
-                recruit_pool "Theigns"  1   0.4   2  0  requires factions { Saxons, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.4   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Dismounted Broken Lances"  1   0.4   2  0  requires factions { milan, } 
-                recruit_pool "Christian Guard"  1   0.4   2  0  requires factions { moors, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   1   5  0  requires factions { france, } 
-                recruit_pool "Broken Lances"  1   0.5   2  0  requires factions { milan, venice, papal_states, } 
+                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }    
+                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.2   5  0  requires factions { france, } 
+        
                 wall_level 4
                 tower_level 1
                 gate_strength 2
-                free_upkeep bonus 6
+                free_upkeep bonus 12
                 happiness_bonus bonus 3
                 recruitment_slots 3
             }
             material stone
-            construction  8 
+            construction  4 
             cost  19200 
             settlement_min large_city
             upgrades
@@ -299,7 +184,7 @@ building core_castle_building
                 recruitment_slots 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1200 
             settlement_min village
             upgrades
@@ -318,7 +203,7 @@ building core_castle_building
                 recruitment_slots 2
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  2400 
             settlement_min village
             upgrades
@@ -337,7 +222,7 @@ building core_castle_building
                 recruitment_slots 3
             }
             material stone
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min town
             upgrades
@@ -356,7 +241,7 @@ building core_castle_building
                 recruitment_slots 3
             }
             material stone
-            construction  6 
+            construction  4 
             cost  9600 
             settlement_min large_town
             upgrades
@@ -375,7 +260,7 @@ building core_castle_building
                 recruitment_slots 3
             }
             material stone
-            construction  8 
+            construction  4 
             cost  19200 
             settlement_min city
             upgrades
@@ -398,7 +283,7 @@ building tower
                 tower_level 2
             }
             material stone
-            construction  6 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -413,7 +298,7 @@ building tower
                 tower_level 3
             }
             material stone
-            construction  8 
+            construction  4 
             cost  12800 
             settlement_min huge_city
             upgrades
@@ -436,7 +321,7 @@ building castle_tower
                 tower_level 2
             }
             material stone
-            construction  6 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -451,7 +336,7 @@ building castle_tower
                 tower_level 3
             }
             material stone
-            construction  8 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -473,7 +358,7 @@ building equestrian
             {
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  2400 
             settlement_min town
             upgrades
@@ -487,7 +372,7 @@ building equestrian
             {
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min large_town
             upgrades
@@ -501,7 +386,7 @@ building equestrian
             {
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min city
             upgrades
@@ -515,7 +400,7 @@ building equestrian
             {
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  19200 
             settlement_min large_city
             upgrades
@@ -529,7 +414,7 @@ building equestrian
             {
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min large_city
             upgrades
@@ -543,166 +428,96 @@ building equestrian
 }
 building barracks
 {
-    religion catholic
     levels town_watch town_guard city_watch militia_drill_square militia_barracks army_barracks royal_armoury 
     {
-        town_watch city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
+        town_watch city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
             {
-                recruit_pool "Town Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { spain, }  and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.5   2  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.5   2  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.5   2  0  requires factions { Saxons, } 
-                recruit_pool "Pikemen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { spain, }  and hidden_resource america 
+                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, }
+                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                
                 law_bonus bonus 1
             }
             material wooden
-            construction  4 
-            cost  1200 
+            construction  3 
+            cost  2500 
             settlement_min town
             upgrades
             {
                 town_guard
             }
         }
-        town_guard city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1  and building_present_min_level port port
+        town_guard city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
             {
-                recruit_pool "New World Cuirassers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Italian Spear Militia"  1   0.5   2  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.5   2  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.5   2  0  requires factions { moors, egypt, turks, mongols, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, mongols, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
+                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
+                
+                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
+                
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, }
+                
                 law_bonus bonus 2
             }
             material wooden
-            construction  6 
-            cost  2400 
+            construction  4 
+            cost  4800 
             settlement_min large_town
             upgrades
             {
                 city_watch
             }
         }
-        city_watch city requires factions { denmark, hre, france, scotland, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        city_watch city requires factions { denmark, hre, france, scotland, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
-                recruit_pool "Demi Lancers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.5   2  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.5   2  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.5   2  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.5   2  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.5   2  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.5   2  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
+                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { hre, denmark, portugal, } 
+
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, }
+                
+                recruit_pool "Dismounted Conquistadores"  1   0.1   2  0  requires factions { spain, }
+                
+                recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, }
+         
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, }  
+
                 law_bonus bonus 3
             }
             material wooden
-            construction  8 
-            cost  4800 
+            construction  4 
+            cost  7500 
             settlement_min city
             upgrades
             {
                 militia_drill_square
             }
         }
-        militia_drill_square city requires factions { denmark, hre, france, scotland, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        militia_drill_square city requires factions { denmark, hre, france, scotland, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
-                recruit_pool "Halberd Militia"  1   0.5   2  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.5   2  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.5   2  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.5   2  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.7   3  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.7   3  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.7   3  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, }
-		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
+                recruit_pool "Tercio Pikemen"  1   0.1   3  0  requires factions { spain, } 
+             
+                recruit_pool "Conquistadores"  1   0.1   1  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
+                 
+                recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, } 
+
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+        
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+       
                 law_bonus bonus 3
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -710,67 +525,27 @@ building barracks
                 militia_barracks
             }
         }
-        militia_barracks city requires factions { denmark, hre, france, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        militia_barracks city requires factions { denmark, hre, france, england, timurids, moors, egypt, turks, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   0.5   2  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   0.5   2  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   0.7   3  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.7   3  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.7   3  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   0.7   3  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   0.7   3  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   0.7   3  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   0.7   3  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   0.7   3  0  requires factions { Saxons, }
-		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
+                recruit_pool "Spanish Dragoons"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
+     
+                recruit_pool "Conquistadores"  1   0.11   1  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
+           
+                recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, } 
+               
+           
+                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                
+                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+             
                 law_bonus bonus 3
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -778,71 +553,29 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks city requires factions { denmark, hre, france, england, moors, egypt, turks, poland, russia, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        army_barracks city requires factions { denmark, hre, france, england, moors, egypt, turks, poland, russia, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Portuguese Arquebusiers"  1   0.5   2  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Sudanese Gunners"  1   0.5   2  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Archers"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Pike Militia"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   0.7   3  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   0.7   3  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   0.7   3  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   0.7   3  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.7   3  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   0.7   3  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   0.7   3  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   1   5  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   1   5  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   1   5  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   1   5  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   1   5  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   1   5  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   1   5  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, }
-		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
+                recruit_pool "Spanish Dragoons"  1   0.15   2  0  requires factions { spain, } 
+
+                recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
+
+                recruit_pool "Conquistadores"  1   0.2   1 0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+
+                recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, }
+
+                recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, }
+                
                 law_bonus bonus 3
             }
             material wooden
-            construction  14 
+            construction  5 
             cost  24000 
             settlement_min huge_city
             upgrades
@@ -854,69 +587,69 @@ building barracks
         {
             capability
             {
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { portugal, milan, venice, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Musketeers"  1   0.5   2  0  requires factions { turks, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Arquebusiers"  1   0.7   3  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Portuguese Arquebusiers"  1   0.7   3  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Sudanese Gunners"  1   0.7   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Janissary Archers"  1   0.7   3  0  requires factions { turks, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Hand Gunners"  1   1   5  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Spanish Dragoons"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Berdiche Axemen"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "Arquebusiers"  1   1   5  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Varangian Guard"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Hand Gunners"  1   1   5  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Tabardariyya"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Hand Gunners"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
-                recruit_pool "Halberd Militia"  1   1   5  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
-                recruit_pool "Swordstaff Militia"  1   1   5  0  requires factions { denmark, } 
-                recruit_pool "Tercio Pikemen"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { portugal, } 
-                recruit_pool "Italian Cavalry Militia"  1   1   5  0  requires factions { milan, venice, } 
-                recruit_pool "EE Cavalry Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "Byzantine Infantry"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "Urban Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Halberd Militia"  1   1   5  0  requires factions { egypt, turks, timurids, } 
-                recruit_pool "Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { hre, denmark, portugal, } 
-                recruit_pool "Dismounted Conquistadores"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbow Militia"  1   1   5  0  requires factions { milan, } 
-                recruit_pool "Pavise Crossbow Militia"  1   1   5  0  requires factions { venice, papal_states, sicily, hungary, } 
-                recruit_pool "EE Crossbow Militia"  1   1   5  0  requires factions { poland, russia, } 
-                recruit_pool "S Archer Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Crossbow Militia"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "Saracen Militia"  1   1   5  0  requires factions { egypt, turks, } 
-                recruit_pool "Sabadar Militia"  1   1   5  0  requires factions { timurids, } 
-                recruit_pool "New World Cuirassers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Spear Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Sword and Buckler Men"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Spear Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Spear Militia"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "SE Spear Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Spear Militia"  1   1   5  0  requires factions { moors, egypt, turks, timurids, } 
-                recruit_pool "Pikemen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { hre, denmark, portugal, Normans, } 
-                recruit_pool "Pike Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Italian Militia"  1   1   5  0  requires factions { milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Town Militia"  1   1   5  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Archer Militia"  1   1   5  0  requires factions { russia, } 
-                recruit_pool "SE Town Militia"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { moors, turks, timurids, } 
-                recruit_pool "ME Archer Militia"  1   1   5  0  requires factions { egypt, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, } 
-                recruit_pool "ME Spear Militia"  1   0.7   3  1  requires factions { mongols, } 
-                recruit_pool "Spear Militia"  1   0.7   3  0  requires factions { Normans, } 
-                recruit_pool "Swordsmen Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "ME Town Militia"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Town Militia"  1   1   5  0  requires factions { Normans, } 
-                recruit_pool "Peasant Spearmen"  1   1   5  0  requires factions { Saxons, }
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { portugal, milan, venice, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Janissary Musketeers"  1   0.1   2  0  requires factions { turks, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Arquebusiers"  1   0.15   3  0  requires factions { hre, denmark, milan, venice, papal_states, sicily, poland, russia, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Portuguese Arquebusiers"  1   0.15   3  0  requires factions { portugal, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Sudanese Gunners"  1   0.15   3  0  requires factions { moors, egypt, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Janissary Archers"  1   0.15   3  0  requires factions { turks, } 
+                recruit_pool "Pike Militia"  1   0.2   5  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Hand Gunners"  1   0.2   5  0  requires factions { denmark, poland, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Spanish Dragoons"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Berdiche Axemen"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "Arquebusiers"  1   0.2   5  0  requires factions { hungary, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Varangian Guard"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Hand Gunners"  1   0.2   5  0  requires factions { moors, turks, timurids, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Tabardariyya"  1   0.2   5  0  requires factions { egypt, } 
+                recruit_pool "Hand Gunners"  1   0.15   3  0  requires factions { hre, portugal, milan, venice, papal_states, sicily, }  and event_counter gunpowder_discovered 1 
+                recruit_pool "Halberd Militia"  1   0.2   5  0  requires factions { hre, papal_states, sicily, poland, hungary, } 
+                recruit_pool "Swordstaff Militia"  1   0.2   5  0  requires factions { denmark, } 
+                recruit_pool "Tercio Pikemen"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.2   5  0  requires factions { portugal, } 
+                recruit_pool "Italian Cavalry Militia"  1   0.2   5  0  requires factions { milan, venice, } 
+                recruit_pool "EE Cavalry Militia"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "Byzantine Infantry"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "Urban Militia"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "ME Halberd Militia"  1   0.2   5  0  requires factions { egypt, turks, timurids, } 
+                recruit_pool "Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, } 
+                recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Genoese Crossbow Militia"  1   0.2   5  0  requires factions { milan, } 
+                recruit_pool "Pavise Crossbow Militia"  1   0.2   5  0  requires factions { venice, papal_states, sicily, hungary, } 
+                recruit_pool "EE Crossbow Militia"  1   0.2   5  0  requires factions { poland, russia, } 
+                recruit_pool "S Archer Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Crossbow Militia"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "Saracen Militia"  1   0.2   5  0  requires factions { egypt, turks, } 
+                recruit_pool "Sabadar Militia"  1   0.2   5  0  requires factions { timurids, } 
+                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Spear Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, Normans, } 
+                recruit_pool "Sword and Buckler Men"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Italian Spear Militia"  1   0.2   5  0  requires factions { milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Spear Militia"  1   0.2   5  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "SE Spear Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Spear Militia"  1   0.2   5  0  requires factions { moors, egypt, turks, timurids, } 
+                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Town Militia"  1   0.2   5  0  requires factions { hre, denmark, portugal, Normans, } 
+                recruit_pool "Pike Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Italian Militia"  1   0.2   5  0  requires factions { milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Town Militia"  1   0.2   5  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Archer Militia"  1   0.2   5  0  requires factions { russia, } 
+                recruit_pool "SE Town Militia"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Town Militia"  1   0.2   5  0  requires factions { moors, turks, timurids, } 
+                recruit_pool "ME Archer Militia"  1   0.2   5  0  requires factions { egypt, } 
+                recruit_pool "Peasant Spearmen"  1   0.2   5  0  requires factions { Saxons, } 
+                recruit_pool "ME Spear Militia"  1   0.15   3  1  requires factions { mongols, } 
+                recruit_pool "Spear Militia"  1   0.15   3  0  requires factions { Normans, } 
+                recruit_pool "Swordsmen Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "ME Town Militia"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "Town Militia"  1   0.2   5  0  requires factions { Normans, } 
+                recruit_pool "Peasant Spearmen"  1   0.2   5  0  requires factions { Saxons, }
 		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
                 law_bonus bonus 3
             }
             material wooden
-            construction  16 
+            construction  5 
             cost  30000 
             settlement_min huge_city
             upgrades
@@ -952,7 +685,7 @@ building castle_barracks
             {
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  2400 
             settlement_min town
             upgrades
@@ -966,7 +699,7 @@ building castle_barracks
             {
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min large_town
             upgrades
@@ -980,7 +713,7 @@ building castle_barracks
             {
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min city
             upgrades
@@ -994,7 +727,7 @@ building castle_barracks
             {
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min large_city
             upgrades
@@ -1016,7 +749,7 @@ building professional_military
             {
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min huge_city
             upgrades
@@ -1030,7 +763,7 @@ building professional_military
             {
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -1044,56 +777,39 @@ building professional_military
 }
 building missiles
 {
-    religion catholic
     levels bowyer practice_range archery_range marksmans_range 
     {
-        bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
+        bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
             {
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "S Peasant Archers"  1   0.5   2  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   0.5   2  0  requires factions { poland, russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   0.5   2  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+
+                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, }
             }
             material wooden
-            construction  4 
-            cost  2400 
+            construction  3 
+            cost  2500 
             settlement_min town
             upgrades
             {
                 practice_range
             }
         }
-        practice_range city requires factions { denmark, hre, scotland, france, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1  and building_present_min_level port port
+        practice_range city requires factions { denmark, hre, scotland, france, england, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
             {
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   0.5   2  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "Sicilian Muslim Archers"  1   0.5   2  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   0.5   2  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   0.5   2  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   0.5   2  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   0.5   2  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   0.5   2  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   0.7   3  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   0.7   3  0  requires factions { spain, } and hidden_resource america 
-                recruit_pool "S Peasant Archers"  1   0.7   3  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   0.7   3  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   0.7   3  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
+
+                recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { spain, }
+
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, } 
+
+               
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min large_town
             upgrades
@@ -1101,44 +817,18 @@ building missiles
                 archery_range
             }
         }
-        archery_range city requires factions { denmark, hre, scotland, france, england, egypt, turks, moors, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        archery_range city requires factions { denmark, hre, scotland, france, england, egypt, turks, moors, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
-                recruit_pool "Aventurier"  1   0.5   2  0  requires factions { france, } 
-                recruit_pool "Pavise Crossbowmen"  1   0.5   2  0  requires factions { hre, portugal, papal_states, sicily, } 
-                recruit_pool "Crossbowmen"  1   0.5   2  0  requires factions { denmark, hungary, } 
-                recruit_pool "Mounted Crossbowmen"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbowmen"  1   0.5   2  0  requires factions { milan, } 
-                recruit_pool "Venetian Archers"  1   0.5   2  0  requires factions { venice, } 
-                recruit_pool "Lithuanian Cavalry"  1   0.5   2  0  requires factions { poland, } 
-                recruit_pool "Dismounted Dvor"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "Byzantine Guard Archers"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Peasant Crossbowmen"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Nubian Archers"  1   0.5   2  0  requires factions { egypt, } 
-                recruit_pool "Ottoman Infantry"  1   0.5   2  0  requires factions { turks, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   0.7   3  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Sicilian Muslim Archers"  1   0.7   3  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   0.7   3  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   0.7   3  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   0.7   3  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "S Peasant Archers"  1   1   5  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   1   5  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Crossbowmen"  1   0.2   3  0  requires factions { england, france, }
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min city
             upgrades
@@ -1150,43 +840,43 @@ building missiles
         {
             capability
             {
-                recruit_pool "Mounted Crossbowmen"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Arquebusiers"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Granadine CB Cav"  1   0.5   2  0  requires factions { moors, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { spain, } 
-                recruit_pool "Aventurier"  1   0.7   3  0  requires factions { france, } 
-                recruit_pool "Pavise Crossbowmen"  1   0.7   3  0  requires factions { hre, portugal, papal_states, sicily, } 
-                recruit_pool "Crossbowmen"  1   0.7   3  0  requires factions { denmark, hungary, } 
-                recruit_pool "Mounted Crossbowmen"  1   0.7   3  0  requires factions { spain, } 
-                recruit_pool "Genoese Crossbowmen"  1   0.7   3  0  requires factions { milan, } 
-                recruit_pool "Venetian Archers"  1   0.7   3  0  requires factions { venice, } 
-                recruit_pool "Lithuanian Cavalry"  1   0.7   3  0  requires factions { poland, } 
-                recruit_pool "Byzantine Guard Archers"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Peasant Crossbowmen"  1   0.7   3  0  requires factions { moors, } 
-                recruit_pool "Nubian Archers"  1   0.7   3  1  requires factions { egypt, } 
-                recruit_pool "Ottoman Infantry"  1   0.7   3  1  requires factions { turks, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Crossbowmen"  1   1   5  0  requires factions { hre, portugal, milan, venice, papal_states, } 
-                recruit_pool "Norse Archers"  1   1   5  0  requires factions { denmark, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "Sicilian Muslim Archers"  1   1   5  0  requires factions { sicily, } 
-                recruit_pool "Lithuanian Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "Bosnian Archers"  1   1   5  0  requires factions { hungary, } 
-                recruit_pool "Trebizond Archers"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "Desert Archers"  1   1   5  0  requires factions { moors, egypt, } 
-                recruit_pool "Turkish Archers"  1   1   5  0  requires factions { turks, timurids, } 
-                recruit_pool "Mongol Foot Archers"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "Crossbowmen"  1   1   5  0  requires factions { england, france, } 
-                recruit_pool "Peasant Archers"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
-                recruit_pool "Crossbow Militia"  1   1   5  0  requires factions { spain, } 
-                recruit_pool "S Peasant Archers"  1   1   5  0  requires factions { sicily, hungary, byzantium, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  0  requires factions { poland, } 
-                recruit_pool "EE Peasant Archers"  1   1   5  1  requires factions { russia, } 
-                recruit_pool "Sudanese Javelinmen"  1   1   5  0  requires factions { moors, } 
-                recruit_pool "ME Peasant Archers"  1   1   5  0  requires factions { egypt, turks, mongols, timurids, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Arquebusiers"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Granadine CB Cav"  1   0.1   2  0  requires factions { moors, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Aventurier"  1   0.15   3  0  requires factions { france, } 
+                recruit_pool "Pavise Crossbowmen"  1   0.15   3  0  requires factions { hre, portugal, papal_states, sicily, } 
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { denmark, hungary, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
+                recruit_pool "Genoese Crossbowmen"  1   0.15   3  0  requires factions { milan, } 
+                recruit_pool "Venetian Archers"  1   0.15   3  0  requires factions { venice, } 
+                recruit_pool "Lithuanian Cavalry"  1   0.15   3  0  requires factions { poland, } 
+                recruit_pool "Byzantine Guard Archers"  1   0.15   3  0  requires factions { byzantium, } 
+                recruit_pool "ME Peasant Crossbowmen"  1   0.15   3  0  requires factions { moors, } 
+                recruit_pool "Nubian Archers"  1   0.15   3  1  requires factions { egypt, } 
+                recruit_pool "Ottoman Infantry"  1   0.15   3  1  requires factions { turks, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Peasant Crossbowmen"  1   0.2   5  0  requires factions { hre, portugal, milan, venice, papal_states, } 
+                recruit_pool "Norse Archers"  1   0.2   5  0  requires factions { denmark, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "Sicilian Muslim Archers"  1   0.2   5  0  requires factions { sicily, } 
+                recruit_pool "Lithuanian Archers"  1   0.2   5  0  requires factions { poland, } 
+                recruit_pool "Bosnian Archers"  1   0.2   5  0  requires factions { hungary, } 
+                recruit_pool "Trebizond Archers"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "Desert Archers"  1   0.2   5  0  requires factions { moors, egypt, } 
+                recruit_pool "Turkish Archers"  1   0.2   5  0  requires factions { turks, timurids, } 
+                recruit_pool "Mongol Foot Archers"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
+                recruit_pool "Peasant Archers"  1   0.2   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, Normans, Saxons, } 
+                recruit_pool "Crossbow Militia"  1   0.2   5  0  requires factions { spain, } 
+                recruit_pool "S Peasant Archers"  1   0.2   5  0  requires factions { sicily, hungary, byzantium, } 
+                recruit_pool "EE Peasant Archers"  1   0.2   5  0  requires factions { poland, } 
+                recruit_pool "EE Peasant Archers"  1   0.2   5  1  requires factions { russia, } 
+                recruit_pool "Sudanese Javelinmen"  1   0.2   5  0  requires factions { moors, } 
+                recruit_pool "ME Peasant Archers"  1   0.2   5  0  requires factions { egypt, turks, mongols, timurids, } 
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  19200 
             settlement_min large_city
             upgrades
@@ -1208,7 +898,7 @@ building siege
             {
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -1222,7 +912,7 @@ building siege
             {
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  6400 
             settlement_min large_town
             upgrades
@@ -1236,7 +926,7 @@ building siege
             {
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  12800 
             settlement_min city
             upgrades
@@ -1258,7 +948,7 @@ building castle_siege
             {
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -1272,7 +962,7 @@ building castle_siege
             {
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  6400 
             settlement_min large_town
             upgrades
@@ -1286,7 +976,7 @@ building castle_siege
             {
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  12800 
             settlement_min city
             upgrades
@@ -1300,97 +990,59 @@ building castle_siege
 }
 building cannon
 {
-    religion catholic
     levels gunsmith cannon_maker cannon_foundry royal_arsenal 
     {
-        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
-                recruit_pool "NE Bombard"  1   0.4   2  0  requires factions { england, france, hre, denmark, spain, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   0.4   2  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   0.4   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.4   2  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.4   2  0  requires factions { timurids, } 
-                recruit_pool "Musketeers"  1   0.4   2  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, spain, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, } 
             }
             material wooden
-            construction  6 
-            cost  1600 
+            construction  3 
+            cost  3200 
             settlement_min city
             upgrades
             {
                 cannon_maker
             }
         }
-        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
-                recruit_pool "NE Mortar"  1   0.4   2  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Grand Bombard"  1   0.4   2  0  requires factions { france, hre, spain, portugal, milan, } 
-                recruit_pool "NE Ribault"  1   0.4   2  0  requires factions { denmark, } 
-                recruit_pool "EE Ribault"  1   0.4   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Grand Bombard"  1   0.4   2  0  requires factions { russia, } 
-                recruit_pool "ME Grand Bombard"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Grand Bombard"  1   0.4   2  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   0.5   2  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   0.5   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   0.5   2  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   0.5   2  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   0.5   2  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   0.5   2  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.5   2  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.5   2  0  requires factions { timurids, } 
+                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Culverin"  1   0.1   2  0  requires factions { england, france, spain, }
+                recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, } 
+                recruit_pool "AS Rocket Launcher"  1   0.1   2  0  requires factions { mongols, } 
+
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  8 
-            cost  3200 
+            construction  4 
+            cost  5500 
             settlement_min large_city
             upgrades
             {
                 cannon_foundry
             }
         }
-        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
-                recruit_pool "NE Culverin"  1   0.4   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, } 
-                recruit_pool "NE Cannon"  1   0.4   2  0  requires factions { hre, sicily, } 
-                recruit_pool "NE Serpentine"  1   0.4   2  0  requires factions { denmark, } 
-                recruit_pool "EE Serpentine"  1   0.4   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Cannon"  1   0.4   2  0  requires factions { russia, } 
-                recruit_pool "ME Cannon"  1   0.4   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Cannon"  1   0.4   2  0  requires factions { timurids, } 
-                recruit_pool "NE Ribault"  1   0.4   2  0  requires factions { england, } 
-                recruit_pool "NE Serpentine"  1   0.4   2  0  requires factions { france, hre, } 
-                recruit_pool "NE Cannon"  1   0.4   2  0  requires factions { denmark, } 
-                recruit_pool "EE Cannon"  1   0.4   2  0  requires factions { poland, } 
-                recruit_pool "NE Mortar"  1   0.5   2  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Grand Bombard"  1   0.5   2  0  requires factions { france, hre, spain, portugal, milan, } 
-                recruit_pool "NE Ribault"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "EE Ribault"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Grand Bombard"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "ME Grand Bombard"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Grand Bombard"  1   0.5   2  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   0.7   3  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   0.7   3  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   0.7   3  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   0.7   3  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   0.7   3  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   0.7   3  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   0.7   3  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   0.7   3  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.7   3  0  requires factions { timurids, } 
+                recruit_pool "NE Basilisk"  1   0.15   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, }                
+                recruit_pool "NE Serpentine"  1   0.15   2  0  requires factions { france, hre, } 
+                recruit_pool "NE Mortar"  1   0.15   2  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, spain, } 
+
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  10 
-            cost  6400 
+            construction  4 
+            cost  9600 
             settlement_min huge_city
             upgrades
             {
@@ -1405,38 +1057,38 @@ building cannon
                 recruit_pool "NE Monster Ribault"  1   0.4   2  0  requires factions { milan, venice, } 
                 recruit_pool "EE Basilisk"  1   0.4   2  0  requires factions { russia, hungary, } 
                 recruit_pool "ME Monster Bombard"  1   0.4   2  0  requires factions { turks, } 
-                recruit_pool "NE Culverin"  1   0.5   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, } 
-                recruit_pool "NE Cannon"  1   0.5   2  0  requires factions { hre, sicily, } 
-                recruit_pool "NE Serpentine"  1   0.5   2  0  requires factions { denmark, } 
-                recruit_pool "EE Serpentine"  1   0.5   2  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Cannon"  1   0.5   2  0  requires factions { russia, } 
-                recruit_pool "ME Cannon"  1   0.5   2  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Cannon"  1   0.5   2  0  requires factions { timurids, } 
+                recruit_pool "NE Culverin"  1   0.1   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, } 
+                recruit_pool "NE Cannon"  1   0.1   2  0  requires factions { hre, sicily, } 
+                recruit_pool "NE Serpentine"  1   0.1   2  0  requires factions { denmark, } 
+                recruit_pool "EE Serpentine"  1   0.1   2  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Cannon"  1   0.1   2  0  requires factions { russia, } 
+                recruit_pool "ME Cannon"  1   0.1   2  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Cannon"  1   0.1   2  0  requires factions { timurids, } 
                 recruit_pool "NE Ribault"  1   0.4   2  0  requires factions { england, } 
                 recruit_pool "NE Serpentine"  1   0.4   2  0  requires factions { france, hre, } 
                 recruit_pool "NE Cannon"  1   0.4   2  0  requires factions { denmark, } 
                 recruit_pool "EE Cannon"  1   0.4   2  0  requires factions { poland, } 
-                recruit_pool "NE Mortar"  1   0.7   3  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Grand Bombard"  1   0.7   3  0  requires factions { france, hre, spain, portugal, milan, } 
-                recruit_pool "NE Ribault"  1   0.7   3  0  requires factions { denmark, } 
-                recruit_pool "EE Ribault"  1   0.7   3  0  requires factions { poland, hungary, } 
-                recruit_pool "EE Grand Bombard"  1   0.7   3  0  requires factions { russia, } 
-                recruit_pool "ME Grand Bombard"  1   0.7   3  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Grand Bombard"  1   0.7   3  0  requires factions { timurids, } 
-                recruit_pool "NE Bombard"  1   1   5  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Ribault"  1   1   5  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "Musketeers"  1   1   5  0  requires factions { england, france, spain, } 
-                recruit_pool "NE Bombard"  1   1   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
-                recruit_pool "EE Bombard"  1   1   5  0  requires factions { poland, russia, hungary, } 
-                recruit_pool "GR Bombard"  1   1   5  0  requires factions { byzantium, } 
-                recruit_pool "ME Bombard"  1   1   5  0  requires factions { moors, egypt, turks, } 
-                recruit_pool "AS Rocket Launcher"  1   1   5  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   1   5  0  requires factions { timurids, } 
+                recruit_pool "NE Mortar"  1   0.15   3  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Grand Bombard"  1   0.15   3  0  requires factions { france, hre, spain, portugal, milan, } 
+                recruit_pool "NE Ribault"  1   0.15   3  0  requires factions { denmark, } 
+                recruit_pool "EE Ribault"  1   0.15   3  0  requires factions { poland, hungary, } 
+                recruit_pool "EE Grand Bombard"  1   0.15   3  0  requires factions { russia, } 
+                recruit_pool "ME Grand Bombard"  1   0.15   3  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Grand Bombard"  1   0.15   3  0  requires factions { timurids, } 
+                recruit_pool "NE Bombard"  1   0.2   5  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Ribault"  1   0.2   5  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, spain, } 
+                recruit_pool "NE Bombard"  1   0.2   5  0  requires factions { hre, denmark, portugal, milan, venice, papal_states, sicily, } 
+                recruit_pool "EE Bombard"  1   0.2   5  0  requires factions { poland, russia, hungary, } 
+                recruit_pool "GR Bombard"  1   0.2   5  0  requires factions { byzantium, } 
+                recruit_pool "ME Bombard"  1   0.2   5  0  requires factions { moors, egypt, turks, } 
+                recruit_pool "AS Rocket Launcher"  1   0.2   5  0  requires factions { mongols, } 
+                recruit_pool "AS Bombard"  1   0.2   5  0  requires factions { timurids, } 
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  12 
-            cost  12800 
+            construction  5 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -1457,8 +1109,8 @@ building castle_cannon
             {
             }
             material wooden
-            construction  6 
-            cost  1600 
+            construction  4 
+            cost  2500 
             settlement_min city
             upgrades
             {
@@ -1472,7 +1124,7 @@ building castle_cannon
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  3200 
             settlement_min large_city
             upgrades
@@ -1487,7 +1139,7 @@ building castle_cannon
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -1502,7 +1154,7 @@ building castle_cannon
                 weapon_naval_gunpowder 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -1526,7 +1178,7 @@ building urban_equestrian
                 stage_races 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  2400 
             settlement_min city
             upgrades
@@ -1542,7 +1194,7 @@ building urban_equestrian
                 stage_races 2
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  2400 
             settlement_min large_city
             upgrades
@@ -1556,78 +1208,77 @@ building urban_equestrian
 }
 building smith
 {
-    religion catholic
     levels leather_tanner blacksmith armourer heavy_armourer plate_armourer gothic_armourer 
     {
-        leather_tanner city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1  and building_present_min_level port port
+        leather_tanner city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
             {
                 armour 1
             }
             material wooden
-            construction  4 
-            cost  1200 
+            construction  3 
+            cost  2800 
             settlement_min town
             upgrades
             {
                 blacksmith
             }
         }
-        blacksmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1  and building_present_min_level port port
+        blacksmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
             {
                 armour 2
             }
             material wooden
-            construction  6 
-            cost  2400 
+            construction  4 
+            cost  5500 
             settlement_min large_town
             upgrades
             {
                 armourer
             }
         }
-        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
                 armour 3
             }
             material wooden
-            construction  8 
-            cost  4800 
+            construction  4 
+            cost  8500 
             settlement_min city
             upgrades
             {
                 heavy_armourer
             }
         }
-        heavy_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        heavy_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1
         {
             capability
             {
                 armour 4
             }
             material wooden
-            construction  10 
-            cost  12800 
+            construction  4 
+            cost  11000 
             settlement_min large_city
             upgrades
             {
                 plate_armourer
             }
         }
-        plate_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        plate_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
                 armour 5
             }
             material wooden
-            construction  12 
-            cost  10000 
+            construction  5 
+            cost  12000 
             settlement_min huge_city
             upgrades
             {
@@ -1641,8 +1292,8 @@ building smith
                 armour 6
             }
             material wooden
-            construction  14 
-            cost  30000 
+            construction  5 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -1664,7 +1315,7 @@ building castle_smith
                 armour 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1200 
             settlement_min town
             upgrades
@@ -1679,7 +1330,7 @@ building castle_smith
                 armour 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  2400 
             settlement_min large_town
             upgrades
@@ -1694,7 +1345,7 @@ building castle_smith
                 armour 3
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  4800 
             settlement_min city
             upgrades
@@ -1709,7 +1360,7 @@ building castle_smith
                 armour 4
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -1724,7 +1375,7 @@ building castle_smith
                 armour 5
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  10000 
             settlement_min large_city
             upgrades
@@ -1739,7 +1390,7 @@ building castle_smith
                 armour 6
             }
             material wooden
-            construction  14 
+            construction  5 
             cost  30000 
             settlement_min large_city
             upgrades
@@ -1753,7 +1404,6 @@ building castle_smith
 }
 building port
 {
-    religion catholic
     levels port shipwright dockyard naval_drydock 
     {
         port city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 
@@ -1771,9 +1421,9 @@ building port
                 trade_fleet 1
             }
             material wooden
-            construction  4 
-            cost  1600 
-            settlement_min village
+            construction  3 
+            cost  2500 
+            settlement_min large_town
             upgrades
             {
                 shipwright
@@ -1801,8 +1451,8 @@ building port
                 trade_fleet 1
             }
             material wooden
-            construction  6 
-            cost  3200 
+            construction  3
+            cost  4800 
             settlement_min city
             upgrades
             {
@@ -1837,8 +1487,8 @@ building port
                 trade_fleet 1
             }
             material wooden
-            construction  10 
-            cost  6400 
+            construction  4 
+            cost  7500 
             settlement_min large_city
             upgrades
             {
@@ -1878,7 +1528,7 @@ building port
                 trade_fleet 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  12800 
             settlement_min huge_city
             upgrades
@@ -1908,8 +1558,8 @@ building castle_port
                 trade_fleet 1
             }
             material wooden
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min large_town
             upgrades
             {
@@ -1936,7 +1586,7 @@ building castle_port
                 trade_fleet 1
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min city
             upgrades
@@ -1972,7 +1622,7 @@ building castle_port
                 trade_fleet 1
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -2013,7 +1663,7 @@ building castle_port
                 trade_fleet 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -2027,7 +1677,6 @@ building castle_port
 }
 building sea_trade
 {
-    religion catholic
     levels merchants_wharf warehouse docklands 
     {
         merchants_wharf city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
@@ -2038,7 +1687,7 @@ building sea_trade
                 trade_base_income_bonus bonus 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min city
             upgrades
@@ -2054,7 +1703,7 @@ building sea_trade
                 trade_base_income_bonus bonus 3
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -2070,7 +1719,7 @@ building sea_trade
                 trade_base_income_bonus bonus 4
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  12800 
             settlement_min huge_city
             upgrades
@@ -2094,7 +1743,7 @@ building admiralty
                 navy_bonus 1
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min city
             upgrades
@@ -2110,7 +1759,7 @@ building admiralty
                 navy_bonus 1
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -2124,7 +1773,6 @@ building admiralty
 }
 building market
 {
-    religion catholic
     levels corn_exchange market fairground great_market merchants_quarter 
     {
         corn_exchange city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1 
@@ -2140,8 +1788,8 @@ building market
                 agent_limit merchant 1
             }
             material wooden
-            construction  4 
-            cost  1200 
+            construction  3 
+            cost  2400 
             settlement_min town
             upgrades
             {
@@ -2156,13 +1804,14 @@ building market
                 agent merchant  0  requires factions { middle_eastern, } 
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
-                agent merchant  0  requires factions { southern_european, } 
+                agent merchant  0  requires factions { southern_european, }
+                
                 trade_base_income_bonus bonus 3
                 agent_limit merchant 1
             }
             material wooden
-            construction  6 
-            cost  2400 
+            construction  4 
+            cost  3500 
             settlement_min large_town
             upgrades
             {
@@ -2177,12 +1826,13 @@ building market
                 agent merchant  0  requires factions { middle_eastern, } 
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
-                agent merchant  0  requires factions { southern_european, } 
+                agent merchant  0  requires factions { southern_european, }
+                
                 trade_base_income_bonus bonus 4
                 agent_limit merchant 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  4800 
             settlement_min city
             upgrades
@@ -2203,7 +1853,7 @@ building market
                 agent_limit merchant 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -2224,7 +1874,7 @@ building market
                 agent_limit merchant 1
             }
             material wooden
-            construction  14 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -2248,22 +1898,22 @@ building hinterland_roads
             }
             material wooden
             construction  2 
-            cost  800 
+            cost  2200 
             settlement_min town
             upgrades
             {
                 paved_roads
             }
         }
-        paved_roads city requires factions { middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and building_present_min_level port port
+        paved_roads city requires factions {  northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
         {
             capability
             {
                 road_level 1
             }
             material wooden
-            construction  6 
-            cost  2400 
+            construction  4 
+            cost  8500 
             settlement_min city
             upgrades
             {
@@ -2300,7 +1950,7 @@ building hinterland_castle_roads
                 road_level 1
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  2400 
             settlement_min city
             upgrades
@@ -2323,7 +1973,7 @@ building hinterland_farms
                 farming_level 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1200 
             settlement_min village
             upgrades
@@ -2338,7 +1988,7 @@ building hinterland_farms
                 farming_level 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  2400 
             settlement_min town
             upgrades
@@ -2353,7 +2003,7 @@ building hinterland_farms
                 farming_level 3
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  4800 
             settlement_min large_town
             upgrades
@@ -2368,7 +2018,7 @@ building hinterland_farms
                 farming_level 4
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  9600 
             settlement_min city
             upgrades
@@ -2391,7 +2041,7 @@ building hinterland_mines
                 mine_resource 4
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  4000 
             settlement_min large_town
             upgrades
@@ -2406,8 +2056,8 @@ building hinterland_mines
                 mine_resource 7
             }
             material wooden
-            construction  6 
-            cost  3500 
+            construction  4 
+            cost  9600 
             settlement_min city
             upgrades
             {
@@ -2429,7 +2079,7 @@ building hinterland_castle_mines
                 mine_resource 4
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  4000 
             settlement_min large_town
             upgrades
@@ -2444,7 +2094,7 @@ building hinterland_castle_mines
                 mine_resource 7
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3500 
             settlement_min city
             upgrades
@@ -2468,8 +2118,8 @@ building health
                 population_growth_bonus bonus 1
             }
             material wooden
-            construction  8 
-            cost  1600 
+            construction  4 
+            cost  2500 
             settlement_min large_city
             upgrades
             {
@@ -2484,7 +2134,7 @@ building health
                 population_growth_bonus bonus 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  3200 
             settlement_min huge_city
             upgrades
@@ -2508,7 +2158,7 @@ building hospital
                 population_health_bonus bonus 2
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -2524,7 +2174,7 @@ building hospital
                 population_health_bonus bonus 4
             }
             material wooden
-            construction  14 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -2538,7 +2188,6 @@ building hospital
 }
 building academic
 {
-    religion catholic
     levels alchemists_lab alchemy_school university 
     {
         alchemists_lab city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1  and building_present_min_level market great_market
@@ -2548,8 +2197,8 @@ building academic
                 weapon_missile_gunpowder 1
             }
             material wooden
-            construction  6 
-            cost  3200 
+            construction  4 
+            cost  3800 
             settlement_min large_city
             upgrades
             {
@@ -2564,8 +2213,8 @@ building academic
                 weapon_artillery_gunpowder 1
             }
             material wooden
-            construction  10 
-            cost  6400 
+            construction  4 
+            cost  7500 
             settlement_min huge_city
             upgrades
             {
@@ -2579,7 +2228,7 @@ building academic
                 weapon_projectile 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  12800 
             settlement_min huge_city
             upgrades
@@ -2610,7 +2259,7 @@ building temple_catholic
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -2630,7 +2279,7 @@ building temple_catholic
                 pope_disapproval 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -2647,11 +2296,11 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 2
                 religion_level bonus 3
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  6400 
             settlement_min city
             upgrades
@@ -2659,7 +2308,7 @@ building temple_catholic
                 cathedral
             }
         }
-        cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, venice, }  and event_counter prestige_rank_count 1  and building_present_min_level port port
+        cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, venice, }  and event_counter prestige_rank_count 1
         {
             capability
             {
@@ -2668,13 +2317,13 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 2
                 religion_level bonus 4
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1
                 population_health_bonus bonus 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -2691,14 +2340,14 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, } 
                 happiness_bonus bonus 3
                 religion_level bonus 5
-                agent_limit priest 2
+                agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1
                 population_health_bonus bonus 3
             }
             material wooden
-            construction  12 
-            cost  10000 
+            construction  5 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -2728,7 +2377,7 @@ building temple_catholic_castle
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -2748,7 +2397,7 @@ building temple_catholic_castle
                 pope_disapproval 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -2777,7 +2426,7 @@ building temple_orthodox
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -2795,7 +2444,7 @@ building temple_orthodox
                 agent_limit priest 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -2814,7 +2463,7 @@ building temple_orthodox
                 agent_limit priest 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  6400 
             settlement_min city
             upgrades
@@ -2833,7 +2482,7 @@ building temple_orthodox
                 agent_limit priest 2
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -2852,7 +2501,7 @@ building temple_orthodox
                 agent_limit priest 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  10000 
             settlement_min huge_city
             upgrades
@@ -2881,7 +2530,7 @@ building temple_orthodox_castle
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -2899,7 +2548,7 @@ building temple_orthodox_castle
                 agent_limit priest 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -2913,7 +2562,7 @@ building temple_orthodox_castle
 }
 building temple_muslim
 {
-    religion islam
+    
     levels small_masjid masjid minareted_masjid jama great_jama 
     {
         small_masjid castle requires factions { timurids, mongols, egypt, moors, turks, } 
@@ -2927,7 +2576,7 @@ building temple_muslim
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -2944,7 +2593,7 @@ building temple_muslim
                 agent_limit priest 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -2962,7 +2611,7 @@ building temple_muslim
                 agent_limit priest 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  6400 
             settlement_min city
             upgrades
@@ -2980,7 +2629,7 @@ building temple_muslim
                 agent_limit priest 2
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -2998,7 +2647,7 @@ building temple_muslim
                 agent_limit priest 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  10000 
             settlement_min huge_city
             upgrades
@@ -3012,7 +2661,7 @@ building temple_muslim
 }
 building temple_muslim_castle
 {
-    religion islam
+    
     levels c_small_masjid c_masjid 
     {
         c_small_masjid castle requires factions { timurids, mongols, egypt, moors, turks, } 
@@ -3026,7 +2675,7 @@ building temple_muslim_castle
             }
             material wooden
             construction  2 
-            cost  1600 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -3043,7 +2692,7 @@ building temple_muslim_castle
                 agent_limit priest 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -3057,7 +2706,6 @@ building temple_muslim_castle
 }
 building taverns
 {
-    religion catholic
     levels brothel inn tavern coaching_house pleasure_palace 
     {
         brothel city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, } 
@@ -3072,8 +2720,8 @@ building taverns
                 happiness_bonus bonus 1
             }
             material wooden
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -3097,7 +2745,7 @@ building taverns
                 happiness_bonus bonus 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min large_town
             upgrades
@@ -3122,7 +2770,7 @@ building taverns
                 happiness_bonus bonus 3
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  6400 
             settlement_min city
             upgrades
@@ -3147,7 +2795,7 @@ building taverns
                 happiness_bonus bonus 4
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  12800 
             settlement_min large_city
             upgrades
@@ -3172,7 +2820,7 @@ building taverns
                 happiness_bonus bonus 5
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  20000 
             settlement_min huge_city
             upgrades
@@ -3186,7 +2834,6 @@ building taverns
 }
 building city_hall
 {
-    religion catholic
     levels town_hall council_chambers city_hall mayors_palace 
     {
         town_hall city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1 
@@ -3202,8 +2849,8 @@ building city_hall
                 population_health_bonus bonus 1
             }
             material wooden
-            construction  4 
-            cost  1200 
+            construction  3 
+            cost  2800 
             settlement_min large_town
             upgrades
             {
@@ -3223,8 +2870,8 @@ building city_hall
                 population_health_bonus bonus 2
             }
             material wooden
-            construction  6 
-            cost  2400 
+            construction  4 
+            cost  5200 
             settlement_min city
             upgrades
             {
@@ -3244,8 +2891,8 @@ building city_hall
                 population_health_bonus bonus 4
             }
             material wooden
-            construction  8 
-            cost  4800 
+            construction  4 
+            cost  8500 
             settlement_min large_city
             upgrades
             {
@@ -3265,7 +2912,7 @@ building city_hall
                 population_health_bonus bonus 5
             }
             material wooden
-            construction  10 
+            construction  4 
             cost  9600 
             settlement_min huge_city
             upgrades
@@ -3288,7 +2935,7 @@ building art
                 happiness_bonus bonus 1
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  4800 
             settlement_min large_city
             upgrades
@@ -3304,7 +2951,7 @@ building art
                 population_health_bonus bonus 1
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  9600 
             settlement_min huge_city
             upgrades
@@ -3327,7 +2974,7 @@ building bullring
                 happiness_bonus bonus 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min city
             upgrades
@@ -3351,7 +2998,7 @@ building bank
                 agent_limit merchant 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -3367,7 +3014,7 @@ building bank
                 agent_limit merchant 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -3391,7 +3038,7 @@ building paper
                 trade_base_income_bonus bonus 2
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -3407,7 +3054,7 @@ building paper
                 trade_base_income_bonus bonus 4
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -3431,7 +3078,7 @@ building icon_art
                 amplify_religion_level 1.5
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -3447,7 +3094,7 @@ building icon_art
                 amplify_religion_level 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -3470,7 +3117,7 @@ building music
                 happiness_bonus bonus 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  9600 
             settlement_min large_city
             upgrades
@@ -3485,7 +3132,7 @@ building music
                 happiness_bonus bonus 2
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  19200 
             settlement_min huge_city
             upgrades
@@ -3508,7 +3155,7 @@ building tourney
                 heavy_cavalry_bonus bonus 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  3200 
             settlement_min city
             upgrades
@@ -3525,7 +3172,7 @@ building tourney
                 heavy_cavalry_bonus bonus 2
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -3551,7 +3198,7 @@ building castle_academic
                 agent diplomat  0  requires factions { eastern_european, } 
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  3200 
             settlement_min large_city
             upgrades
@@ -3570,7 +3217,7 @@ building castle_academic
                 agent assassin  0  requires factions { eastern_european, } 
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  6400 
             settlement_min large_city
             upgrades
@@ -3593,7 +3240,7 @@ building caravan
                 trade_level_bonus bonus 2
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  2400 
             settlement_min large_town
             upgrades
@@ -3608,7 +3255,7 @@ building caravan
                 trade_level_bonus bonus 4
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  7200 
             settlement_min large_city
             upgrades
@@ -4277,6 +3924,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Sword and Buckler Men"  1   0.11   3  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 				
             }
             material stone
             construction  1 
@@ -4291,6 +3940,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Sword and Buckler Men"  1   0.11   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america
             }
             material stone
             construction  1 
@@ -4304,6 +3955,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
+				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_viscount 1
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_count 1
             }
             material stone
             construction  1 
@@ -4450,19 +4103,21 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.5   2  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spearmen"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Al holpop militia"  1   0.2   2  0  requires factions { mayans, }                
+                recruit_pool "Chichimec Lancers"  1   0.1   2  0  requires factions { chichimeca, }
+                recruit_pool "Chichimec Scout"  1   0.1   3  0  requires factions { chichimeca, }                
+                recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
+                recruit_pool "Tlaxcalan Spearmen"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala				
+                recruit_pool "Tarascan Spearmen"  1   0.1   2  0  requires factions { tarascans, } 
                 religion_level bonus 1
                 law_bonus bonus 1
                 agent_limit priest 1
                 happiness_bonus bonus 1
             }
             material stone
-            construction  4 
-            cost  2000 
+            construction  3 
+            cost  2500 
             settlement_min town
             upgrades
             {
@@ -4474,17 +4129,18 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Jaguar Warriors"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Raiders"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.5   2  0  requires factions { tarascans, } 
-                recruit_pool "Coyote Priests"  1   0.5   2  0  requires factions { aztecs, } 
+                recruit_pool "Aztec Spearmen"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Al holpop militia"  1   0.2   3  0  requires factions { mayans, }                
+                recruit_pool "Chichimec Lancers"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.11   2  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Warriors"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
+                recruit_pool "Tlaxcalan Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala					
+                recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, } 
+                recruit_pool "Coyote Priests"  1   0.1   2  0  requires factions { aztecs, } 
                 religion_level bonus 2
                 law_bonus bonus 1
                 stage_races 1
@@ -4492,8 +4148,8 @@ building temple_pagan
                 happiness_bonus bonus 2
             }
             material stone
-            construction  8 
-            cost  3000 
+            construction  3
+            cost  4500 
             settlement_min large_town
             upgrades
             {
@@ -4505,29 +4161,31 @@ building temple_pagan
             capability
             {
                 agent priest  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Spearmen"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Batab Militia"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Lancers"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   1   5  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Warriors"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Jaguar Warriors"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Raiders"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Warriors"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Warriors"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Coyote Priests"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Temple Guard"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Shamen"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Priests of Quetzalcoatl"  1   0.7   3  0  requires factions { tlaxcalans, tarascans, } 
-                recruit_pool "Cuahchiqueh"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Aztec Spearmen"  1   0.2   3  0  requires factions { aztecs, } 
+                recruit_pool "Al holpop militia"  1   0.2   3  0  requires factions { mayans, }                
+                recruit_pool "Chichimec Lancers"  1   0.2   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Spearmen"  1   0.2   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Warriors"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Jaguar Warriors"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Raiders"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Tlaxcalan Warriors"  1   0.15   3  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
+                recruit_pool "Tlaxcalan Warriors"  1   1   3  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala 
+                recruit_pool "Tarascan Warriors"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Coyote Priests"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Temple Guard"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Chichimec Shamen"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Priests of Quetzalcoatl"  1   0.15   3  0  requires factions { tlaxcalans, tarascans, } 
+                recruit_pool "Cuahchiqueh"  1   0.1   2  0  requires factions { aztecs, tlaxcalans, tarascans, }
+                
                 religion_level bonus 3
                 law_bonus bonus 2
                 stage_races 2
-                agent_limit priest 2
+                agent_limit priest 1
                 happiness_bonus bonus 3
             }
             material stone
-            construction  16 
+            construction  5
             cost  5000 
             settlement_min city
             upgrades
@@ -4541,7 +4199,7 @@ building temple_pagan
 }
 building meso_palace
 {
-    religion pagan
+   
     levels palace palace_complex acropolis 
     {
         palace city requires factions { mesoamerican, } 
@@ -4550,17 +4208,17 @@ building meso_palace
             {
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   0.5   2  0  requires factions { tarascans, } 
+                
+                recruit_pool "Aztec Archers"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.1   2  0  requires factions { tarascans, } 
+                
                 population_health_bonus bonus 1
                 population_growth_bonus bonus 1
                 law_bonus bonus 1
             }
             material stone
-            construction  4 
+            construction  3 
             cost  2000 
             settlement_min town
             upgrades
@@ -4575,23 +4233,21 @@ building meso_palace
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   0.7   3  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Spear Throwers"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Javelinmen"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.5   2  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spear Throwers"  1   0.5   2  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spear Throwers"  1   0.5   2  0  requires factions { tarascans, } 
+                
+                recruit_pool "Aztec Archers"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spear Throwers"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Tlaxcalan Spear Throwers"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spear Throwers"  1   0.1   2  0  requires factions { tarascans, } 
+                
                 population_health_bonus bonus 2
                 population_growth_bonus bonus 2
                 law_bonus bonus 2
             }
             material stone
-            construction  8 
-            cost  3000 
+            construction  3 
+            cost  4000 
             settlement_min large_town
             upgrades
             {
@@ -4605,23 +4261,21 @@ building meso_palace
                 agent diplomat  0  requires factions { mesoamerican, } 
                 agent spy  0  requires factions { mesoamerican, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                recruit_pool "Aztec Archers"  1   1   5  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Archers"  1   1   5  0  requires factions { mayans, } 
-                recruit_pool "Chichimec Archers"  1   1   5  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Archers"  1   1   5  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Archers"  1   1   5  0  requires factions { tarascans, } 
-                recruit_pool "Aztec Spear Throwers"  1   0.7   3  0  requires factions { aztecs, } 
-                recruit_pool "Mayan Javelinmen"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spear Throwers"  1   0.7   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spear Throwers"  1   0.7   3  0  requires factions { tarascans, } 
+                
+                recruit_pool "Aztec Archers"  1   0.2   5  0  requires factions { aztecs, } 
+                recruit_pool "Tlaxcalan Archers"  1   0.2   5  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Archers"  1   0.15   3  0  requires factions { tarascans, } 
+                recruit_pool "Aztec Spear Throwers"  1   0.15   3  0  requires factions { aztecs, } 
+                recruit_pool "Tlaxcalan Spear Throwers"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Tarascan Spear Throwers"  1   0.15   3  0  requires factions { tarascans, } 
+                
                 population_health_bonus bonus 3
                 population_growth_bonus bonus 3
                 law_bonus bonus 3
                 archer_bonus 1
             }
             material stone
-            construction  16 
+            construction  5 
             cost  5000 
             settlement_min city
             upgrades
@@ -4635,20 +4289,22 @@ building meso_palace
 }
 building meso_market
 {
-    religion pagan
+
     levels marketplace plaza great_plaza 
     {
         marketplace city requires factions { mesoamerican, } 
         {
             capability
             {
-                recruit_pool "Holkans"  1   0.5   2  0  requires factions { mayans, } 
+                recruit_pool "Holkans"  1   0.1   2  0  requires factions { mayans, }
+                recruit_pool "Chichimec Archers"  1   0.1   2  0  requires factions { chichimeca, }
+                
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1
             }
             material wooden
             construction  2 
-            cost  1200 
+            cost  1800 
             settlement_min town
             upgrades
             {
@@ -4659,13 +4315,16 @@ building meso_market
         {
             capability
             {
-                recruit_pool "Holkans"  1   0.7   3  0  requires factions { mayans, } 
+                recruit_pool "Mayan Archers"  1   0.15   2  0  requires factions { mayans, }
+                recruit_pool "Mayan Javelinmen"  1   0.1   2  0  requires factions { mayans, }
+                recruit_pool "Zacatecos Archers"  1   0.1   2  0  requires factions { chichimeca, }
+                
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 1
             }
             material stone
-            construction  4 
-            cost  2400 
+            construction  3 
+            cost  3500 
             settlement_min large_town
             upgrades
             {
@@ -4676,13 +4335,16 @@ building meso_market
         {
             capability
             {
-                recruit_pool "Holkans"  1   1   5  0  requires factions { mayans, } 
+                recruit_pool "Mayan Archers"  1   0.15   3  0  requires factions { mayans, }
+                recruit_pool "Mayan Javelinmen"  1   0.15   3  0  requires factions { mayans, } 
+                recruit_pool "Zacatecos Archers"  1   0.2   3  0  requires factions { chichimeca, }
+                
                 trade_base_income_bonus bonus 5
                 population_growth_bonus bonus 2
             }
             material stone
-            construction  8 
-            cost  4000 
+            construction  4 
+            cost  4500 
             settlement_min city
             upgrades
             {
@@ -4695,20 +4357,18 @@ building meso_market
 }
 building observatory
 {
-    religion pagan
     levels observatory 
     {
         observatory city requires factions { mayans, }  and building_present_min_level temple_pagan pyramid
         {
             capability
             {
-                recruit_pool "Priests Of Kukulcan"  1   0.5   2  0  requires factions { mayans, } 
-                religion_level bonus 1
-                agent_limit priest 1
+                recruit_pool "Priests Of Kukulcan"  1   0.1   2  0  requires factions { mayans, } 
+                religion_level bonus 1 requires factions { mayans, }
             }
             material stone
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min large_town
             upgrades
             {
@@ -4721,7 +4381,7 @@ building observatory
 }
 building chultun
 {
-    religion pagan
+
     levels chultun 
     {
         chultun city requires factions { mayans, } 
@@ -4732,8 +4392,8 @@ building chultun
                 population_growth_bonus bonus 2
             }
             material stone
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min large_town
             upgrades
             {
@@ -4746,7 +4406,7 @@ building chultun
 }
 building aztec_aqueduct
 {
-    religion pagan
+
     levels aztec_aqueduct 
     {
         aztec_aqueduct city requires factions {  chichimeca,  tarascans, tlaxcalans, aztecs, } 
@@ -4757,8 +4417,8 @@ building aztec_aqueduct
                 population_growth_bonus bonus 2
             }
             material stone
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min large_town
             upgrades
             {
@@ -4784,7 +4444,7 @@ building temazcal
             }
             material stone
             construction  2 
-            cost  500 
+            cost  1800 
             settlement_min large_town
             upgrades
             {
@@ -4797,23 +4457,25 @@ building temazcal
 }
 building ball_court
 {
-    religion pagan
     levels ball_court great_ball_court 
     {
         ball_court city requires factions { mesoamerican, }  and building_present_min_level temple_pagan pyramid
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Nacom Warriors"  1   0.5   2  0  requires factions { mayans, } 
-                recruit_pool "Guachichil Warriors"  1   0.5   2  0  requires factions { chichimeca, } 
-                happiness_bonus bonus 1
-                armour 1
-                religion_level bonus 1
+                recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { aztecs, tarascans, }
+                recruit_pool "Eagle Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
+                recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
+                recruit_pool "Batab Militia"  1   0.1   2  0  requires factions { mayans, } 
+                recruit_pool "Guachichil Warriors"  1   0.1   2  0  requires factions { chichimeca, }
+                
+                happiness_bonus bonus 1 requires factions { mesoamerican, }
+                armour 1 requires factions { mesoamerican, }
+                religion_level bonus 1 requires factions { mesoamerican, }
             }
             material stone
-            construction  6 
-            cost  1600 
+            construction  3
+            cost  2800 
             settlement_min large_town
             upgrades
             {
@@ -4824,18 +4486,21 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.7   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Nacom Warriors"  1   0.7   3  0  requires factions { mayans, } 
-                recruit_pool "Guachichil Warriors"  1   0.7   3  0  requires factions { chichimeca, } 
-                recruit_pool "Jaguar Warriors"  1   0.5   2  0  requires factions { aztecs, tlaxcalans, tarascans, } 
-                recruit_pool "Hornet Throwers"  1   0.5   2  0  requires factions { mayans, } 
-                happiness_bonus bonus 3
-                armour 1
-                religion_level bonus 2
+                recruit_pool "Eagle Warriors"  1   0.15   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Guachichil Warriors"  1   0.2   3  0  requires factions { chichimeca, } 
+                recruit_pool "Jaguar Warriors"  1   0.11   2  0  requires factions { aztecs, tarascans, }
+                recruit_pool "Jaguar Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
+                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
+                recruit_pool "Nacom Warriors"  1   0.15   3  0  requires factions { mayans, }
+                recruit_pool "Hornet Throwers"  1   0.1   2  0  requires factions { mayans, }
+                
+                happiness_bonus bonus 3 requires factions { mesoamerican, }
+                armour 1 requires factions { mesoamerican, }
+                religion_level bonus 2 requires factions { mesoamerican, }
             }
             material stone
-            construction  12 
-            cost  3000 
+            construction  4
+            cost  4200 
             settlement_min city
             upgrades
             {
@@ -4855,15 +4520,15 @@ building skull_rack
         {
             capability
             {
-                recruit_pool "Arrow Warriors"  1   0.5   2  0  requires factions { aztecs, } 
-                recruit_pool "Chichimec Riders"  1   0.5   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
-                recruit_pool "Chichimec Gunners"  1   0.5   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1 
+                recruit_pool "Arrow Warriors"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Chichimec Riders"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
+                recruit_pool "Chichimec Gunners"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1 
                 religion_level bonus 1
                 happiness_bonus bonus 1
             }
             material stone
-            construction  4 
-            cost  1600 
+            construction  3 
+            cost  2500 
             settlement_min large_town
             upgrades
             {
@@ -4876,7 +4541,7 @@ building skull_rack
 }
 building mayan_farms
 {
-    religion pagan
+   
     levels forest_gardens wild_harvesting raised_fields managed_fallows 
     {
         forest_gardens  requires factions { mayans, } 
@@ -4886,7 +4551,7 @@ building mayan_farms
                 farming_level 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1200 
             settlement_min village
             upgrades
@@ -4901,7 +4566,7 @@ building mayan_farms
                 farming_level 2
             }
             material wooden
-            construction  6 
+            construction  4 
             cost  2400 
             settlement_min town
             upgrades
@@ -4916,7 +4581,7 @@ building mayan_farms
                 farming_level 3
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  4800 
             settlement_min large_town
             upgrades
@@ -4931,7 +4596,7 @@ building mayan_farms
                 farming_level 4
             }
             material wooden
-            construction  12 
+            construction  5 
             cost  9600 
             settlement_min city
             upgrades
@@ -4952,7 +4617,7 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Rabbit Boys"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 1
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -4971,15 +4636,15 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Dog Soldiers"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Rabbit Boys"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Dog Soldiers"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 2
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
                 law_bonus bonus 2
             }
             material wooden
-            construction  4 
+            construction  3
             cost  1600 
             settlement_min village
             upgrades
@@ -4991,16 +4656,15 @@ building hunters_tent
         {
             capability
             {
-                recruit_pool "Rabbit Boys"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Dog Soldiers"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Koitsenko"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Dog Soldiers"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Koitsenko"  1   0.15   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
                 law_bonus bonus 3
             }
             material wooden
-            construction  8 
+            construction  3
             cost  3200 
             settlement_min village
             upgrades
@@ -5014,7 +4678,7 @@ building hunters_tent
 }
 building farmers_tent
 {
-    religion islam
+    
     levels farmers_tipi farmers_wigwam 
     {
         farmers_tipi city requires factions { nativeindian, } 
@@ -5039,7 +4703,7 @@ building farmers_tent
                 farming_level 2
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1600 
             settlement_min village
             upgrades
@@ -5061,7 +4725,7 @@ building raiders_tent
             capability
             {
                 agent spy  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 1
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
@@ -5082,15 +4746,15 @@ building raiders_tent
             {
                 agent spy  0  requires factions { nativeindian, } 
                 agent assassin  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Apachean Scouts"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Apachean Scouts"  1   0.1   2  0  requires factions { apachean, } 
                 recruitment_slots 2
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
                 income_bonus 2
             }
             material wooden
-            construction  4 
+            construction  3
             cost  1600 
             settlement_min village
             upgrades
@@ -5104,16 +4768,16 @@ building raiders_tent
             {
                 agent spy  0  requires factions { nativeindian, } 
                 agent assassin  0  requires factions { nativeindian, } 
-                recruit_pool "Apachean Brave"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Apachean Scouts"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Onde's Men"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Apachean Brave"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Apachean Scouts"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Onde's Men"  1   0.15   2  0  requires factions { apachean, } 
                 recruitment_slots 3
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
                 income_bonus 3
             }
             material wooden
-            construction  8 
+            construction  3
             cost  3200 
             settlement_min village
             upgrades
@@ -5127,7 +4791,7 @@ building raiders_tent
 }
 building traders_tent
 {
-    religion islam
+    
     levels traders_tipi traders_wigwam 
     {
         traders_tipi city requires factions { nativeindian, } 
@@ -5151,10 +4815,10 @@ building traders_tent
             capability
             {
                 agent diplomat  0  requires factions { nativeindian, } 
-                trade_base_income_bonus bonus 3
+                trade_base_income_bonus bonus 4
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1600 
             settlement_min village
             upgrades
@@ -5168,7 +4832,7 @@ building traders_tent
 }
 building medicine_tent
 {
-    religion islam
+    
     levels medicine_tipi medicine_wigwam 
     {
         medicine_tipi city requires factions { nativeindian, } 
@@ -5203,7 +4867,7 @@ building medicine_tent
                 agent_limit priest 1
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1600 
             settlement_min village
             upgrades
@@ -5217,14 +4881,14 @@ building medicine_tent
 }
 building horse_tent
 {
-    religion islam
+    
     levels horse_tipi horse_wigwam horse_longhouse 
     {
         horse_tipi city requires factions { nativeindian, }  and event_counter indian_horses_1 1 
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Mounted Apache"  1   0.1   2  0  requires factions { apachean, } 
             }
             material wooden
             construction  2 
@@ -5239,11 +4903,11 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   0.7   3  0  requires factions { apachean, } 
-                recruit_pool "Mounted Thunder Brave"  1   0.5   2  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
+                recruit_pool "Mounted Apache"  1   0.15   3  0  requires factions { apachean, } 
+                recruit_pool "Mounted Thunder Brave"  1   0.1   2  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1600 
             settlement_min village
             upgrades
@@ -5255,12 +4919,12 @@ building horse_tent
         {
             capability
             {
-                recruit_pool "Mounted Apache"  1   1   5  0  requires factions { apachean, } 
-                recruit_pool "Mounted Thunder Brave"  1   0.7   3  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
+                recruit_pool "Mounted Apache"  1   0.2   3  0  requires factions { apachean, } 
+                recruit_pool "Mounted Thunder Brave"  1   0.15   3  0  requires factions { apachean, }  and event_counter indian_guns_1 1 
                 heavy_cavalry_bonus bonus 1
             }
             material wooden
-            construction  8 
+            construction  4 
             cost  3200 
             settlement_min village
             upgrades
@@ -5274,14 +4938,14 @@ building horse_tent
 }
 building gun_tent
 {
-    religion islam
+    
     levels gun_tipi gun_wigwam 
     {
         gun_tipi city requires factions { nativeindian, }  and event_counter indian_guns_1 1 
         {
             capability
             {
-                recruit_pool "Thunder Brave"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Thunder Brave"  1   0.1   2  0  requires factions { apachean, } 
             }
             material wooden
             construction  2 
@@ -5296,10 +4960,10 @@ building gun_tent
         {
             capability
             {
-                recruit_pool "Thunder Brave"  1   1   5  0  requires factions { apachean, } 
+                recruit_pool "Thunder Brave"  1   0.2   5  0  requires factions { apachean, } 
             }
             material wooden
-            construction  4 
+            construction  3 
             cost  1600 
             settlement_min village
             upgrades
@@ -5373,7 +5037,7 @@ building hogan
         {
             capability
             {
-                recruit_pool "Medicine Men"  1   0.5   2  0  requires factions { apachean, } 
+                recruit_pool "Medicine Men"  1   0.15   2  0  requires factions { apachean, } 
                 religion_level bonus 2
                 law_bonus bonus 1
                 agent_limit priest 1
@@ -5393,14 +5057,13 @@ building hogan
 }
 building armour_tipi
 {
-    religion islam
     levels armour_tipi 
     {
         armour_tipi city requires factions { nativeindian, }  and building_present_min_level raiders_tent raiders_tipi
         {
             capability
             {
-                armour 1
+                armour 1 requires factions { nativeindian, }
             }
             material wooden
             construction  2 

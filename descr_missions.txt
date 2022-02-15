@@ -578,7 +578,7 @@ mission	guild_take_settlement
     CONSULATE_MISSION
     duration 10
     exclude_duration 30
-    score_modifier 1.5
+    score_modifier 0.5
     max_score			100.0			; max score clamp
     turn_start		3
     paybacks
@@ -619,7 +619,7 @@ mission guild_recruit_agent guild_recruit_merchant
     CONSULATE_MISSION
     duration 5
     exclude_duration 20
-    score_modifier 1.0
+    score_modifier 1.5
     turn_start		3
     paybacks
     {
@@ -638,7 +638,7 @@ mission guild_recruit_agent guild_recruit_priest
     CONSULATE_MISSION
     duration 5
     exclude_duration 20
-    score_modifier 0.8
+    score_modifier 1.1
     turn_start		3
     paybacks
     {
@@ -658,7 +658,7 @@ mission guild_trade_agreement
     CONSULATE_MISSION
     duration 10
     exclude_duration 20
-    score_modifier 1.0
+    score_modifier 1.8
     turn_start		3
     paybacks
     {
