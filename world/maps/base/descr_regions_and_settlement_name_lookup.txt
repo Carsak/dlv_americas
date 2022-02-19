@@ -34,6 +34,8 @@ Zacatecas_r
 Zacatecas
 Colotan_r
 Colotan
+San_Luis_Potosi_r
+San_Luis_Potosi
 Cuahtemoc_r
 Cuahtemoc
 Ahuacatlan_r
