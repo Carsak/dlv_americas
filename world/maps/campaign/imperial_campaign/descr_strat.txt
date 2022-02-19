@@ -2222,6 +2222,25 @@ settlement
 settlement
 {
 	level village
+	region Ojuelos_r
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator apachean
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
+settlement
+{
+	level village
 	region Tequesta_Region
 
 	year_founded 0

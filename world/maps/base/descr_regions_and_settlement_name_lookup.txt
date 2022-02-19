@@ -36,6 +36,8 @@ Colotan_r
 Colotan
 San_Luis_Potosi_r
 San_Luis_Potosi
+Ojuelos_r
+Ojuelos
 Cuahtemoc_r
 Cuahtemoc
 Ahuacatlan_r
