@@ -40,6 +40,8 @@ Ojuelos_r
 Ojuelos
 Matehuala_r
 Matehuala
+San_Fernando_r
+San_Fernando
 Cuahtemoc_r
 Cuahtemoc
 Ahuacatlan_r

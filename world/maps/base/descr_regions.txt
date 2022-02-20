@@ -219,6 +219,15 @@ Matehuala_r
 	5
 	5
 	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+San_Fernando_r
+	San_Fernando
+	chichimeca
+	Native_Rebels
+	172 27 100
+	atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
 Cuahtemoc_r
 	Cuahtemoc
 	chichimeca
