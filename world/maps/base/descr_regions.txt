@@ -192,12 +192,48 @@ Colotan_r
 	5
 	5
 	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+San_Luis_Potosi_r
+	San_Luis_Potosi
+	chichimeca
+	Native_Rebels
+	10 11 99
+	gold, atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+Ojuelos_r
+	Ojuelos
+	chichimeca
+	Native_Rebels
+	132 100 185
+	atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+Matehuala_r
+	Matehuala
+	chichimeca
+	Native_Rebels
+	202 61 100
+	atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+San_Fernando_r
+	San_Fernando
+	chichimeca
+	Native_Rebels
+	172 27 100
+	atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
 Cuahtemoc_r
 	Cuahtemoc
 	chichimeca
 	Native_Rebels
 	255 212 255
-	gold, dyes, atlantic, no_pirates
+	dyes, atlantic, no_pirates
 	0
 	6
 	religions { catholic 0 orthodox 0 islam 29 pagan 71 heretic 0 }
