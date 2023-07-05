@@ -26,7 +26,7 @@ Apache_r
 	apachean
 	Native_Rebels
 	33 59 131
-	silver, atlantic, no_pirates
+	atlantic, no_pirates
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
@@ -34,8 +34,8 @@ Apache2_r
 	Apache2_Camp
 	apachean
 	Native_Rebels
-	33 59 131
-	atlantic, no_pirates
+	66 130 124
+	silver, atlantic, no_pirates
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
@@ -43,7 +43,7 @@ Apache3_r
 	Apache3_Camp
 	apachean
 	Native_Rebels
-	33 59 131
+	130 102 120
 	atlantic, no_pirates
 	5
 	3
