@@ -1,6 +1,15 @@
 ;
 ; regions list
 ;
+;Latium    (Province name)
+;	Rome    (Settlement name)
+;	romans_julii    (Culture/faction tag)
+;	Latins    (Rebel tribe)
+;	52 13 198    (Map RGB value)
+;	slaves, dogs, pigs, rome, italy    (Comma-separated resources list)
+;	5    (Triumph point value)
+;	8    (Base farm level)
+;   religions { catholic 0 orthodox 0 islam 0 pagan 100 heretic 0 }
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 Tongva_Region
@@ -18,6 +27,24 @@ Apache_r
 	Native_Rebels
 	33 59 131
 	silver, atlantic, no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+Apache2_r
+	Apache2_Camp
+	apachean
+	Native_Rebels
+	33 59 131
+	atlantic, no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+Apache3_r
+	Apache3_Camp
+	apachean
+	Native_Rebels
+	33 59 131
+	atlantic, no_pirates
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }

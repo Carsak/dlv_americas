@@ -2,6 +2,10 @@ Tongva_Region
 Tongva
 Apache_r
 Apache_Camp
+Apache2_r
+Apache2_Camp
+Apache3_r
+Apache3_Camp
 Comanche_r
 Comanche
 Caddo_r
