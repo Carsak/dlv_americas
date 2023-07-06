@@ -2588,9 +2588,9 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_raiders_2	Recruit 20 infantry units & Capture 8 settlements
+; indian_raiders_2	Recruit 15 infantry units & Capture 8 settlements
 	monitor_event FactionTurnStart FactionType apachean
-		and I_CompareCounter apachean_infantry_recruited > 19
+		and I_CompareCounter apachean_infantry_recruited > 14
 		and I_CompareCounter apachean_settlements_captured > 7
 
 		add_events
