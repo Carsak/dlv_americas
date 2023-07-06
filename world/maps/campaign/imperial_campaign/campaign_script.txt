@@ -2571,10 +2571,10 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_raiders_1	10 infantry units & Win 8 battles
+; indian_raiders_1	10 infantry units & Capture 6 settlements
 	monitor_event FactionTurnStart FactionType apachean
 		and I_CompareCounter apachean_infantry_recruited > 9
-		and I_CompareCounter apachean_settlements_captured > 7
+		and I_CompareCounter apachean_settlements_captured > 5
 
 		add_events
 			event	counter	indian_raiders_1
@@ -2588,10 +2588,10 @@ end_monitor
 		terminate_monitor
 	end_monitor
 
-; indian_raiders_2	Recruit 20 infantry units & Win 15 battles
+; indian_raiders_2	Recruit 20 infantry units & Capture 8 settlements
 	monitor_event FactionTurnStart FactionType apachean
 		and I_CompareCounter apachean_infantry_recruited > 19
-		and I_CompareCounter apachean_settlements_captured > 14
+		and I_CompareCounter apachean_settlements_captured > 7
 
 		add_events
 			event	counter	indian_raiders_2
