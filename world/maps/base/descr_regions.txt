@@ -48,6 +48,33 @@ Apache3_r
 	5
 	3
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+South1_camp_r
+	South1_camp
+	apachean
+	Native_Rebels
+	64 201 89
+	atlantic, no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+South2_camp_r
+	South2_camp
+	apachean
+	Native_Rebels
+	0 255 191
+	atlantic, no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+South3_camp_r
+	South3_camp
+	apachean
+	Native_Rebels
+	211 183 42
+	atlantic, no_pirates
+	5
+	3
+	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Comanche_r
 	Comanche
 	apachean

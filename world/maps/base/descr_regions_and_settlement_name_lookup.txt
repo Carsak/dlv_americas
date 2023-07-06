@@ -6,6 +6,12 @@ Apache2_r
 Apache2_Camp
 Apache3_r
 Apache3_Camp
+South1_camp_r
+South1_camp
+South2_camp_r
+South2_camp
+South3_camp_r
+South3_camp
 Comanche_r
 Comanche
 Caddo_r
