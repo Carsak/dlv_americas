@@ -1928,8 +1928,9 @@ settlement
 	}
 }
 
-character	Jean Ribault, named character, age 35, x 202, y 103
-traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1 
+character	Jean Ribault, named character, male, age 35, x 202, y 103
+traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1
+army
 unit		New World Bodyguard		exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
 unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
