@@ -1952,6 +1952,20 @@ unit		Aventurier				exp 0 armour 0 weapon_lvl 0
 unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
 unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
 
+character	Charles Alacoque, merchant, male, age 30, x 202, y 103 
+traits GoodMerchant 2 
+
+character	Giles Cottaz, merchant, male, age 22, x 202, y 103 
+traits GoodMerchant 1
+
+character	Huguenin Tristram, priest, male, age 33, x 202, y 103 
+traits NaturalPriestSkill 2
+
+character	Robin Brunius, admiral, male, age 31, x 207, y 103 
+army
+unit		carrack				exp 1 armour 0 weapon_lvl 0
+unit		carrack				exp 1 armour 0 weapon_lvl 0
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; REBELS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced smith
