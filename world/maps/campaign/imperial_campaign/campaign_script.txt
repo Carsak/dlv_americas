@@ -132,8 +132,10 @@ and I_CompareCounter Vera_Cruz_siege = 0
 if I_SettlementOwner Vera_Cruz = spain
 and I_CompareCounter spain_start 0
 	create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Crossbow Militia, num 2, exp 0, arm 0, wep 0
+	create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
 	create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
+	create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
+	create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
 	create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
 	set_counter Vera_Cruz_spawn 1
 end_if
@@ -3928,6 +3930,18 @@ end_monitor
 		
 		terminate_monitor
 	end_monitor
+    
+    ;;; Reinforcements for Spain AI, 
+    ;;; cause with new reqruit system(1 unit spawn time about 5-10 turns) faction needs 
+    ;;; about 5-7 settlements for normal reqruiments. Spain AI cant capture anything at the start
+	
+	monitor_event FactionTurnStart FactionType spain
+		and I_IsFactionAIControlled spain
+		and I_NumberOfSettlements spain < 3
+		and I_NumberOfSettlements spain > 0
+		
+		create_unit Havana, Dismounted Conquistadores, num 2, exp 0, arm 0, wep 0
+	end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;; Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -4664,7 +4678,7 @@ end_monitor
 	;;;;;;; AI Passive Increase ;;;;;;;
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain
-		inc_counter prestige_points 2
+		inc_counter prestige_points 3
 	end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;; Prestige Ranks ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4684,7 +4698,7 @@ end_monitor
         
 		if I_LocalFaction spain
 			add_events
-				event	historic prestige_lord factions { spain, }
+				event	historic prestige_lord factions { spain, france, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4720,7 +4734,7 @@ end_monitor
 
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_baron factions { spain, }
+				event	historic prestige_baron factions { spain, france, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4756,7 +4770,7 @@ end_monitor
 	 	
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_viscount factions { spain, }
+				event	historic prestige_viscount factions { spain, france, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4790,7 +4804,7 @@ end_monitor
 	 	
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_count factions { spain, }
+				event	historic prestige_count factions { spain, france, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4824,7 +4838,7 @@ end_monitor
 	 	
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_marquis factions { spain, }
+				event	historic prestige_marquis factions { spain, france, }
 				date	1
 	 		end_add_events
 		end_if
