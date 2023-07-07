@@ -3,6 +3,7 @@
 campaign		Americas
 playable
 	spain
+    france
 	aztecs
 	mayans
 	apachean
@@ -12,7 +13,6 @@ playable
 end
 nonplayable
 	england
-	france
 	slave
 end
 

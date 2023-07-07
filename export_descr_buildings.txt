@@ -510,7 +510,7 @@ building barracks
                  
                 recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, } 
 
-                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.18   4  0  requires factions { england, france, } 
         
                 recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
        
@@ -538,9 +538,9 @@ building barracks
                 recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, } 
                
            
-                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.2   4  0  requires factions { england, france, } 
                 
-                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   4  0  requires factions { england, france, } 
              
                 law_bonus bonus 3
             }
@@ -782,8 +782,10 @@ building missiles
         bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
-            {
-                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+            {   
+                recruit_pool "Archer Militia" 1   0.1   2  0 requires factions { england, }
+                
+                recruit_pool "Crossbow Militia" 1   0.1   2  0 requires factions { france, }
 
                 recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, }
             }
