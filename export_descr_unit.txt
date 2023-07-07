@@ -14136,7 +14136,7 @@ stat_food        60, 300
 stat_cost        1, 420, 55, 45, 105, 420, 1, 120
 armour_ug_levels 5
 armour_ug_models Dismounted_NE_Late_Bodyguard
-ownership        england, scotland, france, hre, denmark, poland, hungary
+ownership        scotland, hre, denmark, poland, hungary
 ;unit_info        14, 0, 34
 recruit_priority_offset    0
  
@@ -14211,364 +14211,7 @@ armour_ug_models Mailed_Knights
 ownership        normans
 ;unit_info        11, 0, 28
 recruit_priority_offset    0
- 
- 
-type             King Harold
-dictionary       King_Harold      ; King Harold
-category         infantry
-class            heavy
-voice_type       General
-banner faction   main_infantry
-banner unit      dragon_standard
-banner holy      crusade
-soldier          English_Huscarls, 24, 0, 1.2
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, no_custom
-formation        1.2, 1.2, 2.4, 2.4, 3, square
-stat_health      2, 0
-stat_pri         19, 9, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  3, 10, 8, metal
-;stat_armour_ex   3, 0, 0, 0, 10, 8, 8, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        6
-stat_ground      1, -2, 0, 4
-stat_mental      11, disciplined, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 590, 375, 60, 145, 590, 1, 170
-armour_ug_levels 2
-armour_ug_models English_Huscarls
-ownership        saxons
-;unit_info        19, 0, 42
-recruit_priority_offset    0
- 
- 
-type             King Henry
-dictionary       King_Henry      ; King Henry V
-category         infantry
-class            heavy
-voice_type       General
-banner faction   main_infantry
-banner holy      crusade
-soldier          Dismounted_NE_Late_Bodyguard, 24, 0, 1.2
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, no_custom
-formation        1.2, 1.2, 2.4, 2.4, 3, square
-stat_health      2, 0
-stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  7, 5, 5, metal
-;stat_armour_ex   7, 0, 0, 0, 5, 5, 5, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        8
-stat_ground      1, -2, 0, 4
-stat_mental      11, disciplined, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 580, 375, 60, 145, 580, 1, 170
-armour_ug_levels 5
-armour_ug_models Dismounted_NE_Late_Bodyguard
-ownership        england
-;unit_info        14, 0, 34
-recruit_priority_offset    0
- 
- 
-type             King Francis
-dictionary       King_Francis      ; King Francis
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          NE_Late_Bodyguard_ug1, 16, 0, 1
-mount            armoured horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  8, 5, 5, metal
-;stat_armour_ex   8, 0, 0, 0, 5, 5, 5, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        8
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 840, 250, 80, 185, 840, 1, 250
-armour_ug_levels 6
-armour_ug_models NE_Late_Bodyguard_ug1
-ownership        france
-;unit_info        11, 0, 36
-recruit_priority_offset    0
- 
- 
-type             King Richard
-dictionary       King_Richard      ; King Richard
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 16, 0, 1
-mount            barded horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  5, 5, 6, metal
-;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        7
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 800, 250, 80, 185, 800, 1, 240
-armour_ug_levels 3
-armour_ug_models NE_Bodyguard
-ownership        england
-;unit_info        11, 0, 32
-recruit_priority_offset    0
- 
- 
-type             King Guy
-dictionary       King_Guy      ; King Guy
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 16, 0, 1
-mount            barded horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  5, 5, 6, metal
-;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        7
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 800, 250, 80, 185, 800, 1, 240
-armour_ug_levels 3
-armour_ug_models NE_Bodyguard
-ownership        france
-;unit_info        11, 0, 32
-recruit_priority_offset    0
- 
- 
-type             Saladin
-dictionary       Saladin      ; Saladin
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          ME_Bodyguard_ug1, 16, 0, 1
-mount            eastern armoured horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         10, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  6, 6, 6, metal
-;stat_armour_ex   6, 0, 0, 0, 6, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      0, 1, 0, 0
-stat_mental      11, disciplined, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 840, 250, 80, 185, 840, 1, 250
-armour_ug_levels 4
-armour_ug_models ME_Bodyguard_ug1
-ownership        egypt
-;unit_info        10, 0, 36
-recruit_priority_offset    0
- 
- 
-type             Bohemond of Taranto
-dictionary       Bohemond_of_Taranto      ; Bohemond of Taranto
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Mailed_Knights, 16, 0, 1
-mount            heavy horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  3, 5, 6, metal
-;stat_armour_ex   3, 0, 0, 0, 5, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        6
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 750, 250, 80, 185, 750, 1, 220
-armour_ug_levels 2
-armour_ug_models Mailed_Knights
-ownership        france
-;unit_info        11, 0, 28
-recruit_priority_offset    0
- 
- 
-type             Qilich Arslan
-dictionary       Qilich_Arslan      ; Qilich Arslan
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          ME_Bodyguard, 16, 0, 1
-mount            eastern armoured horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         10, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  5, 6, 6, metal
-;stat_armour_ex   5, 0, 0, 0, 6, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        3
-stat_ground      0, 1, 0, 0
-stat_mental      11, disciplined, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 800, 250, 80, 185, 800, 1, 240
-armour_ug_levels 3
-armour_ug_models ME_Bodyguard
-ownership        turks
-;unit_info        10, 0, 34
-recruit_priority_offset    0
- 
- 
-type             King Wladyslaw
-dictionary       King_Wladyslaw      ; King Wladyslaw
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          NE_Bodyguard_ug1, 16, 0, 1
-mount            barded horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  6, 5, 6, metal
-;stat_armour_ex   6, 0, 0, 0, 5, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        8
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 840, 250, 80, 185, 840, 1, 250
-armour_ug_levels 4
-armour_ug_models NE_Bodyguard_ug1
-ownership        poland
-;unit_info        11, 0, 34
-recruit_priority_offset    0
- 
- 
-type             Grand Master Ulrich
-dictionary       Grand_Master_Ulrich      ; Grand Master Ulrich
-category         cavalry
-class            heavy
-voice_type       General
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Teutonic_Knights, 16, 0, 1
-mount            mailed horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
-formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  5, 5, 6, metal
-;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        7
-stat_ground      0, 0, 0, 2
-stat_mental      11, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 800, 250, 80, 185, 800, 1, 240
-armour_ug_levels 3
-armour_ug_models Teutonic_Knights
-ownership        hre
-;unit_info        11, 0, 32
-recruit_priority_offset    0
- 
+
  
 type             Norman Catapult
 dictionary       Norman_Catapult      ; Catapult
@@ -16324,5 +15967,362 @@ era 1            spain, england, france
 era 2            spain, england, france
 ;unit_info        11, 0, 51
 recruit_priority_offset    20
+
+
+type             King Harold
+dictionary       King_Harold      ; King Harold
+category         infantry
+class            heavy
+voice_type       General
+banner faction   main_infantry
+banner unit      dragon_standard
+banner holy      crusade
+soldier          English_Huscarls, 24, 0, 1.2
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, no_custom
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      2, 0
+stat_pri         19, 9, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 10, 8, metal
+;stat_armour_ex   3, 0, 0, 0, 10, 8, 8, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        6
+stat_ground      1, -2, 0, 4
+stat_mental      11, disciplined, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 590, 375, 60, 145, 590, 1, 170
+armour_ug_levels 2
+armour_ug_models English_Huscarls
+ownership        saxons
+;unit_info        19, 0, 42
+recruit_priority_offset    0
+ 
+ 
+type             King Henry
+dictionary       King_Henry      ; King Henry V
+category         infantry
+class            heavy
+voice_type       General
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_NE_Late_Bodyguard, 24, 0, 1.2
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, no_custom
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      2, 0
+stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 5, 5, metal
+;stat_armour_ex   7, 0, 0, 0, 5, 5, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        8
+stat_ground      1, -2, 0, 4
+stat_mental      11, disciplined, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 580, 375, 60, 145, 580, 1, 170
+armour_ug_levels 5
+armour_ug_models Dismounted_NE_Late_Bodyguard
+ownership        england
+;unit_info        14, 0, 34
+recruit_priority_offset    0
+ 
+ 
+type             King Francis
+dictionary       King_Francis      ; King Francis
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          NE_Late_Bodyguard_ug1, 16, 0, 1
+mount            armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  8, 5, 5, metal
+;stat_armour_ex   8, 0, 0, 0, 5, 5, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        8
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 840, 250, 80, 185, 840, 1, 250
+armour_ug_levels 6
+armour_ug_models NE_Late_Bodyguard_ug1
+ownership        france
+;unit_info        11, 0, 36
+recruit_priority_offset    0
+ 
+ 
+type             King Richard
+dictionary       King_Richard      ; King Richard
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          NE_Bodyguard, 16, 0, 1
+mount            barded horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 5, 6, metal
+;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 250, 80, 185, 800, 1, 240
+armour_ug_levels 3
+armour_ug_models NE_Bodyguard
+ownership        england
+;unit_info        11, 0, 32
+recruit_priority_offset    0
+ 
+ 
+type             King Guy
+dictionary       King_Guy      ; King Guy
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          NE_Bodyguard, 16, 0, 1
+mount            barded horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 5, 6, metal
+;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 250, 80, 185, 800, 1, 240
+armour_ug_levels 3
+armour_ug_models NE_Bodyguard
+ownership        france
+;unit_info        11, 0, 32
+recruit_priority_offset    0
+ 
+ 
+type             Saladin
+dictionary       Saladin      ; Saladin
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          ME_Bodyguard_ug1, 16, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         10, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 6, 6, metal
+;stat_armour_ex   6, 0, 0, 0, 6, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      0, 1, 0, 0
+stat_mental      11, disciplined, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 840, 250, 80, 185, 840, 1, 250
+armour_ug_levels 4
+armour_ug_models ME_Bodyguard_ug1
+ownership        egypt
+;unit_info        10, 0, 36
+recruit_priority_offset    0
+ 
+ 
+type             Bohemond of Taranto
+dictionary       Bohemond_of_Taranto      ; Bohemond of Taranto
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Mailed_Knights, 16, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 6, metal
+;stat_armour_ex   3, 0, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        6
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 750, 250, 80, 185, 750, 1, 220
+armour_ug_levels 2
+armour_ug_models Mailed_Knights
+ownership        france
+;unit_info        11, 0, 28
+recruit_priority_offset    0
+ 
+ 
+type             Qilich Arslan
+dictionary       Qilich_Arslan      ; Qilich Arslan
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          ME_Bodyguard, 16, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         10, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 6, 6, metal
+;stat_armour_ex   5, 0, 0, 0, 6, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      0, 1, 0, 0
+stat_mental      11, disciplined, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 250, 80, 185, 800, 1, 240
+armour_ug_levels 3
+armour_ug_models ME_Bodyguard
+ownership        turks
+;unit_info        10, 0, 34
+recruit_priority_offset    0
+ 
+ 
+type             King Wladyslaw
+dictionary       King_Wladyslaw      ; King Wladyslaw
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          NE_Bodyguard_ug1, 16, 0, 1
+mount            barded horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 5, 6, metal
+;stat_armour_ex   6, 0, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        8
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 840, 250, 80, 185, 840, 1, 250
+armour_ug_levels 4
+armour_ug_models NE_Bodyguard_ug1
+ownership        poland
+;unit_info        11, 0, 34
+recruit_priority_offset    0
+ 
+ 
+type             Grand Master Ulrich
+dictionary       Grand_Master_Ulrich      ; Grand Master Ulrich
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Teutonic_Knights, 16, 0, 1
+mount            mailed horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, general_unit, no_custom
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 5, 6, metal
+;stat_armour_ex   5, 0, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      0, 0, 0, 2
+stat_mental      11, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 250, 80, 185, 800, 1, 240
+armour_ug_levels 3
+armour_ug_models Teutonic_Knights
+ownership        hre
+;unit_info        11, 0, 32
+recruit_priority_offset    0
  
  
