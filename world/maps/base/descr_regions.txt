@@ -156,6 +156,24 @@ Calusa_r
 	0
 	7
 	religions { catholic 0 orthodox 0 islam 82 pagan 18 heretic 0 }
+French1_camp_r
+	French1_camp
+	france
+	Native_Rebels
+	255 0 8
+	atlantic, no_pirates
+	5
+	7
+	religions { catholic 82 orthodox 0 islam 0 pagan 18 heretic 0 }
+French2_camp_r
+	French2_camp
+	france
+	Native_Rebels
+	0 130 117
+	atlantic, no_pirates
+	5
+	7
+	religions { catholic 82 orthodox 0 islam 0 pagan 18 heretic 0 }
 Potano_r
 	Potano
 	apachean

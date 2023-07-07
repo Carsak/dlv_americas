@@ -24,6 +24,10 @@ Potano_r
 Potano
 Calusa_r
 Calusa
+French1_camp_r
+French1_camp
+French2_camp_r
+French2_camp
 Potano_r
 Potano
 Pitic_r
