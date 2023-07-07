@@ -1,6 +1,7 @@
 *
 !export_descr_unit.txt
 !export_descr_buildings.txt
+!export_descr_character_traits.txt
 !descr_campaign_db.xml
 !.gitignore
 !descr_settlement_mechanics.xml
