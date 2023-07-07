@@ -4680,8 +4680,6 @@ end_monitor
 
 	 	add_money spain 5000
 		increment_kings_purse spain -2000
-		increment_kings_purse chichimeca -1000
-        increment_kings_purse tarascans -900
         
 		if I_LocalFaction spain
 			add_events
@@ -4717,8 +4715,6 @@ end_monitor
 		
 	 	add_money spain 10000
 		increment_kings_purse spain -2000
-        increment_kings_purse chichimeca -1900
-        increment_kings_purse tarascans -800
 
 	 	if I_LocalFaction spain
 			add_events
