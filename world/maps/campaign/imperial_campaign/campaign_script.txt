@@ -3935,14 +3935,14 @@ end_monitor
     ;;; cause with new reqruit system(1 unit spawn time about 5-10 turns) faction needs 
     ;;; about 5-7 settlements for normal reqruiments. Spain AI cant capture anything at the start
 	
-    monitor_event FactionTurnStart FactionType spain
+	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
- 		and I_TurnNumber = 64
+		and I_TurnNumber = 64
 		and I_NumberOfSettlements spain < 3
-        and I_NumberOfSettlements spain > 0
-        
-        create_unit Havana, Conquistadores, num 1, exp 0, arm 0, wep 0
-        create_unit Havana, Dismounted Conquistadores, num 2, exp 0, arm 0, wep 0
+		and I_NumberOfSettlements spain > 0
+		
+		create_unit Havana, Conquistadores, num 1, exp 0, arm 0, wep 0
+		create_unit Havana, Dismounted Conquistadores, num 2, exp 0, arm 0, wep 0
 	end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;; Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
