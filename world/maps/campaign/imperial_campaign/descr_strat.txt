@@ -1885,7 +1885,7 @@ character_record		Manipi, 	male, age 8, alive, never_a_leader
 
 relative 	Alosaka, 	Sahkyo,		Helaku,	Ahote,  Koko,  Manipi, end
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ENGLAND & FRANCE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ENGLAND ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	england, balanced smith
 ai_label	default 
@@ -1894,12 +1894,62 @@ denari	10000
 denari_kings_purse	1000
 name_faction spy aztecs
 
+;;;;;;;;;;;;; FRANCE ;;;;;;;;;;;;;;
 faction	france, balanced smith
 ai_label	default 
-dead_until_resurrected
 denari	10000
-denari_kings_purse	1000
+denari_kings_purse	5000
 name_faction spy aztecs
+
+settlement
+{
+	level large_town
+	region French1_camp_r
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator france
+    building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Jean Ribault, named character, age 35, x 202, y 103
+traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1 
+unit		New World Bodyguard		exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; REBELS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -2178,33 +2228,6 @@ settlement
 	building
 	{
 		type medicine_tent medicine_tipi
-	}
-}
-
-settlement
-{
-	level large_town
-	region French1_camp_r
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator france
-    building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type temple_catholic small_church
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
