@@ -45,12 +45,12 @@ building core_building
             {
                 recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
                 recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
                 recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
 				
@@ -74,17 +74,18 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
-                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
                 recruit_pool "Tlaxcalan Spearmen"  1   0.1   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } 
+                
+                recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
+                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
                 recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
                 recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
          
                 wall_level 2
@@ -108,15 +109,15 @@ building core_building
             capability
             {
                 recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }   
-                recruit_pool "Papal Guard"  1   0.1   2  0  requires factions { papal_states, } 
+                recruit_pool "Papal Guard"  1   0.000001   0.999  0  requires factions { papal_states, } 
                 recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }     
                 recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.1   3  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.1   3  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.1   3  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.1   3  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
                 recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
           
                 wall_level 3
@@ -139,16 +140,16 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.1   2  0  requires factions { spain, } 
+                recruit_pool "Pike Militia"  1   0.000001   2  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.000001   2  0  requires factions { spain, } 
                 recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }    
                 recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, } 
-                recruit_pool "Crossbowmen"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.2   5  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.2   5  0  requires factions { france, } 
+                recruit_pool "Crossbowmen"  1   0.000001   5  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.000001   5  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.000001   5  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.000001   5  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.000001   5  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.000001l   5  0  requires factions { france, } 
         
                 wall_level 4
                 tower_level 1
@@ -510,7 +511,7 @@ building barracks
                  
                 recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, } 
 
-                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.18   4  0  requires factions { england, france, } 
         
                 recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
        
@@ -538,9 +539,9 @@ building barracks
                 recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, } 
                
            
-                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.2   4  0  requires factions { england, france, } 
                 
-                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   4  0  requires factions { england, france, } 
              
                 law_bonus bonus 3
             }
@@ -782,8 +783,10 @@ building missiles
         bowyer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_lord 1
         {
             capability
-            {
-                recruit_pool "Crossbowmen"  1   0.1   2  0  requires factions { england, france, } 
+            {   
+                recruit_pool "Archer Militia" 1   0.1   2  0 requires factions { england, }
+                
+                recruit_pool "Crossbow Militia" 1   0.1   2  0 requires factions { france, }
 
                 recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, }
             }
