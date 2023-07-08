@@ -436,7 +436,8 @@ building barracks
             capability
             {
                 recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, }
-                recruit_pool "Pikemen"  1   0.1   2  0  requires factions { england, france, } 
+                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { france, }
+                recruit_pool "Bill Militia"  1   0.1   3  0  requires factions { england, }
                 
                 law_bonus bonus 1
             }
@@ -452,13 +453,12 @@ building barracks
         town_guard city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_baron 1
         {
             capability
-            {
-                recruit_pool "New World Cuirassers"  1   0.1   2  0  requires factions { england, france, } 
-                
-                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, } 
+            {    
+                recruit_pool "Pikemen"  1   0.1   3  0  requires factions { england, france, }
+				recruit_pool "Pike Militia"  1   0.1   3  0  requires factions { france, }
+				recruit_pool "Bill Militia"  1   0.15   3  0  requires factions { england, }
                 
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
-                
                 recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, }
                 
                 law_bonus bonus 2
@@ -476,17 +476,15 @@ building barracks
         {
             capability
             {
-                recruit_pool "Demi Lancers"  1   0.1   2  0  requires factions { england, france, } 
                 recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { hre, denmark, portugal, } 
 
-                recruit_pool "New World Cuirassers"  1   0.15   3  0  requires factions { england, france, }
-                
+                recruit_pool "New World Cuirassers"  1   0.1   3  0  requires factions { england, france, }
+				recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, }
+				recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { france, }
+				recruit_pool "Bill Militia"  1   0.15   4  0  requires factions { england, }
+				
                 recruit_pool "Dismounted Conquistadores"  1   0.1   2  0  requires factions { spain, }
-                
                 recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, }
-         
-                recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
-                
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, }  
 
                 law_bonus bonus 3
@@ -504,17 +502,14 @@ building barracks
         {
             capability
             {
-                recruit_pool "Tercio Pikemen"  1   0.1   3  0  requires factions { spain, } 
-             
-                recruit_pool "Conquistadores"  1   0.1   1  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
-                 
-                recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, } 
-
-                recruit_pool "New World Cuirassers"  1   0.18   4  0  requires factions { england, france, } 
-        
                 recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, } 
-       
+				recruit_pool "New World Cuirassers"  1   0.2   4  0  requires factions { england, france, }
+                recruit_pool "Demi Lancers"  1   0.15   1  0  requires factions { england, france, } 
+                 
+                recruit_pool "Dismounted Conquistadores"  1   0.18   4  0  requires factions { spain, }
+				recruit_pool "Tercio Pikemen"  1   0.1   3  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  1   0.1   1  0  requires factions { spain, }
+				
                 law_bonus bonus 3
             }
             material wooden
@@ -530,19 +525,15 @@ building barracks
         {
             capability
             {
+                recruit_pool "New World Cuirassers"  1   0.2   4  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   3  0  requires factions { england, france, } 
+				recruit_pool "Demi Lancers"  1   0.15   1  0  requires factions { england, france, } 
+				
                 recruit_pool "Spanish Dragoons"  1   0.1   2  0  requires factions { spain, } 
                 recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
-     
                 recruit_pool "Conquistadores"  1   0.11   1  0  requires factions { spain, } 
-                recruit_pool "Demi Lancers"  1   0.15   3  0  requires factions { england, france, } 
-           
-                recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, } 
-               
-           
-                recruit_pool "New World Cuirassers"  1   0.2   4  0  requires factions { england, france, } 
-                
-                recruit_pool "Pikemen"  1   0.2   4  0  requires factions { england, france, } 
-             
+                recruit_pool "Dismounted Conquistadores"  1   0.19   4  0  requires factions { spain, }
+				
                 law_bonus bonus 3
             }
             material wooden
