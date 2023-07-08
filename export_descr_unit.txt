@@ -13067,7 +13067,7 @@ stat_food        60, 300
 stat_cost        1, 1350, 400, 60, 140, 1350, 1, 400
 armour_ug_levels 1
 armour_ug_models NE_Basilisk_Crew
-ownership        france, hre, spain, portugal
+ownership        england, france, hre, spain, portugal
 era 2            france, spain
 ;unit_info        7, 0, 7
 recruit_priority_offset    15

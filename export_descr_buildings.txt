@@ -803,13 +803,9 @@ building missiles
         {
             capability
             {
-                recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, } 
-
                 recruit_pool "Crossbowmen"  1   0.1   3  0  requires factions { spain, }
 
-                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, } 
-
-               
+                recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, }
             }
             material wooden
             construction  4 
@@ -825,8 +821,7 @@ building missiles
             capability
             {
                 recruit_pool "Aventurier"  1   0.1   2  0  requires factions { france, } 
-                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, } 
-                recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, } 
+                recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, }
                 recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { spain, } 
                 recruit_pool "Crossbowmen"  1   0.2   3  0  requires factions { england, france, }
             }
@@ -999,7 +994,7 @@ building cannon
         {
             capability
             {
-                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, spain, } 
+                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, france, spain, } 
                 recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, } 
             }
             material wooden
@@ -1036,7 +1031,7 @@ building cannon
         {
             capability
             {
-                recruit_pool "NE Basilisk"  1   0.15   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, }                
+                recruit_pool "NE Basilisk"  1   0.15   2  0  requires factions { england, france, spain, portugal,}                
                 recruit_pool "NE Serpentine"  1   0.15   2  0  requires factions { france, hre, } 
                 recruit_pool "NE Mortar"  1   0.15   2  0  requires factions { england, venice, papal_states, sicily, } 
                 recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, spain, } 
