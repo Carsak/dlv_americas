@@ -140,16 +140,17 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.000001   2  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.000001   2  0  requires factions { spain, } 
+                recruit_pool "Pike Militia"  1   0.000001   0.999  0  requires factions { spain, } 
+                recruit_pool "Swordsmen Militia"  1   0.000001   0.999  0  requires factions { spain, } 
                 recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }    
-                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, } 
-                recruit_pool "Crossbowmen"  1   0.000001   5  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.000001   5  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.000001   5  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.000001   5  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.000001   5  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.000001l   5  0  requires factions { france, } 
+                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+				
+                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
         
                 wall_level 4
                 tower_level 1
