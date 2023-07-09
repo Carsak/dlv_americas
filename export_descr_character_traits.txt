@@ -21587,26 +21587,6 @@ Trigger general_spawn_age_elderly
     Affects CharacterAges  1  Chance  100
 
 ;------------------- Winter Campaigns-----------------------------------
-Trigger ItsWinterNow
-    WhenToTest CharacterTurnEnd
-
-    Condition Trait SummerWinterCampaign = 1
-        and not I_IsTriggerTrue ItsSummerNow
-	and CharacterIsLocal
-	and not AgentType = admiral
-
-    Affects SummerWinterCampaign  1  Chance  100
-
-;------------------------------------------
-Trigger ItsSummerNow
-    WhenToTest CharacterTurnEnd
-
-    Condition Trait SummerWinterCampaign = 2
-        and not I_IsTriggerTrue ItsWinterNow
-	and CharacterIsLocal
-	and not AgentType = admiral
-
-    Affects SummerWinterCampaign  -1  Chance  100
 ;------------------------------------------
 Trigger AlignSeason
     WhenToTest CharacterTurnStart
