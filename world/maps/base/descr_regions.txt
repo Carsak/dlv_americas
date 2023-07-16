@@ -221,13 +221,13 @@ Aguapalam_r
 	religions { catholic 0 orthodox 0 islam 43 pagan 57 heretic 0 }
 Cochimi_r
 	Cochimi
-	apachean
+	england
 	Native_Rebels
 	61 177 58
 	atlantic, no_pirates
 	5
 	4
-	religions { catholic 0 orthodox 0 islam 93 pagan 7 heretic 0 }
+	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
 Culiacan_r
 	Culiacan
 	apachean

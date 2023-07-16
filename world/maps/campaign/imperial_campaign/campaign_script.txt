@@ -4695,10 +4695,11 @@ end_monitor
 	 	add_money spain 5000
 		increment_kings_purse spain -2000
         increment_kings_purse france -2000
+		increment_kings_purse england -2000
         
 		if I_LocalFaction spain
 			add_events
-				event	historic prestige_lord factions { spain, france, }
+				event	historic prestige_lord factions { spain, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4731,10 +4732,11 @@ end_monitor
 	 	add_money spain 10000
 		increment_kings_purse spain -2000
         increment_kings_purse france -2000
+		increment_kings_purse england -2000
 
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_baron factions { spain, france, }
+				event	historic prestige_baron factions { spain, }
 				date	1
 	 		end_add_events
 		end_if
@@ -4767,10 +4769,11 @@ end_monitor
 	 	add_money spain 15000
 		increment_kings_purse spain -900
         increment_kings_purse france -900
+		increment_kings_purse france -900
 	 	
 	 	if I_LocalFaction spain
 			add_events
-				event	historic prestige_viscount factions { spain, france, }
+				event	historic prestige_viscount factions { spain, }
 				date	1
 	 		end_add_events
 		end_if

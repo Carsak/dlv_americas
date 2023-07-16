@@ -157,7 +157,7 @@ can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction						england, spawned_on_event
+faction						england
 culture						northern_european
 religion					catholic
 symbol						models_strat/symbol_england.CAS
@@ -170,22 +170,10 @@ logo_index					FACTION_LOGO_ENGLAND
 small_logo_index			SMALL_FACTION_LOGO_ENGLAND
 triumph_value				5
 custom_battle_availability	yes
-	horde_min_units				10
-	horde_max_units				20
-	horde_max_units_reduction_every_horde 10
-	horde_unit_per_settlement_population	250
-	horde_min_named_characters	2
-	horde_max_percent_army_stack 80
-	horde_disband_percent_on_settlement_capture	0
-	horde_unit					Crossbowmen
-	horde_unit					Pikemen
-	horde_unit					Musketeers
-	horde_unit					New World Cuirassers
-	horde_unit					Demi Lancers
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			yes
-has_family_tree					yes
+has_family_tree				yes
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -205,7 +193,7 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			yes
-has_family_tree					yes
+has_family_tree				yes
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
