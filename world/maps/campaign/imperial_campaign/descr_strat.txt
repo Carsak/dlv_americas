@@ -4,6 +4,7 @@ campaign		Americas
 playable
 	spain
     france
+	england
 	aztecs
 	mayans
 	apachean
@@ -12,7 +13,6 @@ playable
 	tarascans
 end
 nonplayable
-	england
 	slave
 end
 
@@ -1889,10 +1889,65 @@ relative 	Alosaka, 	Sahkyo,		Helaku,	Ahote,  Koko,  Manipi, end
 
 faction	england, balanced smith
 ai_label	default 
-dead_until_resurrected
 denari	10000
-denari_kings_purse	1000
+denari_kings_purse	5000
 name_faction spy aztecs
+
+settlement
+{
+	level village
+	region Cochimi_r
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator england
+
+    building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Robert Rich, named character, age 40, x 7, y 82
+traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1 ;cochimis
+army
+unit		New World Bodyguard		exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+unit		NE Ribault				exp 0 armour 0 weapon_lvl 0
+unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+
+character	Alfred Arthure, admiral, male, age 31, x 13, y 85 
+army
+unit		carrack				exp 1 armour 0 weapon_lvl 0
+unit		carrack				exp 1 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;; FRANCE ;;;;;;;;;;;;;;
 faction	france, balanced smith
@@ -1910,6 +1965,7 @@ settlement
 	population 2500
 	plan_set default_set
 	faction_creator france
+	
     building
 	{
 		type core_building wooden_wall
@@ -1982,31 +2038,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator aztecs
-}
-
-
-
-settlement
-{
-	level village
-	region Cochimi_r
-
-	year_founded 0
-	population 600
-	plan_set default_set
-	faction_creator apachean
-	building
-	{
-		type hunters_tent hunters_tipi
-	}
-	building
-	{
-		type medicine_tent medicine_tipi
-	}
-	building
-	{
-		type farmers_tent farmers_tipi
-	}
 }
 
 settlement
@@ -2797,21 +2828,6 @@ unit		Native Archers				exp 1 armour 0 weapon_lvl 0
 unit		Native Archers				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors			exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors			exp 1 armour 0 weapon_lvl 0
-
-
-
-character	sub_faction apachean, Askook, general, male, age 24, x 7, y 82			;cochimis
-army
-unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
-unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 0 armour 0 weapon_lvl 0
-unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
-unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
-unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Bidzil, general, male, age 19, x 10, y 118		;pitic
 army
