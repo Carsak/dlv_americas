@@ -4433,7 +4433,7 @@ stat_pri_armour  0, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      1, -2, 0, 4
-stat_mental      8, normal, trained
+stat_mental      8, disciplined, trained
 stat_charge_dist 30
 stat_fire_delay  -500
 stat_food        60, 300
@@ -7837,7 +7837,7 @@ stat_pri_armour  5, 5, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      1, 0, 2, -2
-stat_mental      13, low, trained
+stat_mental      13, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -11394,7 +11394,7 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, f
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         11, 3, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
+stat_pri         9, 3, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -11426,12 +11426,12 @@ class            light
 voice_type       Light
 accent         Native
 banner faction   main_infantry
-soldier          Eagle_Warriors, 48, 0, 1
+soldier          Eagle_Warriors, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         14, 8, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
+stat_pri         12, 8, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -11467,7 +11467,7 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foo
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         12, 3, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
+stat_pri         10, 3, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -11535,7 +11535,7 @@ class            missile
 voice_type       Light
 accent         Native
 banner faction   main_missile
-soldier          Arrow_Warriors, 48, 0, 1
+soldier          Arrow_Warriors, 60, 0, 1
 mount_effect     elephant +6
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit, cannot_skirmish, free_upkeep_unit
 move_speed_mod   1.3
@@ -11556,7 +11556,7 @@ stat_mental      9, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 480, 112, 60, 140, 480, 4, 100
+stat_cost        1, 580, 112, 60, 140, 580, 4, 100
 armour_ug_levels 1
 armour_ug_models Arrow_Warriors
 ownership        aztecs, tarascans, tlaxcalans, slave
@@ -14691,7 +14691,7 @@ category         infantry
 class            light
 voice_type       Light
 banner faction   main_infantry
-soldier          Indian_Light, 48, 0, 1
+soldier          Indian_Light, 60, 0, 1
 attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, hide_anywhere, free_upkeep_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -14743,7 +14743,7 @@ stat_pri_armour  0, 2, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, -4
-stat_mental      1, normal, untrained
+stat_mental      5, normal, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
@@ -14780,7 +14780,7 @@ stat_pri_armour  0, 2, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, -4
-stat_mental      5, normal, highly_trained
+stat_mental      5, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
@@ -14890,7 +14890,7 @@ stat_pri_armour  0, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, 0
-stat_mental      5, normal, untrained
+stat_mental      7, normal, untrained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -14928,7 +14928,7 @@ stat_pri_armour  2, 5, 3, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, -4
-stat_mental      5, normal, trained
+stat_mental      9, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -14965,7 +14965,7 @@ stat_pri_armour  0, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, -4
-stat_mental      3, normal, trained
+stat_mental      9, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -15003,7 +15003,7 @@ stat_pri_armour  0, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 5, 0, 0
-stat_mental      3, normal, trained
+stat_mental      9, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -15826,7 +15826,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Dismounted_Conquistadores, 24, 0, 1.2
-attributes       sea_faring, hide_forest, can_withdraw
+attributes       sea_faring, hide_forest, can_withdraw, hardy, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      2, 0
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -15840,7 +15840,7 @@ stat_pri_armour  5, 5, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      1, 0, 2, -2
-stat_mental      13, low, trained
+stat_mental      13, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
