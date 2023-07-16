@@ -3942,6 +3942,32 @@ end_monitor
 		
 		create_unit Havana, Dismounted Conquistadores, num 2, exp 0, arm 0, wep 0
 	end_monitor
+	
+	monitor_event FactionTurnStart FactionType england
+		and I_IsFactionAIControlled england
+		and I_NumberOfSettlements england < 3
+		and I_NumberOfSettlements england > 0
+		
+		spawn_army 
+			faction england
+			character	random_name, general, age 29, x 9, y 78
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+		end
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType france
+		and I_IsFactionAIControlled france
+		and I_NumberOfSettlements france < 3
+		and I_NumberOfSettlements france > 0
+		
+		spawn_army 
+			faction france
+			character	random_name, general, age 29, x 200, y 106
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+		end
+	end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;; Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
