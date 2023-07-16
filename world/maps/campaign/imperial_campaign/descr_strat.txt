@@ -1895,7 +1895,7 @@ name_faction spy aztecs
 
 settlement
 {
-	level village
+	level large_town
 	region Cochimi_r
 
 	year_founded 0
@@ -1921,7 +1921,7 @@ settlement
 	}
 }
 
-character	Robert Rich, named character, age 40, x 7, y 82
+character	Robert Rich, named character, leader, age 40, x 7, y 82
 traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1 ;cochimis
 army
 unit		New World Bodyguard		exp 0 armour 0 weapon_lvl 0
