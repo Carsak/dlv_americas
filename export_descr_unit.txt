@@ -14598,7 +14598,7 @@ stat_pri_armour  2, 3, 3, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      1, 2, 5, -2
-stat_mental      3, normal, trained
+stat_mental      5, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -15370,7 +15370,7 @@ stat_pri_armour  0, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 0, 5, -4
-stat_mental      3, normal, trained
+stat_mental      5, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
