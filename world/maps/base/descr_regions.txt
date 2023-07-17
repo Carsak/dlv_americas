@@ -326,7 +326,7 @@ Cuba
 	sugar, america, atlantic, no_pirates, no_brigands, rome
 	5
 	8
-	religions { catholic 78 orthodox 0 islam 0 pagan 15 heretic 7 }
+	religions { catholic 98 orthodox 0 islam 0 pagan 1 heretic 1 }
 Ocotlan_r
 	Ocotlan
 	tarascans
