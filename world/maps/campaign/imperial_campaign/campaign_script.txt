@@ -4786,6 +4786,14 @@ end_monitor
 				increment_kings_purse spain 1000
 			end_if
 			
+			if I_IsFactionAIControlled france
+				increment_kings_purse france 1500
+			end_if
+			
+			if I_IsFactionAIControlled england
+				increment_kings_purse england 1500
+			end_if
+			
 			if I_IsFactionAIControlled aztecs
 				increment_kings_purse aztecs 1000
 			end_if
@@ -4820,6 +4828,14 @@ end_monitor
 				increment_kings_purse spain 3000
 			end_if
 			
+			if I_IsFactionAIControlled france
+				increment_kings_purse france 4500
+			end_if
+			
+			if I_IsFactionAIControlled england
+				increment_kings_purse england 4500
+			end_if
+			
 			if I_IsFactionAIControlled aztecs
 				increment_kings_purse aztecs 1000
 			end_if
@@ -4852,6 +4868,14 @@ end_monitor
 		
 			if I_IsFactionAIControlled spain
 				increment_kings_purse spain 4000
+			end_if
+			
+			if I_IsFactionAIControlled france
+				increment_kings_purse france 6000
+			end_if
+			
+			if I_IsFactionAIControlled england
+				increment_kings_purse england 7000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
