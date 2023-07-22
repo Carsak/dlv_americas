@@ -570,7 +570,7 @@ building barracks
                 royal_armoury
             }
         }
-        royal_armoury city requires factions { turks, venice, milan, portugal, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        royal_armoury city requires factions { denmark, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
         {
             capability
             {
@@ -632,7 +632,8 @@ building barracks
                 recruit_pool "ME Town Militia"  1   0.2   5  0  requires factions { mongols, } 
                 recruit_pool "Town Militia"  1   0.2   5  0  requires factions { Normans, } 
                 recruit_pool "Peasant Spearmen"  1   0.2   5  0  requires factions { Saxons, }
-		recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
+				recruit_pool "New World Bodyguard"  1   0.1   1  0  requires factions { england, france, spain, } 
+				
                 law_bonus bonus 3
             }
             material wooden

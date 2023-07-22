@@ -228,6 +228,15 @@ Cochimi_r
 	5
 	4
 	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
+English_camp_r
+	English_camp
+	england
+	Native_Rebels
+	175 164 38
+	atlantic, no_pirates
+	5
+	4
+	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
 Culiacan_r
 	Culiacan
 	apachean
@@ -255,6 +264,15 @@ Zacatecas_r
 	0
 	5
 	religions { catholic 0 orthodox 0 islam 23 pagan 77 heretic 0 }
+Durango_r
+	Durango
+	chichimeca
+	Native_Rebels
+	24 175 112
+	atlantic, no_pirates
+	0
+	5
+	religions { catholic 0 orthodox 0 islam 23 pagan 77 heretic 0 }
 Colotan_r
 	Colotan
 	chichimeca
@@ -269,6 +287,15 @@ San_Luis_Potosi_r
 	chichimeca
 	Native_Rebels
 	10 11 99
+	gold, atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+East_Coast_r
+	East_Coast
+	chichimeca
+	Native_Rebels
+	255 151 119
 	gold, atlantic, no_pirates
 	5
 	5

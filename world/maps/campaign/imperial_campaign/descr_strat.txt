@@ -1921,6 +1921,34 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region English_camp_r
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator england
+
+    building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 character	Robert Rich, named character, leader, age 40, x 7, y 82
 traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1 ;cochimis
 army
@@ -1943,6 +1971,13 @@ unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
 unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
 unit		NE Ribault				exp 0 armour 0 weapon_lvl 0
 unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+
+character	Geoffrey Geoffrey, general, male, age 26, x 2, y 91
+army
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+unit		Musketeers				exp 0 armour 0 weapon_lvl 0
 
 character	Alfred Arthure, admiral, male, age 31, x 13, y 85 
 army
@@ -2343,6 +2378,44 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator apachean
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
+settlement
+{
+	level village
+	region Durango_r
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator chichimeca
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
+settlement
+{
+	level village
+	region East_Coast_r
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator chichimeca
 	building
 	{
 		type hunters_tent hunters_tipi
