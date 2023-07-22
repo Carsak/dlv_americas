@@ -291,6 +291,15 @@ San_Luis_Potosi_r
 	5
 	5
 	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
+East_Coast_r
+	East_Coast
+	chichimeca
+	Native_Rebels
+	255 151 119
+	gold, atlantic, no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 19 pagan 81 heretic 0 }
 Ojuelos_r
 	Ojuelos
 	chichimeca

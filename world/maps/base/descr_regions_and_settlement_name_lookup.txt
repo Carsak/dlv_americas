@@ -46,6 +46,8 @@ English_camp_r
 English_camp
 Durango_r
 Durango
+East_Coast_r
+East_Coast
 Culiacan_r
 Culiacan
 Zacatecas_r
