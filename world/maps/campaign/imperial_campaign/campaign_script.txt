@@ -3590,7 +3590,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain
-		and I_NumberOfSettlements spain < 4
+		and I_NumberOfSettlements spain < 5
 		and I_NumberOfSettlements spain > 0
 		
 		spawn_army 
@@ -3603,7 +3603,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
 		and I_IsFactionAIControlled england
-		and I_NumberOfSettlements england < 4
+		and I_NumberOfSettlements england < 5
 		and I_NumberOfSettlements england > 0
 		
 		spawn_army 
@@ -3616,7 +3616,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType france
 		and I_IsFactionAIControlled france
-		and I_NumberOfSettlements france < 4
+		and I_NumberOfSettlements france < 5
 		and I_NumberOfSettlements france > 0
 		
 		spawn_army 
@@ -4825,15 +4825,15 @@ end_monitor
 		and CampaignDifficulty = hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 3000
+				increment_kings_purse spain 4000
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 4500
+				increment_kings_purse france 5000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 4500
+				increment_kings_purse england 5000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
