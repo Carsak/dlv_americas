@@ -44,6 +44,8 @@ Cochimi_r
 Cochimi
 English_camp_r
 English_camp
+Durango_r
+Durango
 Culiacan_r
 Culiacan
 Zacatecas_r

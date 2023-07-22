@@ -570,7 +570,7 @@ building barracks
                 royal_armoury
             }
         }
-        royal_armoury city requires factions { england, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        royal_armoury city requires factions { denmark, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
         {
             capability
             {

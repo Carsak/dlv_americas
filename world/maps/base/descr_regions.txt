@@ -264,6 +264,15 @@ Zacatecas_r
 	0
 	5
 	religions { catholic 0 orthodox 0 islam 23 pagan 77 heretic 0 }
+Durango_r
+	Durango
+	chichimeca
+	Native_Rebels
+	24 175 112
+	atlantic, no_pirates
+	0
+	5
+	religions { catholic 0 orthodox 0 islam 23 pagan 77 heretic 0 }
 Colotan_r
 	Colotan
 	chichimeca
