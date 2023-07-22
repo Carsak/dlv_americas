@@ -228,6 +228,15 @@ Cochimi_r
 	5
 	4
 	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
+English_camp_r
+	English_camp
+	england
+	Native_Rebels
+	175 164 38
+	atlantic, no_pirates
+	5
+	4
+	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
 Culiacan_r
 	Culiacan
 	apachean

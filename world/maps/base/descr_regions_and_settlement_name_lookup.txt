@@ -42,6 +42,8 @@ Aguapalam_r
 Aguapalam
 Cochimi_r
 Cochimi
+English_camp_r
+English_camp
 Culiacan_r
 Culiacan
 Zacatecas_r
