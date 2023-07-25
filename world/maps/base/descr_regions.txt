@@ -18,8 +18,8 @@ Tongva_Region
 	Native_Rebels
 	160 244 131
 	no_pirates
-	0
-	0
+	5
+	5
 	religions { catholic 0 orthodox 0 islam 95 pagan 5 heretic 0 }
 Apache_r
 	Apache_Camp
@@ -37,7 +37,7 @@ Apache2_r
 	66 130 124
 	atlantic, no_pirates
 	5
-	3
+	5
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Apache3_r
 	Apache3_Camp
@@ -46,7 +46,7 @@ Apache3_r
 	130 102 120
 	atlantic, no_pirates
 	5
-	3
+	5
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 South1_camp_r
 	South1_camp
@@ -55,7 +55,7 @@ South1_camp_r
 	64 201 89
 	atlantic, no_pirates
 	5
-	3
+	7
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 South2_camp_r
 	South2_camp
@@ -64,7 +64,7 @@ South2_camp_r
 	0 255 191
 	atlantic, no_pirates
 	5
-	3
+	8
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 South3_camp_r
 	South3_camp
@@ -73,7 +73,7 @@ South3_camp_r
 	211 183 42
 	atlantic, no_pirates
 	5
-	3
+	6
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Comanche_r
 	Comanche
@@ -82,7 +82,7 @@ Comanche_r
 	99 255 17
 	atlantic, no_pirates
 	0
-	3
+	5
 	religions { catholic 0 orthodox 0 islam 93 pagan 7 heretic 0 }
 Caddo_r
 	Caddo
@@ -99,8 +99,8 @@ Chickasaw_Region
 	Native_Rebels
 	189 244 131
 	cotton, atlantic, no_pirates
-	0
-	0
+	5
+	7
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Alibamu_Region
 	Alibamu
@@ -109,7 +109,7 @@ Alibamu_Region
 	52 54 131
 	tobacco, cotton, atlantic, no_pirates
 	0
-	0
+	7
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Miccosoukee_r
 	Miccosoukee
@@ -126,8 +126,8 @@ Yamacraws_Region
 	Native_Rebels
 	250 244 131
 	cotton, atlantic, no_pirates
-	0
-	0
+	5
+	7
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Pitic_r
 	Pitic
@@ -207,8 +207,8 @@ Navojoa_Region
 	Native_Rebels
 	172 27 27
 	atlantic, no_pirates
-	0
-	0
+	5
+	7
 	religions { catholic 0 orthodox 0 islam 62 pagan 38 heretic 0 }
 Aguapalam_r
 	Aguapalam
@@ -252,8 +252,8 @@ Tequesta_Region
 	Native_Rebels
 	52 244 131
 	sugar, atlantic, no_pirates, no_brigands
-	0
-	0
+	5
+	5
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Zacatecas_r
 	Zacatecas
