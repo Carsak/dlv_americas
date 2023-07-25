@@ -163,7 +163,7 @@
       <revolt_additional_armies bool="false"/>
       <revolt_crusading_armies bool="false"/>
 	  <num_units_sett_garrison_base int = "7"/>
-	  <num_units_sett_garrison_level_modifier int = "7"/>
+	  <num_units_sett_garrison_level_modifier int = "3"/>
    </revolt>
    <characters>
       <agents_can_hide bool="false"/>
