@@ -324,7 +324,7 @@ relative 	Diego Velazquez,	Castellana,	Pedro, Manuela, Sancha, Vaasco,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; AZTECS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	aztecs, balanced smith
-ai_label	default 
+ai_label	aztecs 
 denari	15000
 denari_kings_purse	1
 settlement
