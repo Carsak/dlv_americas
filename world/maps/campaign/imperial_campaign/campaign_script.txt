@@ -32,6 +32,21 @@ set_counter tarascans_start 0
 set_counter england_start 0
 set_counter france_start 0
 
+declare_counter is_player_faction
+
+set_counter is_player_faction 0
+
+monitor_event Transgression TransgressionName = TC_INSTIGATE_SIEGE
+and FactionIsLocal
+and not TargetFactionIsLocal
+	set_counter is_player_faction 1
+end_monitor
+
+monitor_event Transgression TransgressionName = TC_INSTIGATE_SIEGE
+and not FactionIsLocal
+	set_counter is_player_faction 0
+end_monitor
+
 monitor_event FactionTurnStart FactionIsLocal
 	if I_LocalFaction spain
 		set_counter spain_start 1
@@ -76,9 +91,10 @@ end_monitor
 
 declare_counter Havana_siege
 declare_counter Havana_spawn
+
 monitor_conditions not I_SettlementUnderSiege Havana
-set_counter Havana_siege 0
-set_counter Havana_spawn 0
+	set_counter Havana_siege 0
+	set_counter Havana_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Havana
@@ -146,9 +162,10 @@ end_monitor
 
 declare_counter Tenochtitlan_siege
 declare_counter Tenochtitlan_spawn
+
 monitor_conditions not I_SettlementUnderSiege Tenochtitlan
-set_counter Tenochtitlan_siege 0
-set_counter Tenochtitlan_spawn 0
+	set_counter Tenochtitlan_siege 0
+	set_counter Tenochtitlan_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tenochtitlan
@@ -202,6 +219,7 @@ monitor_conditions I_SettlementUnderSiege Tuxpan
 and I_CompareCounter Tuxpan_siege = 0
 if I_SettlementOwner Tuxpan = aztecs
 and I_CompareCounter aztecs_start 0
+and I_CompareCounter is_player_faction 1
 	create_unit Tuxpan, Aztec Warriors, num 2, exp 0, arm 0, wep 0
 	create_unit Tuxpan, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
 	create_unit Tuxpan, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
@@ -247,15 +265,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tula
 and I_CompareCounter Tula_siege = 0
-if I_SettlementOwner Tula = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Tula, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tula, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tula, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Tula, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tula_spawn 1
-end_if
-set_counter Tula_siege 1
+	if I_SettlementOwner Tula = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Tula, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tula, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tula, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Tula, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tula_spawn 1
+	end_if
+	
+	set_counter Tula_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tula
@@ -294,15 +314,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Toluca
 and I_CompareCounter Toluca_siege = 0
-if I_SettlementOwner Toluca = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Toluca, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Toluca, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Toluca, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Toluca, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Toluca_spawn 1
-end_if
-set_counter Toluca_siege 1
+	if I_SettlementOwner Toluca = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Toluca, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Toluca, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Toluca, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Toluca, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Toluca_spawn 1
+	end_if
+	
+	set_counter Toluca_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Toluca
@@ -341,15 +363,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Huaxtepec
 and I_CompareCounter Huaxtepec_siege = 0
-if I_SettlementOwner Huaxtepec = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Huaxtepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Huaxtepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Huaxtepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Huaxtepec, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Huaxtepec_spawn 1
-end_if
-set_counter Huaxtepec_siege 1
+	if I_SettlementOwner Huaxtepec = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Huaxtepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Huaxtepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Huaxtepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Huaxtepec, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Huaxtepec_spawn 1
+	end_if
+	
+	set_counter Huaxtepec_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Huaxtepec
@@ -388,15 +412,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tixtla
 and I_CompareCounter Tixtla_siege = 0
-if I_SettlementOwner Tixtla = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Tixtla, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tixtla, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tixtla, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Tixtla, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tixtla_spawn 1
-end_if
-set_counter Tixtla_siege 1
+	if I_SettlementOwner Tixtla = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Tixtla, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tixtla, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tixtla, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Tixtla, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tixtla_spawn 1
+	end_if
+	
+	set_counter Tixtla_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tixtla
@@ -428,22 +454,23 @@ end_monitor
 
 declare_counter Tehuacan_siege
 declare_counter Tehuacan_spawn
+
 monitor_conditions not I_SettlementUnderSiege Tehuacan
-set_counter Tehuacan_siege 0
-set_counter Tehuacan_spawn 0
+	set_counter Tehuacan_siege 0
+	set_counter Tehuacan_spawn 0
 end_monitor
 
-monitor_conditions I_SettlementUnderSiege Tehuacan
+monitor_conditions I_SettlementUnderSiege Tehuacan 
 and I_CompareCounter Tehuacan_siege = 0
-if I_SettlementOwner Tehuacan = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Tehuacan, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tehuacan, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tehuacan, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Tehuacan, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tehuacan_spawn 1
-end_if
-set_counter Tehuacan_siege 1
+	if I_SettlementOwner Tehuacan = aztecs
+	and I_CompareCounter is_player_faction 1
+		create_unit Tehuacan, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tehuacan, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tehuacan, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Tehuacan, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tehuacan_spawn 1
+	end_if
+	set_counter Tehuacan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tehuacan
@@ -482,15 +509,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Danipaguache
 and I_CompareCounter Danipaguache_siege = 0
-if I_SettlementOwner Danipaguache = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Danipaguache, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Danipaguache, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Danipaguache, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Danipaguache, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Danipaguache_spawn 1
-end_if
-set_counter Danipaguache_siege 1
+	if I_SettlementOwner Danipaguache = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Danipaguache, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Danipaguache, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Danipaguache, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Danipaguache, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Danipaguache_spawn 1
+	end_if
+	
+	set_counter Danipaguache_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Danipaguache
@@ -529,15 +558,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Mitla
 and I_CompareCounter Mitla_siege = 0
-if I_SettlementOwner Mitla = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Mitla, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Mitla, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Mitla, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Mitla, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Mitla_spawn 1
-end_if
-set_counter Mitla_siege 1
+	if I_SettlementOwner Mitla = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Mitla, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Mitla, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Mitla, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Mitla, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Mitla_spawn 1
+	end_if
+	
+	set_counter Mitla_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Mitla
@@ -576,15 +607,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tehuantepec
 and I_CompareCounter Tehuantepec_siege = 0
-if I_SettlementOwner Tehuantepec = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Tehuantepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tehuantepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tehuantepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Tehuantepec, Aztec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tehuantepec_spawn 1
-end_if
-set_counter Tehuantepec_siege 1
+	if I_SettlementOwner Tehuantepec = aztecs
+	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Tehuantepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tehuantepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tehuantepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Tehuantepec, Aztec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tehuantepec_spawn 1
+	end_if
+	
+	set_counter Tehuantepec_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tehuantepec
@@ -616,22 +649,24 @@ end_monitor
 
 declare_counter Tlaxcala_siege
 declare_counter Tlaxcala_spawn
+
 monitor_conditions not I_SettlementUnderSiege Tlaxcala
-set_counter Tlaxcala_siege 0
-set_counter Tlaxcala_spawn 0
+	set_counter Tlaxcala_siege 0
+	set_counter Tlaxcala_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tlaxcala
 and I_CompareCounter Tlaxcala_siege = 0
-if I_SettlementOwner Tlaxcala = tlaxcalans
-and I_CompareCounter tlaxcalans_start 0
-	create_unit Tlaxcala, Tlaxcalan Warriors, num 3, exp 0, arm 0, wep 0
-	create_unit Tlaxcala, Tlaxcalan Spearmen, num 4, exp 0, arm 0, wep 0
-	create_unit Tlaxcala, Tlaxcalan Spear Throwers, num 4, exp 0, arm 0, wep 0
-	create_unit Tlaxcala, Tlaxcalan Archers, num 5, exp 0, arm 0, wep 0
-	set_counter Tlaxcala_spawn 1
-end_if
-set_counter Tlaxcala_siege 1
+and TargetFactionIsLocal
+	if I_SettlementOwner Tlaxcala = tlaxcalans
+	and I_CompareCounter tlaxcalans_start 0
+		create_unit Tlaxcala, Tlaxcalan Warriors, num 3, exp 0, arm 0, wep 0
+		create_unit Tlaxcala, Tlaxcalan Spearmen, num 4, exp 0, arm 0, wep 0
+		create_unit Tlaxcala, Tlaxcalan Spear Throwers, num 4, exp 0, arm 0, wep 0
+		create_unit Tlaxcala, Tlaxcalan Archers, num 5, exp 0, arm 0, wep 0
+		set_counter Tlaxcala_spawn 1
+	end_if
+	set_counter Tlaxcala_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tlaxcala
@@ -684,6 +719,7 @@ end_monitor
 monitor_conditions I_SettlementUnderSiege Cholula
 and I_CompareCounter Cholula_spawn = 1
 	if I_SettlementOwner Cholula = tlaxcalans
+	and I_CompareCounter is_player_faction 1
 	spawn_army 
 	faction tlaxcalans
 	character	random_name, general, age 28, x 90, y 27, direction SW	       
@@ -764,15 +800,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacapu
 and I_CompareCounter Zacapu_siege = 0
-if I_SettlementOwner Zacapu = tarascans
-and I_CompareCounter tarascans_start 0
-	create_unit Zacapu, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Zacapu, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Zacapu, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Zacapu, Tarascan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Zacapu_spawn 1
-end_if
-set_counter Zacapu_siege 1
+	if I_SettlementOwner Zacapu = tarascans
+	and I_CompareCounter tarascans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Zacapu, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Zacapu, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Zacapu, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Zacapu, Tarascan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Zacapu_spawn 1
+	end_if
+	
+	set_counter Zacapu_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacapu
@@ -811,15 +849,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Ocotlan
 and I_CompareCounter Ocotlan_siege = 0
-if I_SettlementOwner Ocotlan = tarascans
-and I_CompareCounter tarascans_start 0
-	create_unit Ocotlan, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Ocotlan, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Ocotlan, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Ocotlan, Tarascan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Ocotlan_spawn 1
-end_if
-set_counter Ocotlan_siege 1
+	if I_SettlementOwner Ocotlan = tarascans
+	and I_CompareCounter tarascans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Ocotlan, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Ocotlan, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Ocotlan, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Ocotlan, Tarascan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Ocotlan_spawn 1
+	end_if
+	
+	set_counter Ocotlan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Ocotlan
@@ -858,15 +898,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Ahuacatlan
 and I_CompareCounter Ahuacatlan_siege = 0
-if I_SettlementOwner Ahuacatlan = tarascans
-and I_CompareCounter tarascans_start 0
-	create_unit Ahuacatlan, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Ahuacatlan, Tarascan Spearmen, num 2, exp 0, arm 0, wep 0
-	create_unit Ahuacatlan, Tarascan Spear Throwers, num 2, exp 0, arm 0, wep 0
-	create_unit Ahuacatlan, Tarascan Archers, num 3, exp 0, arm 0, wep 0
-	set_counter Ahuacatlan_spawn 1
-end_if
-set_counter Ahuacatlan_siege 1
+	if I_SettlementOwner Ahuacatlan = tarascans
+	and I_CompareCounter tarascans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Ahuacatlan, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Ahuacatlan, Tarascan Spearmen, num 2, exp 0, arm 0, wep 0
+		create_unit Ahuacatlan, Tarascan Spear Throwers, num 2, exp 0, arm 0, wep 0
+		create_unit Ahuacatlan, Tarascan Archers, num 3, exp 0, arm 0, wep 0
+		set_counter Ahuacatlan_spawn 1
+	end_if
+	
+	set_counter Ahuacatlan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Ahuacatlan
@@ -902,20 +944,22 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tecoman
 and I_CompareCounter Tecoman_siege = 0
-if I_SettlementOwner Tecoman = tarascans
-and I_CompareCounter tarascans_start 0
-	create_unit Tecoman, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tecoman, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tecoman, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
-	create_unit Tecoman, Tarascan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tecoman_spawn 1
-end_if
-set_counter Tecoman_siege 1
+	if I_SettlementOwner Tecoman = tarascans
+	and I_CompareCounter tarascans_start 0
+		create_unit Tecoman, Tarascan Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tecoman, Tarascan Spearmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tecoman, Tarascan Spear Throwers, num 3, exp 0, arm 0, wep 0
+		create_unit Tecoman, Tarascan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tecoman_spawn 1
+	end_if
+	
+	set_counter Tecoman_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tecoman
 and I_CompareCounter Tecoman_spawn = 1
 	if I_SettlementOwner Tecoman = tarascans
+	and I_CompareCounter is_player_faction 1
 	spawn_army 
 	faction tarascans
 	character	random_name, general, age 28, x 45, y 39, direction N	       
@@ -949,15 +993,16 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacatecas
 and I_CompareCounter Zacatecas_siege = 0
-if I_SettlementOwner Zacatecas = chichimeca
-and I_CompareCounter chichimeca_start 0
-	create_unit Zacatecas, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Zacatecas, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
-	create_unit Zacatecas, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
-	create_unit Zacatecas, Chichimec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Zacatecas_spawn 1
-end_if
-set_counter Zacatecas_siege 1
+	if I_SettlementOwner Zacatecas = chichimeca
+	and I_CompareCounter chichimeca_start 0
+		create_unit Zacatecas, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Zacatecas, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
+		create_unit Zacatecas, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
+		create_unit Zacatecas, Chichimec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Zacatecas_spawn 1
+	end_if
+	
+	set_counter Zacatecas_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacatecas
@@ -996,20 +1041,21 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Colotan
 and I_CompareCounter Colotan_siege = 0
-if I_SettlementOwner Colotan = chichimeca
-and I_CompareCounter chichimeca_start 0
-	create_unit Colotan, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Colotan, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
-	create_unit Colotan, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
-	create_unit Colotan, Chichimec Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Colotan_spawn 1
-end_if
-set_counter Colotan_siege 1
+	if I_SettlementOwner Colotan = chichimeca
+	and I_CompareCounter chichimeca_start 0
+		create_unit Colotan, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Colotan, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
+		create_unit Colotan, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
+		create_unit Colotan, Chichimec Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Colotan_spawn 1
+	end_if
+	set_counter Colotan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Colotan
 and I_CompareCounter Colotan_spawn = 1
 	if I_SettlementOwner Colotan = chichimeca
+	and I_CompareCounter is_player_faction 1
 	spawn_army 
 	faction chichimeca
 	character	random_name, general, age 28, x 50, y 65, direction N	       
@@ -1043,15 +1089,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Chichen_Itza
 and I_CompareCounter Chichen_Itza_siege = 0
-if I_SettlementOwner Chichen_Itza = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Chichen_Itza, Nacom Warriors, num 3, exp 0, arm 0, wep 0
-	create_unit Chichen_Itza, Mayan Javelinmen, num 4, exp 0, arm 0, wep 0
-	create_unit Chichen_Itza, Batab Militia, num 4, exp 0, arm 0, wep 0
-	create_unit Chichen_Itza, Mayan Archers, num 5, exp 0, arm 0, wep 0
-	set_counter Chichen_Itza_spawn 1
-end_if
-set_counter Chichen_Itza_siege 1
+	if I_SettlementOwner Chichen_Itza = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Chichen_Itza, Nacom Warriors, num 3, exp 0, arm 0, wep 0
+		create_unit Chichen_Itza, Mayan Javelinmen, num 4, exp 0, arm 0, wep 0
+		create_unit Chichen_Itza, Batab Militia, num 4, exp 0, arm 0, wep 0
+		create_unit Chichen_Itza, Mayan Archers, num 5, exp 0, arm 0, wep 0
+		set_counter Chichen_Itza_spawn 1
+	end_if
+	
+	set_counter Chichen_Itza_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Chichen_Itza
@@ -1090,15 +1138,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Potochan
 and I_CompareCounter Potochan_siege = 0
-if I_SettlementOwner Potochan = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Potochan, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Potochan, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Potochan, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Potochan, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Potochan_spawn 1
-end_if
-set_counter Potochan_siege 1
+	if I_SettlementOwner Potochan = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Potochan, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Potochan, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Potochan, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Potochan, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Potochan_spawn 1
+	end_if
+	
+	set_counter Potochan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Potochan
@@ -1137,15 +1187,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Xicalango
 and I_CompareCounter Xicalango_siege = 0
-if I_SettlementOwner Xicalango = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Xicalango, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Xicalango, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Xicalango, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Xicalango, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Xicalango_spawn 1
-end_if
-set_counter Xicalango_siege 1
+	if I_SettlementOwner Xicalango = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Xicalango, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Xicalango, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Xicalango, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Xicalango, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Xicalango_spawn 1
+	end_if
+	
+	set_counter Xicalango_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Xicalango
@@ -1184,15 +1236,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Canpech
 and I_CompareCounter Canpech_siege = 0
-if I_SettlementOwner Canpech = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Canpech, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Canpech, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Canpech, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Canpech, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Canpech_spawn 1
-end_if
-set_counter Canpech_siege 1
+	if I_SettlementOwner Canpech = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Canpech, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Canpech, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Canpech, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Canpech, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Canpech_spawn 1
+	end_if
+	
+	set_counter Canpech_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Canpech
@@ -1231,15 +1285,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Uxmal
 and I_CompareCounter Uxmal_siege = 0
-if I_SettlementOwner Uxmal = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Uxmal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Uxmal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Uxmal, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Uxmal, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Uxmal_spawn 1
-end_if
-set_counter Uxmal_siege 1
+	if I_SettlementOwner Uxmal = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Uxmal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Uxmal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Uxmal, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Uxmal, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Uxmal_spawn 1
+	end_if
+	
+	set_counter Uxmal_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Uxmal
@@ -1278,15 +1334,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Chetumal
 and I_CompareCounter Chetumal_siege = 0
-if I_SettlementOwner Chetumal = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Chetumal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Chetumal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Chetumal, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Chetumal, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Chetumal_spawn 1
-end_if
-set_counter Chetumal_siege 1
+	if I_SettlementOwner Chetumal = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Chetumal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Chetumal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Chetumal, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Chetumal, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Chetumal_spawn 1
+	end_if
+	
+	set_counter Chetumal_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Chetumal
@@ -1325,15 +1383,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Althun_Ha
 and I_CompareCounter Althun_Ha_siege = 0
-if I_SettlementOwner Althun_Ha = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Althun_Ha, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Althun_Ha, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Althun_Ha, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Althun_Ha, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Althun_Ha_spawn 1
-end_if
-set_counter Althun_Ha_siege 1
+	if I_SettlementOwner Althun_Ha = mayans
+	and I_CompareCounter mayans_start 0
+	and I_CompareCounter is_player_faction 1
+		create_unit Althun_Ha, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Althun_Ha, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Althun_Ha, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Althun_Ha, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Althun_Ha_spawn 1
+	end_if
+	
+	set_counter Althun_Ha_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Althun_Ha
@@ -1372,15 +1432,16 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tikal
 and I_CompareCounter Tikal_siege = 0
-if I_SettlementOwner Tikal = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Tikal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Tikal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Tikal, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Tikal, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Tikal_spawn 1
-end_if
-set_counter Tikal_siege 1
+	if I_SettlementOwner Tikal = mayans
+	and I_CompareCounter mayans_start 0
+		create_unit Tikal, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Tikal, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Tikal, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Tikal, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Tikal_spawn 1
+	end_if
+	
+	set_counter Tikal_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tikal
@@ -1419,38 +1480,40 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Yaxchilan
 and I_CompareCounter Yaxchilan_siege = 0
-if I_SettlementOwner Yaxchilan = mayans
-and I_CompareCounter mayans_start 0
-	create_unit Yaxchilan, Nacom Warriors, num 2, exp 0, arm 0, wep 0
-	create_unit Yaxchilan, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
-	create_unit Yaxchilan, Batab Militia, num 3, exp 0, arm 0, wep 0
-	create_unit Yaxchilan, Mayan Archers, num 4, exp 0, arm 0, wep 0
-	set_counter Yaxchilan_spawn 1
-end_if
-set_counter Yaxchilan_siege 1
+	if I_SettlementOwner Yaxchilan = mayans
+	and I_CompareCounter mayans_start 0
+		create_unit Yaxchilan, Nacom Warriors, num 2, exp 0, arm 0, wep 0
+		create_unit Yaxchilan, Mayan Javelinmen, num 3, exp 0, arm 0, wep 0
+		create_unit Yaxchilan, Batab Militia, num 3, exp 0, arm 0, wep 0
+		create_unit Yaxchilan, Mayan Archers, num 4, exp 0, arm 0, wep 0
+		set_counter Yaxchilan_spawn 1
+	end_if
+	
+	set_counter Yaxchilan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Yaxchilan
 and I_CompareCounter Yaxchilan_spawn = 1
 	if I_SettlementOwner Yaxchilan = mayans
-	spawn_army 
-	faction mayans
-	character	random_name, general, age 28, x 140, y 23, direction N	       
-			unit		Priests Of Kukulcan	exp 1 armour 0 weapon_lvl 0
-			unit		Priests Of Kukulcan	exp 0 armour 0 weapon_lvl 0
-			unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
-			unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
-			unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
-			unit		Mayan Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Mayan Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Batab Militia	exp 0 armour 0 weapon_lvl 0
-			unit		Batab Militia	exp 0 armour 0 weapon_lvl 0
-			unit		Hornet Throwers	exp 0 armour 0 weapon_lvl 0
-			unit		Hornet Throwers	exp 0 armour 0 weapon_lvl 0
-	end
+	and I_CompareCounter is_player_faction 1
+		spawn_army 
+		faction mayans
+		character	random_name, general, age 28, x 140, y 23, direction N	       
+				unit		Priests Of Kukulcan	exp 1 armour 0 weapon_lvl 0
+				unit		Priests Of Kukulcan	exp 0 armour 0 weapon_lvl 0
+				unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Nacom Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mayan Javelinmen	exp 0 armour 0 weapon_lvl 0
+				unit		Mayan Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Mayan Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Batab Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Batab Militia	exp 0 armour 0 weapon_lvl 0
+				unit		Hornet Throwers	exp 0 armour 0 weapon_lvl 0
+				unit		Hornet Throwers	exp 0 armour 0 weapon_lvl 0
+		end
 	set_counter Yaxchilan_spawn 0
 	end_if		
 end_monitor
