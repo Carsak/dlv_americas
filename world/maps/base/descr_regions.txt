@@ -73,7 +73,7 @@ South3_camp_r
 	211 183 42
 	atlantic, no_pirates
 	5
-	3
+	6
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Comanche_r
 	Comanche
@@ -82,7 +82,7 @@ Comanche_r
 	99 255 17
 	atlantic, no_pirates
 	0
-	3
+	5
 	religions { catholic 0 orthodox 0 islam 93 pagan 7 heretic 0 }
 Caddo_r
 	Caddo
@@ -109,7 +109,7 @@ Alibamu_Region
 	52 54 131
 	tobacco, cotton, atlantic, no_pirates
 	0
-	0
+	7
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Miccosoukee_r
 	Miccosoukee
