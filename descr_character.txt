@@ -41,7 +41,7 @@
 ;
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-starting_action_points	100	; default value for all characters and pathfinding calculations
+starting_action_points	160	; default value for all characters and pathfinding calculations
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type			named character
@@ -1109,7 +1109,7 @@ type			priest
 
 actions			moving_normal, denounce
 wage_base		100
-starting_action_points	140
+starting_action_points	160
 
 faction			venice
 dictionary		15
