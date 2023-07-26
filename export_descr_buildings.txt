@@ -527,7 +527,7 @@ building barracks
             capability
             {
                 recruit_pool "New World Cuirassers"  1   0.2   5  2  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.2   4  1  requires factions { england, france, } 
+                recruit_pool "Pikemen"  1   0.2   4  2  requires factions { england, france, } 
 				recruit_pool "Demi Lancers"  1   0.15   1  0  requires factions { england, france, } 
 				
                 recruit_pool "Spanish Dragoons"  1   0.1   2  0  requires factions { spain, } 
@@ -4119,18 +4119,21 @@ building temple_pagan
                 agent priest  0  requires factions { mesoamerican, } 
                 recruit_pool "Aztec Spearmen"  1   0.15   3  0  requires factions { aztecs, }
 				recruit_pool "Aztec Warriors"  1   0.1   2  0  requires factions { aztecs, }
-				recruit_pool "Coyote Priests"  1   0.1   2  0  requires factions { aztecs, } 
 				
                 recruit_pool "Al holpop militia"  1   0.15   3  0  requires factions { mayans,}
-				recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { mayans, }
+				recruit_pool "Batab Militia"  1   0.1   2  0  requires factions { mayans, }
 				
-                recruit_pool "Chichimec Lancers"  1   0.15   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, } 
+                recruit_pool "Chichimec Lancers"  1   0.15   3  0  requires factions { chichimeca, }
+				recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
+								
+                
                 recruit_pool "Tarascan Spearmen"  1   0.11   2  0  requires factions { tarascans, }
-                recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
+				recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, }	
+
+				recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, }
                 recruit_pool "Tlaxcalan Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
                 recruit_pool "Tlaxcalan Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala					
-                recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, } 
+
                 
                 religion_level bonus 2
                 law_bonus bonus 1
@@ -4157,23 +4160,21 @@ building temple_pagan
 				recruit_pool "Coyote Priests"  1   0.15   3  0  requires factions { aztecs, } 
 				
                 recruit_pool "Al holpop militia"  1   0.18   3  0  requires factions { mayans, }
-				recruit_pool "Jaguar Warriors"  1   0.1   3  0  requires factions { mayans, }				
-				recruit_pool "Temple Guard"  1   0.1   3  0  requires factions { mayans, } 
-				
-                recruit_pool "Chichimec Lancers"  1   0.2   3  0  requires factions { chichimeca, } 
-                recruit_pool "Tlaxcalan Spearmen"  1   0.2   3  0  requires factions { tlaxcalans, } 
-                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, } 
+				recruit_pool "Nacom Warriors"  1   0.1   3  0  requires factions { mayans, }
+				recruit_pool "Temple Guard"  1   0.1   2  0  requires factions { mayans, }				
+
+                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, }
+				recruit_pool "Tarascan Warriors"  1   0.15   3  0  requires factions { tarascans, }
                  
-                 
-                recruit_pool "Zacatecos Raiders"  1   0.15   3  0  requires factions { chichimeca, } 
+                recruit_pool "Zacatecos Raiders"  1   0.15   3  0  requires factions { chichimeca, }
+				recruit_pool "Chichimec Shamen"  1   0.15   3  0  requires factions { chichimeca, }
+				recruit_pool "Chichimec Lancers"  1   0.2   3  0  requires factions { chichimeca, } 
+								
+				recruit_pool "Tlaxcalan Spearmen"  1   0.2   3  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tlaxcalan Warriors"  1   0.15   3  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
                 recruit_pool "Tlaxcalan Warriors"  1   1   3  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala 
-                recruit_pool "Tarascan Warriors"  1   0.15   3  0  requires factions { tarascans, } 
-                
-                
-                recruit_pool "Chichimec Shamen"  1   0.15   3  0  requires factions { chichimeca, } 
-                recruit_pool "Priests of Quetzalcoatl"  1   0.15   3  0  requires factions { tlaxcalans, tarascans, } 
-                recruit_pool "Cuahchiqueh"  1   0.1   2  0  requires factions { aztecs, tlaxcalans, tarascans, }
+ 
+                recruit_pool "Cuahchiqueh"  1   0.1   3  0  requires factions { tlaxcalans, tarascans, }
                 
                 religion_level bonus 3
                 law_bonus bonus 2
@@ -4456,11 +4457,15 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { aztecs, tarascans, }
-                recruit_pool "Eagle Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
+                recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { tarascans, }
+				recruit_pool "Jaguar Warriors"  1   0.11   2  0  requires factions { aztecs, }
+                
+				recruit_pool "Eagle Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
                 recruit_pool "Eagle Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
-                recruit_pool "Batab Militia"  1   0.1   2  0  requires factions { mayans, } 
-                recruit_pool "Guachichil Warriors"  1   0.1   2  0  requires factions { chichimeca, }
+                
+				recruit_pool "Hornet Throwers"  1   0.1   2  0  requires factions { mayans, }				
+                
+				recruit_pool "Guachichil Warriors"  1   0.1   2  0  requires factions { chichimeca, }
                 
                 happiness_bonus bonus 1 requires factions { mesoamerican, }
                 armour 1 requires factions { mesoamerican, }
@@ -4479,13 +4484,13 @@ building ball_court
         {
             capability
             {
-                recruit_pool "Eagle Warriors"  1   0.15   3  0  requires factions { aztecs, tlaxcalans, tarascans, } 
+                recruit_pool "Eagle Warriors"  1   0.15   3  0  requires factions { tlaxcalans, tarascans, }
                 recruit_pool "Guachichil Warriors"  1   0.2   3  0  requires factions { chichimeca, } 
-                recruit_pool "Jaguar Warriors"  1   0.11   2  0  requires factions { aztecs, tarascans, }
+                
+				recruit_pool "Jaguar Warriors"  1   0.15   3  0  requires factions { aztecs, }
                 recruit_pool "Jaguar Warriors"  1   1   2  0  requires factions { tlaxcalans, } and hidden_resource tlaxcala
-                recruit_pool "Jaguar Warriors"  1   0.1   2  0  requires factions { tlaxcalans, } and not hidden_resource tlaxcala
-                recruit_pool "Nacom Warriors"  1   0.15   3  0  requires factions { mayans, }
-                recruit_pool "Hornet Throwers"  1   0.1   2  0  requires factions { mayans, }
+				
+                recruit_pool "Hornet Throwers"  1   0.15   3  0  requires factions { mayans, }
                 
                 happiness_bonus bonus 3 requires factions { mesoamerican, }
                 armour 1 requires factions { mesoamerican, }
@@ -4513,9 +4518,12 @@ building skull_rack
         {
             capability
             {
-                recruit_pool "Arrow Warriors"  1   0.1   2  0  requires factions { aztecs, } 
+                recruit_pool "Arrow Warriors"  1   0.1   2  0  requires factions { aztecs, }
+				recruit_pool "Priests of Quetzalcoatl"  1   0.1   3  0  requires factions { tlaxcalans, tarascans, }
+				
                 recruit_pool "Chichimec Riders"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
-                recruit_pool "Chichimec Gunners"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1 
+                recruit_pool "Chichimec Gunners"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1
+				
                 religion_level bonus 1
                 happiness_bonus bonus 1
             }
