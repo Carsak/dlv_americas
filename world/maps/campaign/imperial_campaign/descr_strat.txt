@@ -1919,6 +1919,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type market corn_exchange
+	}
 }
 
 settlement
@@ -1946,6 +1950,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
 	}
 }
 

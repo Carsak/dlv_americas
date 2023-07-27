@@ -124,7 +124,6 @@
       <naval_sink_offset float="15.0"/>
       <naval_sink_max float="80.0"/>
       <sally_att_def_draw_divisor float="2.0"/>			<!-- sally battles are a draw if attacker lost and (number of attacker troops) > (number of defender troops)/divisor -->
-	  <use_new_sett_autoresolve bool = "false"/><!--do we use the new settlement autoresolve -->
    </autoresolve>
    <settlement>
       <sack_money_modifier float="0.65"/>
