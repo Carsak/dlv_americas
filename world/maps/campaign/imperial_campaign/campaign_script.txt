@@ -169,7 +169,7 @@ monitor_conditions not I_SettlementUnderSiege Coatzalcoalcos
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Coatzalcoalcos
-and I_CompareCounter Vera_Cruz_siege = 0
+and I_CompareCounter Coatzalcoalcos_siege = 0
 	if I_SettlementOwner Coatzalcoalcos = spain
 	and I_CompareCounter spain_start 0
 		create_unit Coatzalcoalcos, Musketeers, num 1, exp 0, arm 0, wep 0
@@ -182,7 +182,7 @@ and I_CompareCounter Vera_Cruz_siege = 0
 		set_counter Coatzalcoalcos_spawn 1
 	end_if
 
-	set_counter Vera_Cruz_siege 1
+	set_counter Coatzalcoalcos_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Coatzalcoalcos
@@ -192,7 +192,7 @@ and I_CompareCounter Coatzalcoalcos_spawn = 1
 
 		spawn_army 
 			faction spain
-			character	random_name, general, age 29, x 178, y 10
+			character	random_name, general, age 29, x 112, y 26
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
@@ -202,7 +202,6 @@ and I_CompareCounter Coatzalcoalcos_spawn = 1
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
-			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
 		end
 	
 		set_counter Coatzalcoalcos_spawn 0

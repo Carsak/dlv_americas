@@ -178,8 +178,8 @@
       <horde_target_resource_bonus int="1000"/>
    </hordes>
    <merchants>
-      <base_income_modifier float="0.7"/>
-      <trade_bonus_offset float="30.0"/>
+      <base_income_modifier float="1.4"/>
+      <trade_bonus_offset float="10.0"/>
    </merchants>
    <agents>
       <denounce_inquisitor_base_chance float="35.0"/>
