@@ -3646,7 +3646,84 @@ end_monitor
 
  	end_monitor
 
+;;;;;;;;;;;;;;;;;;;;;;;; AI French Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType france
+		and I_IsFactionAIControlled france	 	
+ 		and I_TurnNumber = 1
+		and I_NumberOfSettlements france > 0
+
+		spawn_army 
+			faction france
+			character	random_name, general, age 35, x 145, y 117
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+			unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+			unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+			unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;; AI Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ 	;;; Small force near Trujillo
+	monitor_event FactionTurnStart FactionType spain
+		and I_IsFactionAIControlled spain	 	
+ 		and I_TurnNumber = 1
+		and I_NumberOfSettlements spain > 0
+
+ 		add_money spain 10000
+
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 178, y 10
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 166, y 2
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
     ;;; Reinforcements for Spain AI, 
     ;;; cause with new reqruit system(1 unit spawn time about 5-10 turns) faction needs 
     ;;; about 5-7 settlements for normal reqruiments. Spain AI cant capture anything at the start
