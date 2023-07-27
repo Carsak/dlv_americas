@@ -462,7 +462,7 @@ mission annex_settlement
     exclude_duration 30
     score_modifier 0.8
     turn_start		3
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
    paybacks
     {
 	random 0.33	payback_id council_mod_income
@@ -480,7 +480,7 @@ mission	council_take_rebel_settlement
     exclude_duration 20
     score_modifier 1.5
     max_score			300.0	; max score clamp
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
     paybacks
     {
 	random 0.5	payback_id council_major_income
@@ -501,7 +501,7 @@ mission	council_take_settlement
     score_modifier 1.5
     max_score			200.0	; max score clamp
     turn_start			20
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
    paybacks
     {
 	random 0.5	payback_id council_major_income
@@ -521,7 +521,7 @@ mission gift_from_council
     score_modifier 0.5
     max_score			100.0	; max score clamp
     turn_start		10
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
     paybacks
     {
 	cash 0		payback_id council_major_money
@@ -539,7 +539,7 @@ mission send_emissary
     exclude_duration 20
     score_modifier 1.0
     turn_start		3
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
     paybacks
     {
         random 0.5	payback_id council_min_income
@@ -557,7 +557,7 @@ mission reinforce_region
     score_modifier 0.8
     max_score			100.0					; max score clamp
     turn_start		3
-    factions 				{ spain, }
+    factions 				{ spain, france, england, }
     paybacks
     {
         random 0.5	payback_id council_min_income

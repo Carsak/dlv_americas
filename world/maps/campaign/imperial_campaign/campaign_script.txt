@@ -3738,6 +3738,40 @@ end_monitor
 
 		terminate_monitor
 	end_monitor
+	
+	
+;;;;;;;;;;;;;;;;;;;;;;;; AI England Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType england
+		and I_IsFactionAIControlled england
+
+		spawn_army 
+			faction england
+			character	random_name, general, age 35, x 22, y 87
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+			unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;; AI Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -2655,6 +2655,26 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Desert_Camp_Region
+
+	year_founded 0
+	population 620
+	plan_set default_set
+	faction_creator england
+	
+	building
+	{
+		type farmers_tent farmers_tipi
+	}
+	building
+	{
+		type traders_tent traders_tipi
+	}
+}
+
 
 settlement
 {
