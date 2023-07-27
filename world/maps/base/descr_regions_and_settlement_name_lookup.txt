@@ -1,5 +1,7 @@
 Tongva_Region
 Tongva
+Desert_Camp_Region
+Desert_Camp_1
 Apache_r
 Apache_Camp
 Apache2_r

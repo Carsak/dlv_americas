@@ -21,6 +21,15 @@ Tongva_Region
 	5
 	5
 	religions { catholic 0 orthodox 0 islam 95 pagan 5 heretic 0 }
+Desert_Camp_Region
+	Desert_Camp_1
+	england
+	Native_Rebels
+	242 21 9
+	no_pirates
+	5
+	5
+	religions { catholic 0 orthodox 0 islam 95 pagan 5 heretic 0 }
 Apache_r
 	Apache_Camp
 	apachean
@@ -239,7 +248,7 @@ English_camp_r
 	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
 Culiacan_r
 	Culiacan
-	apachean
+	england
 	Native_Rebels
 	17 165 202
 	gold, atlantic, no_pirates

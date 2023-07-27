@@ -3738,6 +3738,40 @@ end_monitor
 
 		terminate_monitor
 	end_monitor
+	
+	
+;;;;;;;;;;;;;;;;;;;;;;;; AI England Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType england
+		and I_IsFactionAIControlled england
+
+		spawn_army 
+			faction england
+			character	random_name, general, age 35, x 22, y 87
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+			unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;; AI Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4612,7 +4646,7 @@ end_monitor
         
 
 		add_events
-			event	historic prestige_lord factions { spain, england, france}
+			event	historic prestige_lord factions { spain, england, france, }
 			date	1
 		end_add_events
 
@@ -4647,12 +4681,12 @@ end_monitor
         increment_kings_purse france -2000
 		increment_kings_purse england -2000
 
-	 	if I_LocalFaction spain
-			add_events
-				event	historic prestige_baron factions { spain, }
-				date	1
-	 		end_add_events
-		end_if
+
+		add_events
+			event	historic prestige_baron factions { spain, england, france, }
+			date	1
+		end_add_events
+
 		
 		terminate_monitor
 	end_monitor
@@ -4684,12 +4718,12 @@ end_monitor
         increment_kings_purse france -900
 		increment_kings_purse france -900
 	 	
-	 	if I_LocalFaction spain
-			add_events
-				event	historic prestige_viscount factions { spain, }
-				date	1
-	 		end_add_events
-		end_if
+
+		add_events
+			event	historic prestige_viscount factions { spain, england, france, }
+			date	1
+		end_add_events
+
 		
 		terminate_monitor
 	end_monitor
@@ -4718,12 +4752,12 @@ end_monitor
 		
 	 	add_money spain 20000
 	 	
-	 	if I_LocalFaction spain
-			add_events
-				event	historic prestige_count factions { spain, france, }
-				date	1
-	 		end_add_events
-		end_if
+
+		add_events
+			event	historic prestige_count factions { spain, england, france, }
+			date	1
+		end_add_events
+
 		
 		terminate_monitor
 	end_monitor
@@ -4752,12 +4786,12 @@ end_monitor
 		
 	 	add_money spain 25000
 	 	
-	 	if I_LocalFaction spain
-			add_events
-				event	historic prestige_marquis factions { spain, france, }
-				date	1
-	 		end_add_events
-		end_if
+
+		add_events
+			event	historic prestige_marquis factions { spain, england, france, }
+			date	1
+		end_add_events
+
 		
 		terminate_monitor
 	end_monitor
