@@ -3,6 +3,7 @@
 !export_descr_buildings.txt
 !export_descr_character_traits.txt
 !descr_campaign_db.xml
+!descr_campaign_ai_db.xml
 !.gitignore
 !descr_settlement_mechanics.xml
 !descr_missions.txt

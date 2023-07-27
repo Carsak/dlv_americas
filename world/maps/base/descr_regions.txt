@@ -104,13 +104,13 @@ Chickasaw_Region
 	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
 Alibamu_Region
 	Alibamu
-	apachean
+	france
 	Native_Rebels
 	52 54 131
 	tobacco, cotton, atlantic, no_pirates
-	0
+	5
 	7
-	religions { catholic 0 orthodox 0 islam 100 pagan 0 heretic 0 }
+	religions { catholic 100 orthodox 0 islam 0 pagan 0 heretic 0 }
 Miccosoukee_r
 	Miccosoukee
 	apachean
@@ -140,13 +140,13 @@ Pitic_r
 	religions { catholic 0 orthodox 0 islam 80 pagan 20 heretic 0 }
 Choctaw_r
 	Choctaw
-	apachean
+	france
 	Native_Rebels
 	199 31 143
 	atlantic, no_pirates
 	5
 	5
-	religions { catholic 0 orthodox 0 islam 92 pagan 8 heretic 0 }
+	religions { catholic 92 orthodox 0 islam 0 pagan 8 heretic 0 }
 Calusa_r
 	Calusa
 	apachean

@@ -172,7 +172,7 @@ resource	grain,	37,	63
 ; >>>> start of factions section <<<<
 
 faction	spain, balanced smith
-ai_label		 default 
+ai_label		 catholic 
 denari	30000
 denari_kings_purse	5000
 name_faction spy aztecs
@@ -1783,7 +1783,7 @@ relative 	Cacama, 	Xoco,		Nauyotl,  Xomimitl,  Teyacapan, Quauhxochitl,	  end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; APACHEAN ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	apachean, balanced smith
-ai_label	default 
+ai_label	islam 
 denari	10000
 denari_kings_purse	500
 settlement
@@ -1888,7 +1888,7 @@ relative 	Alosaka, 	Sahkyo,		Helaku,	Ahote,  Koko,  Manipi, end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ENGLAND ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	england, balanced smith
-ai_label	default 
+ai_label	catholic 
 denari	10000
 denari_kings_purse	5000
 name_faction spy aztecs
@@ -1919,6 +1919,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type market corn_exchange
+	}
 }
 
 settlement
@@ -1946,6 +1950,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
 	}
 }
 
@@ -1986,7 +1994,7 @@ unit		carrack				exp 1 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;; FRANCE ;;;;;;;;;;;;;;
 faction	france, balanced smith
-ai_label	default 
+ai_label	catholic 
 denari	10000
 denari_kings_purse	5000
 name_faction spy aztecs
@@ -1994,7 +2002,7 @@ name_faction spy aztecs
 settlement
 {
 	level large_town
-	region French1_camp_r
+	region Choctaw_r
 
 	year_founded 0
 	population 2500
@@ -2019,7 +2027,7 @@ settlement
 	}
 }
 
-character	Jean Ribault, named character, male, age 35, x 202, y 103
+character	Jean Ribault, named character, male, age 35, x 147, y 119
 traits GoodCommander 2 , Intelligent 1 , ReligionStarter 1
 army
 unit		New World Bodyguard		exp 0 armour 0 weapon_lvl 0
@@ -2043,13 +2051,13 @@ unit		Aventurier				exp 0 armour 0 weapon_lvl 0
 unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
 unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
 
-character	Charles Alacoque, merchant, male, age 30, x 202, y 103 
+character	Charles Alacoque, merchant, male, age 30, x 147, y 119 
 traits GoodMerchant 2 
 
-character	Giles Cottaz, merchant, male, age 22, x 202, y 103 
+character	Giles Cottaz, merchant, male, age 22, x 147, y 119 
 traits GoodMerchant 1
 
-character	Huguenin Tristram, priest, male, age 33, x 202, y 103 
+character	Huguenin Tristram, priest, male, age 33, x 147, y 119 
 traits NaturalPriestSkill 2
 
 character	Robin Brunius, admiral, male, age 31, x 207, y 103 
@@ -2253,24 +2261,29 @@ settlement
 
 settlement
 {
-	level village
-	region Choctaw_r
+	level large_town
+	region French1_camp_r
 
 	year_founded 0
-	population 450
+	population 2500
 	plan_set default_set
-	faction_creator apachean
-	building
+	faction_creator france
+	
+    building
 	{
-		type hunters_tent hunters_tipi
+		type core_building wooden_wall
 	}
 	building
 	{
-		type farmers_tent farmers_tipi
+		type barracks town_guard
 	}
 	building
 	{
-		type traders_tent traders_tipi
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -2973,7 +2986,7 @@ unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
 unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
 unit		Dog Soldiers				exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction apachean, Wakiza, general, male, age 39, x 147, y 119		;choctaw camp
+character	sub_faction apachean, Wakiza, general, male, age 39, x 202, y 103		;french 1 camp
 army
 unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0
 unit		Apachean Brave				exp 1 armour 0 weapon_lvl 0

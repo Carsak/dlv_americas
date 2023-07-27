@@ -157,6 +157,60 @@ and I_CompareCounter spain_start 0
 end_if
 set_counter Vera_Cruz_siege 1
 end_monitor
+
+;/// spain /// Coatzalcoalcos /// Coatzalcoalcos /// Borderlands
+
+declare_counter Coatzalcoalcos_siege
+declare_counter Coatzalcoalcos_spawn
+
+monitor_conditions not I_SettlementUnderSiege Coatzalcoalcos
+	set_counter Coatzalcoalcos_siege 0
+	set_counter Coatzalcoalcos_spawn 0
+end_monitor
+
+monitor_conditions I_SettlementUnderSiege Coatzalcoalcos
+and I_CompareCounter Coatzalcoalcos_siege = 0
+	if I_SettlementOwner Coatzalcoalcos = spain
+	and I_CompareCounter spain_start 0
+		create_unit Coatzalcoalcos, Musketeers, num 1, exp 0, arm 0, wep 0
+		create_unit Coatzalcoalcos, Crossbow Militia, num 1, exp 0, arm 0, wep 0
+		create_unit Coatzalcoalcos, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
+		create_unit Coatzalcoalcos, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
+		create_unit Coatzalcoalcos, Conquistadores, num 1, exp 0, arm 0, wep 0
+		create_unit Coatzalcoalcos, Pike Militia, num 2, exp 0, arm 0, wep 0
+		
+		set_counter Coatzalcoalcos_spawn 1
+	end_if
+
+	set_counter Coatzalcoalcos_siege 1
+end_monitor
+
+monitor_conditions I_SettlementUnderSiege Coatzalcoalcos
+and I_CompareCounter Coatzalcoalcos_spawn = 1
+	if I_SettlementOwner Coatzalcoalcos = spain
+ 		add_money spain 10000
+
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 112, y 26
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+		end
+	
+		set_counter Coatzalcoalcos_spawn 0
+	end_if		
+end_monitor
+
+
+
+
 ;---------------------------------------------------------------
 ;/// aztecs /// Tenochtitlan - Tenochtitlan /// Tenochtitlan_r - Tenochtitlan Region /// Capital
 
@@ -170,15 +224,17 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tenochtitlan
 and I_CompareCounter Tenochtitlan_siege = 0
-if I_SettlementOwner Tenochtitlan = aztecs
-and I_CompareCounter aztecs_start 0
-	create_unit Tenochtitlan, Aztec Warriors, num 3, exp 0, arm 0, wep 0
-	create_unit Tenochtitlan, Aztec Spearmen, num 4, exp 0, arm 0, wep 0
-	create_unit Tenochtitlan, Aztec Spear Throwers, num 4, exp 0, arm 0, wep 0
-	create_unit Tenochtitlan, Aztec Archers, num 5, exp 0, arm 0, wep 0
-	set_counter Tenochtitlan_spawn 1
-end_if
-set_counter Tenochtitlan_siege 1
+	if I_SettlementOwner Tenochtitlan = aztecs
+	and I_CompareCounter aztecs_start 0
+		create_unit Tenochtitlan, Aztec Warriors, num 3, exp 0, arm 0, wep 0
+		create_unit Tenochtitlan, Aztec Spearmen, num 4, exp 0, arm 0, wep 0
+		create_unit Tenochtitlan, Aztec Spear Throwers, num 4, exp 0, arm 0, wep 0
+		create_unit Tenochtitlan, Aztec Archers, num 5, exp 0, arm 0, wep 0
+		set_counter Tenochtitlan_spawn 1
+	end_if
+	
+	add_money aztecs 7000
+	set_counter Tenochtitlan_siege 1
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tenochtitlan
@@ -609,7 +665,6 @@ monitor_conditions I_SettlementUnderSiege Tehuantepec
 and I_CompareCounter Tehuantepec_siege = 0
 	if I_SettlementOwner Tehuantepec = aztecs
 	and I_CompareCounter aztecs_start 0
-	and I_CompareCounter is_player_faction 1
 		create_unit Tehuantepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
 		create_unit Tehuantepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
 		create_unit Tehuantepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
@@ -641,7 +696,10 @@ and I_CompareCounter Tehuantepec_spawn = 1
 			unit		Aztec Spear Throwers	exp 0 armour 0 weapon_lvl 0
 			unit		Aztec Spear Throwers	exp 0 armour 0 weapon_lvl 0
 	end
+	
 	set_counter Tehuantepec_spawn 0
+	
+	add_money aztecs 5000
 	end_if		
 end_monitor
 
@@ -3646,7 +3704,115 @@ end_monitor
 
  	end_monitor
 
+;;;;;;;;;;;;;;;;;;;;;;;; AI French Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	monitor_event FactionTurnStart FactionType france
+		and I_IsFactionAIControlled france	 	
+ 		and I_TurnNumber = 1
+		and I_NumberOfSettlements france > 0
+
+		spawn_army 
+			faction france
+			character	random_name, general, age 35, x 145, y 117
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Pikemen					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers				exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		New World Cuirassers	exp 0 armour 0 weapon_lvl 0
+			unit		Demi Lancers			exp 0 armour 0 weapon_lvl 0
+			unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+			unit		Aventurier				exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+			unit		NE Bombard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;; AI Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	monitor_event FactionTurnStart FactionType spain
+		and I_IsFactionAIControlled spain
+		and I_IsFactionAIControlled mayans		
+
+		spawn_army 
+			faction spain
+			character	random_name, general, age 42, x 112, y 26
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		terminate_monitor
+	end_monitor
+
+ 	;;; Small force near Trujillo
+	monitor_event FactionTurnStart FactionType spain
+		and I_IsFactionAIControlled spain	 	
+ 		and I_TurnNumber = 1
+		and I_NumberOfSettlements spain > 0
+
+ 		add_money spain 10000
+
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 178, y 10
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 166, y 2
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+
+		terminate_monitor
+	end_monitor
+
     ;;; Reinforcements for Spain AI, 
     ;;; cause with new reqruit system(1 unit spawn time about 5-10 turns) faction needs 
     ;;; about 5-7 settlements for normal reqruiments. Spain AI cant capture anything at the start
@@ -4444,12 +4610,12 @@ end_monitor
         increment_kings_purse france -2000
 		increment_kings_purse england -2000
         
-		if I_LocalFaction spain
-			add_events
-				event	historic prestige_lord factions { spain, }
-				date	1
-	 		end_add_events
-		end_if
+
+		add_events
+			event	historic prestige_lord factions { spain, england, france}
+			date	1
+		end_add_events
+
 		
 		terminate_monitor
 	end_monitor
@@ -4892,15 +5058,15 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 5000
+				increment_kings_purse france 2000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 5000
+				increment_kings_purse england 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 1000
+				increment_kings_purse aztecs 4000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
@@ -4930,19 +5096,19 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 4000
+				increment_kings_purse spain 6000
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 6000
+				increment_kings_purse france 3000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 7000
+				increment_kings_purse england 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 2000
+				increment_kings_purse aztecs 6000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
