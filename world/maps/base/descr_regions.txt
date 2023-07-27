@@ -248,7 +248,7 @@ English_camp_r
 	religions { catholic 93 orthodox 0 islam 0 pagan 7 heretic 0 }
 Culiacan_r
 	Culiacan
-	apachean
+	england
 	Native_Rebels
 	17 165 202
 	gold, atlantic, no_pirates

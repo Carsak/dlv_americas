@@ -2091,7 +2091,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator apachean
+	faction_creator england
 	building
 	{
 		type hunters_tent hunters_tipi
