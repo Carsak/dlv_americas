@@ -3683,6 +3683,37 @@ end_monitor
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;; AI Spanish Expeditions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	monitor_event FactionTurnStart FactionType spain
+		and I_IsFactionAIControlled spain
+		and I_IsFactionAIControlled mayans		
+
+		spawn_army 
+			faction spain
+			character	random_name, general, age 42, x 112, y 26
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		terminate_monitor
+	end_monitor
+
  	;;; Small force near Trujillo
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain	 	
@@ -4969,15 +5000,15 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 5000
+				increment_kings_purse france 2000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 5000
+				increment_kings_purse england 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 1000
+				increment_kings_purse aztecs 4000
 			end_if
 			
 			if I_IsFactionAIControlled mayans
@@ -5007,19 +5038,19 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 4000
+				increment_kings_purse spain 6000
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 6000
+				increment_kings_purse france 3000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 7000
+				increment_kings_purse england 4000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
-				increment_kings_purse aztecs 2000
+				increment_kings_purse aztecs 6000
 			end_if
 			
 			if I_IsFactionAIControlled mayans

@@ -172,7 +172,7 @@ resource	grain,	37,	63
 ; >>>> start of factions section <<<<
 
 faction	spain, balanced smith
-ai_label		 default 
+ai_label		 catholic 
 denari	30000
 denari_kings_purse	5000
 name_faction spy aztecs
@@ -1783,7 +1783,7 @@ relative 	Cacama, 	Xoco,		Nauyotl,  Xomimitl,  Teyacapan, Quauhxochitl,	  end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; APACHEAN ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	apachean, balanced smith
-ai_label	default 
+ai_label	islam 
 denari	10000
 denari_kings_purse	500
 settlement
@@ -1888,7 +1888,7 @@ relative 	Alosaka, 	Sahkyo,		Helaku,	Ahote,  Koko,  Manipi, end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ENGLAND ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	england, balanced smith
-ai_label	default 
+ai_label	catholic 
 denari	10000
 denari_kings_purse	5000
 name_faction spy aztecs
@@ -1986,7 +1986,7 @@ unit		carrack				exp 1 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;; FRANCE ;;;;;;;;;;;;;;
 faction	france, balanced smith
-ai_label	default 
+ai_label	catholic 
 denari	10000
 denari_kings_purse	5000
 name_faction spy aztecs
