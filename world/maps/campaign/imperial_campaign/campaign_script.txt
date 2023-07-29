@@ -1044,19 +1044,22 @@ end_monitor
 
 declare_counter Zacatecas_siege
 declare_counter Zacatecas_spawn
+
 monitor_conditions not I_SettlementUnderSiege Zacatecas
-set_counter Zacatecas_siege 0
-set_counter Zacatecas_spawn 0
+	set_counter Zacatecas_siege 0
+	set_counter Zacatecas_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacatecas
 and I_CompareCounter Zacatecas_siege = 0
+
 	if I_SettlementOwner Zacatecas = chichimeca
 	and I_CompareCounter chichimeca_start 0
 		create_unit Zacatecas, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Chichimec Archers, num 4, exp 0, arm 0, wep 0
+		
 		set_counter Zacatecas_spawn 1
 	end_if
 	
@@ -1066,25 +1069,26 @@ end_monitor
 monitor_conditions I_SettlementUnderSiege Zacatecas
 and I_CompareCounter Zacatecas_spawn = 1
 	if I_SettlementOwner Zacatecas = chichimeca
-	spawn_army 
-	faction chichimeca
-	character	random_name, general, age 28, x 52, y 72, direction N	       
-			unit		Chichimec Shamen	exp 1 armour 0 weapon_lvl 0
-			unit		Chichimec Shamen	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-	end
-	set_counter Zacatecas_spawn 0
+		spawn_army 
+		faction chichimeca
+		character	random_name, general, age 28, x 52, y 72, direction N	       
+				unit		Chichimec Shamen	exp 1 armour 0 weapon_lvl 0
+				unit		Chichimec Shamen	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+		end
+	
+		set_counter Zacatecas_spawn 0
 	end_if		
 end_monitor
 
@@ -1113,7 +1117,7 @@ end_monitor
 monitor_conditions I_SettlementUnderSiege Colotan
 and I_CompareCounter Colotan_spawn = 1
 	if I_SettlementOwner Colotan = chichimeca
-	and I_CompareCounter is_player_faction 1
+
 	spawn_army 
 	faction chichimeca
 	character	random_name, general, age 28, x 50, y 65, direction N	       
@@ -3805,7 +3809,7 @@ end_monitor
 		
 		spawn_army 
 			faction spain
-			character	random_name, general, age 42, x 112, y 26
+			character	random_name, general, age 42, x 114, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
