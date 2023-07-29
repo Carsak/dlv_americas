@@ -138,24 +138,28 @@ end_monitor
 
 declare_counter Vera_Cruz_siege
 declare_counter Vera_Cruz_spawn
+
 monitor_conditions not I_SettlementUnderSiege Vera_Cruz
-set_counter Vera_Cruz_siege 0
-set_counter Vera_Cruz_spawn 0
+	set_counter Vera_Cruz_siege 0
+	set_counter Vera_Cruz_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Vera_Cruz
 and I_CompareCounter Vera_Cruz_siege = 0
-if I_SettlementOwner Vera_Cruz = spain
-and I_CompareCounter spain_start 0
-	create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
-	set_counter Vera_Cruz_spawn 1
-end_if
-set_counter Vera_Cruz_siege 1
+	if I_SettlementOwner Vera_Cruz = spain
+	and I_CompareCounter spain_start 0
+		create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
+		
+		set_counter Vera_Cruz_spawn 1
+		add_money spain 10000
+	end_if
+	
+	set_counter Vera_Cruz_siege 1
 end_monitor
 
 ;/// spain /// Coatzalcoalcos /// Coatzalcoalcos /// Borderlands
@@ -207,9 +211,6 @@ and I_CompareCounter Coatzalcoalcos_spawn = 1
 		set_counter Coatzalcoalcos_spawn 0
 	end_if		
 end_monitor
-
-
-
 
 ;---------------------------------------------------------------
 ;/// aztecs /// Tenochtitlan - Tenochtitlan /// Tenochtitlan_r - Tenochtitlan Region /// Capital
@@ -3832,6 +3833,8 @@ end_monitor
 			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
 		end
 		
+		add_money spain 15000
+		
 		terminate_monitor
 	end_monitor
 
@@ -3891,6 +3894,8 @@ end_monitor
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 		end
+		
+		add_money spain 2000
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
@@ -4702,10 +4707,16 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 10000
-		increment_kings_purse spain -1000
+		
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -1000
+		end_if
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -1000
+		end_if
+		
         increment_kings_purse france -1000
-		increment_kings_purse england -1000
-
 
 		add_events
 			event	historic prestige_baron factions { spain, england, france, }
@@ -4740,10 +4751,15 @@ end_monitor
 		
 	 	add_money spain 15000
 		
-		increment_kings_purse spain -1500
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -1500
+		end_if
+		
         increment_kings_purse france -1500
-		increment_kings_purse england -1500
-	 	
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -1500
+		end_if
 
 		add_events
 			event	historic prestige_viscount factions { spain, england, france, }
@@ -4778,11 +4794,16 @@ end_monitor
 		
 	 	add_money spain 20000
 		
-		increment_kings_purse spain -2000
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -2000
+		end_if
+		
         increment_kings_purse france -2000
-		increment_kings_purse england -2000
-	 	
-
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -2000
+		end_if
+		
 		add_events
 			event	historic prestige_count factions { spain, england, france, }
 			date	1
