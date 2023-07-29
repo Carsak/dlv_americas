@@ -5041,7 +5041,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 2000
+				increment_kings_purse mayans 200
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5057,7 +5057,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 2000
+				increment_kings_purse chichimeca 200
 			end_if
 
 			
@@ -5097,7 +5097,7 @@ end_monitor
 		and CampaignDifficulty = medium
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 1000
+				increment_kings_purse spain 2500
 			end_if
 			
 			if I_IsFactionAIControlled france
@@ -5113,7 +5113,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 3000
+				increment_kings_purse mayans 1000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5121,7 +5121,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 3000
+				increment_kings_purse tarascans 1000
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5129,7 +5129,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 3000
+				increment_kings_purse chichimeca 1000
 			end_if
 			
 		terminate_monitor
