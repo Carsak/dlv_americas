@@ -3783,10 +3783,35 @@ end_monitor
 			faction spain
 			character	random_name, general, age 42, x 112, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+			faction spain
+			character	random_name, general, age 42, x 112, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
@@ -4640,11 +4665,7 @@ end_monitor
 	 	end_add_events
 
 	 	add_money spain 5000
-		increment_kings_purse spain -2000
-        increment_kings_purse france -2000
-		increment_kings_purse england -2000
         
-
 		add_events
 			event	historic prestige_lord factions { spain, england, france, }
 			date	1
@@ -4677,9 +4698,9 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 10000
-		increment_kings_purse spain -2000
-        increment_kings_purse france -2000
-		increment_kings_purse england -2000
+		increment_kings_purse spain -1000
+        increment_kings_purse france -1000
+		increment_kings_purse england -1000
 
 
 		add_events
@@ -4714,9 +4735,10 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 15000
-		increment_kings_purse spain -900
-        increment_kings_purse france -900
-		increment_kings_purse france -900
+		
+		increment_kings_purse spain -1500
+        increment_kings_purse france -1500
+		increment_kings_purse england -1500
 	 	
 
 		add_events
@@ -4751,6 +4773,10 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 20000
+		
+		increment_kings_purse spain -2000
+        increment_kings_purse france -2000
+		increment_kings_purse england -2000
 	 	
 
 		add_events

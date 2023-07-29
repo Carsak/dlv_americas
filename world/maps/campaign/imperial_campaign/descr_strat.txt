@@ -59,6 +59,9 @@ resource	gold,	76,	57
 resource	gold,	63,	37
 resource	gold,	71,	33
 resource	gold,	84,	34
+;For France merchant balance - gold and silver near capital, so they dont get super bonus from merchants
+resource	gold,	121, 139
+resource	silver,	110, 139
 resource	silver,	66,	96
 resource	silver,	61,	84
 resource	silver,	69,	31
@@ -200,6 +203,10 @@ settlement
 	building
 	{
 		type port port
+	}
+	building
+	{
+		type market fairground
 	}
 	building
 	{
@@ -2024,6 +2031,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
 	}
 }
 
