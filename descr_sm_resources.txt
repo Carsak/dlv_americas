@@ -68,7 +68,7 @@ icon				data/ui/resources/tar_pip.tga
 
 
 type				textiles
-trade_value			24
+trade_value			45
 item				data/models_strat/resource_textile.CAS
 icon				data/ui/resources/resource_textiles.tga
 
@@ -88,7 +88,7 @@ item				data/models_strat/resource_silk.CAS
 icon				data/ui/resources/resource_silk.tga
 
 type				sugar
-trade_value			30
+trade_value			50
 item				data/models_strat/resource_sugar.CAS
 icon				data/ui/resources/salt_pip.tga
 has_mine
@@ -106,7 +106,7 @@ icon				data/ui/resources/resource_tin.tga
 has_mine
 
 type				spices
-trade_value			36
+trade_value			50
 item				data/models_strat/resource_spices.CAS
 icon				data/ui/resources/honey_pip.tga
 
