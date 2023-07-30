@@ -138,24 +138,28 @@ end_monitor
 
 declare_counter Vera_Cruz_siege
 declare_counter Vera_Cruz_spawn
+
 monitor_conditions not I_SettlementUnderSiege Vera_Cruz
-set_counter Vera_Cruz_siege 0
-set_counter Vera_Cruz_spawn 0
+	set_counter Vera_Cruz_siege 0
+	set_counter Vera_Cruz_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Vera_Cruz
 and I_CompareCounter Vera_Cruz_siege = 0
-if I_SettlementOwner Vera_Cruz = spain
-and I_CompareCounter spain_start 0
-	create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
-	create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
-	set_counter Vera_Cruz_spawn 1
-end_if
-set_counter Vera_Cruz_siege 1
+	if I_SettlementOwner Vera_Cruz = spain
+	and I_CompareCounter spain_start 0
+		create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
+		
+		set_counter Vera_Cruz_spawn 1
+		add_money spain 10000
+	end_if
+	
+	set_counter Vera_Cruz_siege 1
 end_monitor
 
 ;/// spain /// Coatzalcoalcos /// Coatzalcoalcos /// Borderlands
@@ -207,9 +211,6 @@ and I_CompareCounter Coatzalcoalcos_spawn = 1
 		set_counter Coatzalcoalcos_spawn 0
 	end_if		
 end_monitor
-
-
-
 
 ;---------------------------------------------------------------
 ;/// aztecs /// Tenochtitlan - Tenochtitlan /// Tenochtitlan_r - Tenochtitlan Region /// Capital
@@ -1044,19 +1045,22 @@ end_monitor
 
 declare_counter Zacatecas_siege
 declare_counter Zacatecas_spawn
+
 monitor_conditions not I_SettlementUnderSiege Zacatecas
-set_counter Zacatecas_siege 0
-set_counter Zacatecas_spawn 0
+	set_counter Zacatecas_siege 0
+	set_counter Zacatecas_spawn 0
 end_monitor
 
 monitor_conditions I_SettlementUnderSiege Zacatecas
 and I_CompareCounter Zacatecas_siege = 0
+
 	if I_SettlementOwner Zacatecas = chichimeca
 	and I_CompareCounter chichimeca_start 0
 		create_unit Zacatecas, Guachichil Warriors, num 2, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Chichimec Lancers, num 3, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Zacatecos Raiders, num 3, exp 0, arm 0, wep 0
 		create_unit Zacatecas, Chichimec Archers, num 4, exp 0, arm 0, wep 0
+		
 		set_counter Zacatecas_spawn 1
 	end_if
 	
@@ -1066,25 +1070,26 @@ end_monitor
 monitor_conditions I_SettlementUnderSiege Zacatecas
 and I_CompareCounter Zacatecas_spawn = 1
 	if I_SettlementOwner Zacatecas = chichimeca
-	spawn_army 
-	faction chichimeca
-	character	random_name, general, age 28, x 52, y 72, direction N	       
-			unit		Chichimec Shamen	exp 1 armour 0 weapon_lvl 0
-			unit		Chichimec Shamen	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-			unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
-	end
-	set_counter Zacatecas_spawn 0
+		spawn_army 
+		faction chichimeca
+		character	random_name, general, age 28, x 52, y 72, direction N	       
+				unit		Chichimec Shamen	exp 1 armour 0 weapon_lvl 0
+				unit		Chichimec Shamen	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Guachichil Warriors	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Lancers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Chichimec Archers	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+				unit		Zacatecos Raiders	exp 0 armour 0 weapon_lvl 0
+		end
+	
+		set_counter Zacatecas_spawn 0
 	end_if		
 end_monitor
 
@@ -1113,7 +1118,7 @@ end_monitor
 monitor_conditions I_SettlementUnderSiege Colotan
 and I_CompareCounter Colotan_spawn = 1
 	if I_SettlementOwner Colotan = chichimeca
-	and I_CompareCounter is_player_faction 1
+
 	spawn_army 
 	faction chichimeca
 	character	random_name, general, age 28, x 50, y 65, direction N	       
@@ -3783,10 +3788,35 @@ end_monitor
 			faction spain
 			character	random_name, general, age 42, x 112, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
+			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
+		end
+		
+		spawn_army 
+			faction spain
+			character	random_name, general, age 42, x 114, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
@@ -3802,6 +3832,8 @@ end_monitor
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		NE Culverin			exp 0 armour 0 weapon_lvl 0
 		end
+		
+		add_money spain 15000
 		
 		terminate_monitor
 	end_monitor
@@ -3862,6 +3894,8 @@ end_monitor
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
 		end
+		
+		add_money spain 2000
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
@@ -4640,11 +4674,7 @@ end_monitor
 	 	end_add_events
 
 	 	add_money spain 5000
-		increment_kings_purse spain -2000
-        increment_kings_purse france -2000
-		increment_kings_purse england -2000
         
-
 		add_events
 			event	historic prestige_lord factions { spain, england, france, }
 			date	1
@@ -4677,10 +4707,16 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 10000
-		increment_kings_purse spain -2000
-        increment_kings_purse france -2000
-		increment_kings_purse england -2000
-
+		
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -1000
+		end_if
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -1000
+		end_if
+		
+        increment_kings_purse france -1000
 
 		add_events
 			event	historic prestige_baron factions { spain, england, france, }
@@ -4714,10 +4750,16 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 15000
-		increment_kings_purse spain -900
-        increment_kings_purse france -900
-		increment_kings_purse france -900
-	 	
+		
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -1500
+		end_if
+		
+        increment_kings_purse france -1500
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -1500
+		end_if
 
 		add_events
 			event	historic prestige_viscount factions { spain, england, france, }
@@ -4751,8 +4793,17 @@ end_monitor
 	 	end_add_events
 		
 	 	add_money spain 20000
-	 	
-
+		
+		if not I_IsFactionAIControlled spain
+			increment_kings_purse spain -2000
+		end_if
+		
+        increment_kings_purse france -2000
+		
+		if not I_IsFactionAIControlled england
+			increment_kings_purse england -2000
+		end_if
+		
 		add_events
 			event	historic prestige_count factions { spain, england, france, }
 			date	1
@@ -4990,7 +5041,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 2000
+				increment_kings_purse mayans 200
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5006,7 +5057,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 2000
+				increment_kings_purse chichimeca 200
 			end_if
 
 			
@@ -5046,7 +5097,7 @@ end_monitor
 		and CampaignDifficulty = medium
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 1000
+				increment_kings_purse spain 2500
 			end_if
 			
 			if I_IsFactionAIControlled france
@@ -5062,7 +5113,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled mayans
-				increment_kings_purse mayans 3000
+				increment_kings_purse mayans 1000
 			end_if
 			
 			if I_IsFactionAIControlled apachean
@@ -5070,7 +5121,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled tarascans
-				increment_kings_purse tarascans 3000
+				increment_kings_purse tarascans 1000
 			end_if
 			
 			if I_IsFactionAIControlled tlaxcalans
@@ -5078,7 +5129,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled chichimeca
-				increment_kings_purse chichimeca 3000
+				increment_kings_purse chichimeca 1000
 			end_if
 			
 		terminate_monitor
