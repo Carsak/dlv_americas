@@ -11574,7 +11574,7 @@ voice_type       Light
 accent         Native
 banner faction   main_infantry
 banner holy      crusade
-soldier          Tlaxcalan_Mercenaries, 48, 0, 1
+soldier          Tlaxcalan_Mercenaries, 60, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, mercenary_unit
 move_speed_mod   1.3
 formation        1.2, 1.2, 2.4, 2.4, 4, square
