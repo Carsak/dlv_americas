@@ -439,7 +439,7 @@ building barracks
                 law_bonus bonus 1
             }
             material wooden
-            construction  3 
+            construction  1
             cost  2500 
             settlement_min town
             upgrades
@@ -461,7 +461,7 @@ building barracks
                 law_bonus bonus 2
             }
             material wooden
-            construction  4 
+            construction  2
             cost  4800 
             settlement_min large_town
             upgrades
@@ -487,7 +487,7 @@ building barracks
                 law_bonus bonus 3
             }
             material wooden
-            construction  4 
+            construction  4
             cost  7500 
             settlement_min city
             upgrades
@@ -773,7 +773,7 @@ building missiles
                 recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { spain, }
             }
             material wooden
-            construction  3 
+            construction  1
             cost  2500 
             settlement_min town
             upgrades
@@ -790,7 +790,7 @@ building missiles
                 recruit_pool "Crossbowmen"  1   0.15   3  0  requires factions { england, france, }
             }
             material wooden
-            construction  4 
+            construction  2
             cost  4800 
             settlement_min large_town
             upgrades
