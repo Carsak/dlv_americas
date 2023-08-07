@@ -1172,7 +1172,7 @@ mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, knight, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square, wedge
-stat_health      1, 0
+stat_health      1, 4
 stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -1823,7 +1823,7 @@ mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square, wedge
-stat_health      2, 0
+stat_health      2, 6
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -5284,7 +5284,7 @@ banner holy      crusade
 soldier          Sword_and_Buckler_Men, 24, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
-stat_health      2, 0
+stat_health      2, 2
 stat_pri         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -5320,7 +5320,7 @@ banner holy      crusade
 soldier          Swordsmen_Militia, 24, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 5, square
-stat_health      2, 0
+stat_health      2, 2
 stat_pri         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -6112,7 +6112,7 @@ banner holy      crusade
 soldier          Tercio_Pikemen, 48, 0, 4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, pike, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
-stat_health      2, 0
+stat_health      2, 2
 stat_pri         6, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, long_pike
@@ -7825,7 +7825,7 @@ banner holy      crusade
 soldier          Dismounted_Conquistadores, 24, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
-stat_health      2, 0
+stat_health      2, 3
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -12691,7 +12691,7 @@ soldier          NE_Mortar_Crew, 16, 2, 1
 engine           mortar
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, mortar, artillery
 formation        1.5, 1.5, 3, 3, 3, square
-stat_health      1, 0
+stat_health      1, 4
 stat_pri         7, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1.8
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -12800,7 +12800,7 @@ soldier          NE_Culverin_Crew, 16, 2, 1
 engine           culverin
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
-stat_health      1, 0
+stat_health      1, 4
 stat_pri         7, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1.8
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -13048,7 +13048,7 @@ soldier          NE_Basilisk_Crew, 16, 2, 1
 engine           basilisk
 attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
 formation        1.5, 1.5, 3, 3, 3, square
-stat_health      1, 0
+stat_health      1, 4
 stat_pri         7, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1.8
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -15828,7 +15828,7 @@ banner holy      crusade
 soldier          Dismounted_Conquistadores, 24, 0, 1.2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
-stat_health      2, 0
+stat_health      2, 3
 stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -15905,7 +15905,7 @@ mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, general_unit, general_unit
 formation        2, 4.4, 3, 6, 2, square
-stat_health      2, 0
+stat_health      2, 8
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
