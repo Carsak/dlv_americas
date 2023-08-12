@@ -5027,26 +5027,26 @@ end_monitor
 	end_monitor	
 	
 	
-	----------- Balancing Statistics ------------
+	;----------- Balancing Statistics ------------
 	
 	monitor_event FactionTurnStart FactionType spain
-		and Treasury > 150000
+	and Treasury > 150000
 	
 		add_money spain -15000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType chichimeca
-		and Treasury > 150000
+	and Treasury > 150000
 	
 		add_money chichimeca -15000
 	
 	end_monitor
 	
-	------------------------------------------------
+	;------------------------------------------------
 	
-	----------For Debug AI - show all info about AI in the game ----------
-	------------ https://www.twcenter.net/forums/showthread.php?653352-Automatically-testing-your-mod-s-campaign&p=14394843&viewfull=1#post14394843 ---------------
+	;----------For Debug AI - show all info about AI in the game ----------
+	;------------ https://www.twcenter.net/forums/showthread.php?653352-Automatically-testing-your-mod-s-campaign&p=14394843&viewfull=1#post14394843 ---------------
 	
 	
 	monitor_event RequestTrainingAdvice
@@ -5054,7 +5054,7 @@ end_monitor
 		console_command toggle_perfect_spy
 	end_monitor
  
- --------------------------------------
+	;--------------------------------------
 	
 	
 
