@@ -174,7 +174,7 @@ resource	grain,	37,	63
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of factions section <<<<
 
-faction	spain, balanced smith
+faction	spain, trader smith
 ai_label		 catholic 
 denari	30000
 denari_kings_purse	5000
