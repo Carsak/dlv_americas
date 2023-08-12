@@ -4333,6 +4333,7 @@ building meso_market
                 recruit_pool "Mayan Archers"  1   0.15   2  0  requires factions { mayans, }
                 recruit_pool "Mayan Javelinmen"  1   0.1   2  0  requires factions { mayans, }
                 recruit_pool "Zacatecos Archers"  1   0.1   2  0  requires factions { chichimeca, }
+				recruit_pool "Chichimec Archers"  1   0.1   2  0  requires factions { chichimeca, }
                 
                 trade_base_income_bonus bonus 3
             }
@@ -4351,7 +4352,7 @@ building meso_market
             {
                 recruit_pool "Mayan Archers"  1   0.15   3  0  requires factions { mayans, }
                 recruit_pool "Mayan Javelinmen"  1   0.15   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.2   3  0  requires factions { chichimeca, }
+                recruit_pool "Zacatecos Archers"  1   0.15   4  0  requires factions { chichimeca, }
                 
                 trade_base_income_bonus bonus 5
             }

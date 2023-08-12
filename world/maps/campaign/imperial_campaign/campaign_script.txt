@@ -716,7 +716,6 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tlaxcala
 and I_CompareCounter Tlaxcala_siege = 0
-and TargetFactionIsLocal
 	if I_SettlementOwner Tlaxcala = tlaxcalans
 	and I_CompareCounter tlaxcalans_start 0
 		create_unit Tlaxcala, Tlaxcalan Warriors, num 3, exp 0, arm 0, wep 0
@@ -3900,7 +3899,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
 		and I_IsFactionAIControlled england
-		and I_NumberOfSettlements england < 5
+		and I_NumberOfSettlements england < 7
 		and I_NumberOfSettlements england > 0
 		
 		spawn_army 
@@ -5040,6 +5039,34 @@ end_monitor
 	and Treasury > 150000
 	
 		add_money chichimeca -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType england
+	and Treasury > 150000
+	
+		add_money england -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType france
+	and Treasury > 150000
+	
+		add_money france -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType apachean
+	and Treasury > 150000
+	
+		add_money apachean -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType tarascans
+	and Treasury > 150000
+	
+		add_money tarascans -15000
 	
 	end_monitor
 	
