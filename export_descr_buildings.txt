@@ -435,8 +435,6 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, }
                 recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { france, }
                 recruit_pool "Bill Militia"  1   0.1   3  0  requires factions { england, }
-                
-                law_bonus bonus 1
             }
             material wooden
             construction  1
@@ -458,7 +456,7 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, } 
                 recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, }
                 
-                law_bonus bonus 2
+                law_bonus bonus 1
             }
             material wooden
             construction  2
@@ -484,7 +482,7 @@ building barracks
                 recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, }
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, }  
 
-                law_bonus bonus 3
+                law_bonus bonus 2
             }
             material wooden
             construction  4
@@ -508,6 +506,7 @@ building barracks
                 recruit_pool "Conquistadores"  1   0.1   1  0  requires factions { spain, }
 				
                 law_bonus bonus 3
+				weapon_melee_blade 1
             }
             material wooden
             construction  4 
@@ -526,11 +525,12 @@ building barracks
                 recruit_pool "Pikemen"  1   0.2   4  2  requires factions { england, france, } 
 				recruit_pool "Demi Lancers"  1   0.15   1  0  requires factions { england, france, } 
 				 
-                recruit_pool "Tercio Pikemen"  1   0.15   3  0  requires factions { spain, } 
+				recruit_pool "Dismounted Conquistadores"  1   0.19   5  2  requires factions { spain, }
+                recruit_pool "Tercio Pikemen"  1   0.15   3  1  requires factions { spain, } 
                 recruit_pool "Conquistadores"  1   0.11   1  0  requires factions { spain, } 
-                recruit_pool "Dismounted Conquistadores"  1   0.19   5  2  requires factions { spain, }
-				
+                
                 law_bonus bonus 4
+				weapon_melee_blade 2
             }
             material wooden
             construction  5 
@@ -555,6 +555,7 @@ building barracks
                 recruit_pool "Dismounted Conquistadores"  1   0.2   5  0  requires factions { spain, }
 				
                 law_bonus bonus 4
+				weapon_melee_blade 3
             }
             material wooden
             construction  5 
@@ -808,7 +809,10 @@ building missiles
 				
 				
                 recruit_pool "Mounted Crossbowmen"  1   0.1   2  0  requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.15   3  1  requires factions { spain, } 
+                recruit_pool "Crossbowmen"  1   0.15   3  1  requires factions { spain, }
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 20
                 
             }
             material wooden
@@ -994,8 +998,8 @@ building cannon
         {
             capability
             {
-                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, } 
-                recruit_pool "NE Culverin"  1   0.1   2  0  requires factions { england, france, spain, }
+                recruit_pool "NE Mortar"  1   0.1   1  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Culverin"  1   0.1   1  0  requires factions { england, france, spain, }
                 recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
                 recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, }
 				
@@ -2700,7 +2704,8 @@ building taverns
                 agent spy  0  requires factions { middle_eastern, } 
                 agent spy  0  requires factions { eastern_european, } 
                 agent spy  0  requires factions { greek, } 
-                agent spy  0  requires factions { southern_european, } 
+                agent spy  0  requires factions { southern_european, }
+				
                 happiness_bonus bonus 1
             }
             material wooden
@@ -2725,7 +2730,8 @@ building taverns
                 agent assassin  0  requires factions { greek, } 
                 agent spy  0  requires factions { southern_european, }
 				agent assassin  0  requires factions { northern_european, }
-				agent assassin  0  requires factions { southern_european, } 
+				agent assassin  0  requires factions { southern_european, }
+				
                 happiness_bonus bonus 2
             }
             material wooden
@@ -2882,8 +2888,8 @@ building city_hall
 				recruit_pool "Merchant Cavalry Militia"  1   0.1   2  0  requires factions { france, }
 				recruit_pool "Hobilars"  1   0.1   2  1  requires factions { england, }
 				
-                law_bonus bonus 3
-                population_health_bonus bonus 4
+                law_bonus bonus 4
+                population_health_bonus bonus 3
             }
             material wooden
             construction  4 
@@ -2906,8 +2912,8 @@ building city_hall
 				
 				recruit_pool "Spanish Dragoons"  1   0.1   2  2  requires factions { spain, }
 				
-                law_bonus bonus 4
-                population_health_bonus bonus 5
+                law_bonus bonus 5
+                population_health_bonus bonus 4
             }
             material wooden
             construction  4 

@@ -5045,6 +5045,17 @@ end_monitor
 	
 	------------------------------------------------
 	
+	----------For Debug AI - show all info about AI in the game ----------
+	------------ https://www.twcenter.net/forums/showthread.php?653352-Automatically-testing-your-mod-s-campaign&p=14394843&viewfull=1#post14394843 ---------------
+	
+	
+	monitor_event RequestTrainingAdvice
+		console_command toggle_fow
+		console_command toggle_perfect_spy
+	end_monitor
+ 
+ --------------------------------------
+	
 	
 
 	;------------------- AI KINGS PURSE BONUS -------------------;
