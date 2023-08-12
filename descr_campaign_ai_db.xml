@@ -333,7 +333,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = ".90" is_neighbour = "true"/>
@@ -354,7 +354,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -1118,7 +1118,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
     <faction_ai_label name = "papal_faction">
         <defend_decisions>
             <decision_entry>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry num_turns = "1"/>
@@ -1371,7 +1371,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             </decision_entry>
             <decision_entry>
                 <min_entry num_enemies = "3"/>
-                <faction_attitude defense = "defend_deep" want_peace = "true"/>
+                <faction_attitude defense = "defend_normal" want_peace = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar"/>
@@ -1391,12 +1391,12 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = ".50" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = ".75"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" frontline_balance = ".76" num_enemies = "1" is_neighbour = "true"/>
@@ -1436,7 +1436,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true" num_enemies = "2"/>
                 <max_entry stance = "Neutral" military_balance = ".50" free_strength_balance = ".32"/>
-                <faction_attitude defense = "defend_deep" want_peace = "true"/>
+                <faction_attitude defense = "defend_normal" want_peace = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true" military_balance = ".76" free_strength_balance = ".76"/>
@@ -2167,7 +2167,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = ".90" is_neighbour = "true"/>
@@ -2188,7 +2188,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -3316,7 +3316,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = ".90" is_neighbour = "true"/>
@@ -3337,7 +3337,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -4469,7 +4469,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = "0.21" is_neighbour = "true"/>
@@ -4495,7 +4495,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -5312,7 +5312,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
     <faction_ai_label name = "pagan">
         <defend_decisions>
             <decision_entry>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <!--Human Alliance Difficulty Sliding scale of difficulty Between AI and Human            DO NOT ADJUST THIS SYSTEM OF DIPLOMACY OFFSET IS PRECISELY CALIBRATED!! -->
             <decision_entry>
@@ -5611,7 +5611,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = "0.21" is_neighbour = "true"/>
@@ -5637,7 +5637,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -6716,7 +6716,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "AtWar" is_neighbour = "true"/>
                 <max_entry stance = "AtWar" military_balance = "0.89" num_settlements = "3"/>
-                <faction_attitude defense = "defend_deep" continue = "true"/>
+                <faction_attitude defense = "defend_normal" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "AtWar" military_balance = ".90" is_neighbour = "true"/>
@@ -6737,7 +6737,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
             <decision_entry>
                 <min_entry stance = "Neutral" is_neighbour = "true"/>
                 <max_entry stance = "Neutral" military_balance = ".90" free_strength_balance = ".50"/>
-                <faction_attitude defense = "defend_deep" pts_alliance = "1" continue = "true"/>
+                <faction_attitude defense = "defend_normal" pts_alliance = "1" continue = "true"/>
             </decision_entry>
             <decision_entry>
                 <min_entry stance = "Neutral" free_strength_balance = "0.51" military_balance = ".91" is_neighbour = "true"/>
@@ -7534,7 +7534,7 @@ unless only for private and/or  personal use only. There are  zero warranties or
         </invasion_decisions>
         <defend_decisions>
             <decision_entry>
-                <faction_attitude defense = "defend_deep"/>
+                <faction_attitude defense = "defend_normal"/>
             </decision_entry>
         </defend_decisions>
     </faction_ai_label>
