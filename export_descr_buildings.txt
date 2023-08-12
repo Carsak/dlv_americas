@@ -3953,8 +3953,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
-				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_viscount 1
-				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america and not event_counter prestige_rank_count 1
+				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america
+				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america
             }
             material stone
             construction  1 

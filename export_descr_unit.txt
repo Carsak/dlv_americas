@@ -5285,7 +5285,7 @@ soldier          Sword_and_Buckler_Men, 24, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      2, 2
-stat_pri         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -5321,7 +5321,7 @@ soldier          Swordsmen_Militia, 24, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      2, 2
-stat_pri         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -6112,7 +6112,7 @@ banner holy      crusade
 soldier          Tercio_Pikemen, 48, 0, 4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, pike, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
-stat_health      2, 2
+stat_health      1, 2
 stat_pri         6, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, long_pike
@@ -6124,7 +6124,7 @@ stat_pri_armour  0, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      1, 0, 2, -2
-stat_mental      11, normal, highly_trained
+stat_mental      11, disciplined, highly_trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
@@ -7826,7 +7826,7 @@ soldier          Dismounted_Conquistadores, 24, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      2, 3
-stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         14, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1.2
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
