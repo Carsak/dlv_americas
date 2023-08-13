@@ -12,15 +12,11 @@
 
 event		earthquake
 frequency	20
-winter		false
-summer		false
-warning		false
-climate		rocky_desert
 min_scale	2
 max_scale	5
 
 event		volcano
-frequency	50
+frequency	30
 winter		false
 summer		false
 warning		true
@@ -32,8 +28,6 @@ frequency	10
 winter		false
 summer		true
 warning		false
-climate		swamp
-climate		unused1
 min_scale	2
 max_scale	5
 
@@ -66,18 +60,15 @@ min_scale	2
 max_scale	5
 
 event		locusts
-frequency	30
+frequency	15
 winter		false
 summer		false
 warning		false
-climate		sandy_desert
-climate		rocky_desert
-climate		semi_arid
 min_scale	2
 max_scale	5
 
 event		plague
-frequency	20
+frequency	15
 winter		false
 summer		false
 min_scale	2
