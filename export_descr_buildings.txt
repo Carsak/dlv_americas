@@ -483,6 +483,9 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, }  
 
                 law_bonus bonus 2
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 5
             }
             material wooden
             construction  4
@@ -507,6 +510,9 @@ building barracks
 				
                 law_bonus bonus 3
 				weapon_melee_blade 1
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 10
             }
             material wooden
             construction  4 
@@ -531,6 +537,9 @@ building barracks
                 
                 law_bonus bonus 4
 				weapon_melee_blade 2
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 20
             }
             material wooden
             construction  5 
