@@ -1,5 +1,5 @@
 spain
-hold_regions
+hold_regions Chichen_Itza
 take_regions 30
 outlive aztecs mayans
 short_campaign hold_regions
@@ -53,11 +53,13 @@ take_regions 50
 england
 hold_regions
 take_regions 30
+outlive tarascans
 short_campaign hold_regions
 take_regions 20
 
 france
 hold_regions
 take_regions 30
+outlive chichimeca
 short_campaign hold_regions
 take_regions 20

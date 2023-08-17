@@ -1172,7 +1172,7 @@ mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, knight, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square, wedge
-stat_health      1, 4
+stat_health      1, 5
 stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
@@ -6148,7 +6148,7 @@ banner holy      crusade
 soldier          Pikemen, 48, 0, 4
 attributes       sea_faring, hide_forest, can_withdraw, pike, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
-stat_health      1, 0
+stat_health      1, 2
 stat_pri         6, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, long_pike
@@ -15258,7 +15258,7 @@ stat_pri_armour  0, 5, 3, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 0, 5, -4
-stat_mental      5, normal, trained
+stat_mental      7, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300

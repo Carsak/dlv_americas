@@ -1692,6 +1692,44 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region San_Luis_Potosi_r
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator chichimeca
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
+settlement
+{
+	level village
+	region Matehuala_r
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator chichimeca
+	building
+	{
+		type hunters_tent hunters_tipi
+	}
+	building
+	{
+		type medicine_tent medicine_tipi
+	}
+}
+
 
 character	Cacama, named character, male, leader, age 50, x 55, y 68, battle_model Indian_General
 traits Factionleader 1 , GoodCommander 4 , GoodDefender 2 , ReligionStarter 1 , Nomad 1 , Brave 1 , GoodAmbusher 2
@@ -1768,6 +1806,15 @@ unit		Chichimec Archers				exp 1 armour 0 weapon_lvl 0
 unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 ;unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
 ;unit		Guachichil Warriors				exp 1 armour 0 weapon_lvl 0
+
+character	Ahexotl, general, male, age 27, x 78, y 54 ; San Luis Potosi 
+army
+unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+
+character	Ahexotl, general, male, age 27, x 72, y 70 ; Matehuala
+army
+unit		Zacatecos Raiders				exp 1 armour 0 weapon_lvl 0
+
 
 character	Cuixtli, priest, male, age 33, x 52, y 65 
 traits NaturalPriestSkill 2 , Nomad 1 
@@ -2081,7 +2128,7 @@ unit		carrack				exp 1 armour 0 weapon_lvl 0
 faction	slave, balanced smith
 ai_label	slave_faction
 denari	5000
-denari_kings_purse	500
+denari_kings_purse	2000
 
 settlement
 {
@@ -2100,7 +2147,7 @@ settlement
 	region Culiacan_r
 
 	year_founded 0
-	population 600
+	population 800
 	plan_set default_set
 	faction_creator england
 	building
@@ -2119,7 +2166,7 @@ settlement
 	region Navojoa_Region
 
 	year_founded 0
-	population 600
+	population 800
 	plan_set default_set
 	faction_creator apachean
 	building
@@ -2234,7 +2281,7 @@ settlement
 	region Pitic_r
 
 	year_founded 0
-	population 500
+	population 800
 	plan_set default_set
 	faction_creator apachean
 	building
@@ -2361,26 +2408,7 @@ settlement
 	region Potano_r
 
 	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator apachean
-	building
-	{
-		type hunters_tent hunters_tipi
-	}
-	building
-	{
-		type medicine_tent medicine_tipi
-	}
-}
-
-settlement
-{
-	level village
-	region San_Luis_Potosi_r
-
-	year_founded 0
-	population 400
+	population 710
 	plan_set default_set
 	faction_creator apachean
 	building
@@ -2399,7 +2427,7 @@ settlement
 	region Ojuelos_r
 
 	year_founded 0
-	population 400
+	population 700
 	plan_set default_set
 	faction_creator apachean
 	building
@@ -2418,7 +2446,7 @@ settlement
 	region Durango_r
 
 	year_founded 0
-	population 400
+	population 700
 	plan_set default_set
 	faction_creator chichimeca
 	building
@@ -2456,28 +2484,9 @@ settlement
 	region San_Fernando_r
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
-	faction_creator apachean
-	building
-	{
-		type hunters_tent hunters_tipi
-	}
-	building
-	{
-		type medicine_tent medicine_tipi
-	}
-}
-
-settlement
-{
-	level village
-	region Matehuala_r
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator apachean
+	faction_creator chichimeca
 	building
 	{
 		type hunters_tent hunters_tipi
@@ -2653,7 +2662,7 @@ settlement
 	region Tongva_Region
 
 	year_founded 0
-	population 620
+	population 800
 	plan_set default_set
 	faction_creator apachean
 	building
@@ -2672,7 +2681,7 @@ settlement
 	region Desert_Camp_Region
 
 	year_founded 0
-	population 620
+	population 800
 	plan_set default_set
 	faction_creator england
 	
@@ -2705,10 +2714,6 @@ settlement
 		type temple_pagan pyramid
 	}
 }
-
-
-
-
 
 settlement
 {

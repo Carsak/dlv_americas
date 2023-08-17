@@ -666,6 +666,7 @@ monitor_conditions I_SettlementUnderSiege Tehuantepec
 and I_CompareCounter Tehuantepec_siege = 0
 	if I_SettlementOwner Tehuantepec = aztecs
 	and I_CompareCounter aztecs_start 0
+	and I_CompareCounter is_player_faction 1
 		create_unit Tehuantepec, Aztec Warriors, num 2, exp 0, arm 0, wep 0
 		create_unit Tehuantepec, Aztec Spearmen, num 3, exp 0, arm 0, wep 0
 		create_unit Tehuantepec, Aztec Spear Throwers, num 3, exp 0, arm 0, wep 0
@@ -716,7 +717,6 @@ end_monitor
 
 monitor_conditions I_SettlementUnderSiege Tlaxcala
 and I_CompareCounter Tlaxcala_siege = 0
-and TargetFactionIsLocal
 	if I_SettlementOwner Tlaxcala = tlaxcalans
 	and I_CompareCounter tlaxcalans_start 0
 		create_unit Tlaxcala, Tlaxcalan Warriors, num 3, exp 0, arm 0, wep 0
@@ -3788,6 +3788,7 @@ end_monitor
 			faction spain
 			character	random_name, general, age 42, x 112, y 26
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
@@ -3885,7 +3886,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain
-		and I_NumberOfSettlements spain < 5
+		and I_NumberOfSettlements spain < 6
 		and I_NumberOfSettlements spain > 0
 		
 		spawn_army 
@@ -3900,7 +3901,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
 		and I_IsFactionAIControlled england
-		and I_NumberOfSettlements england < 5
+		and I_NumberOfSettlements england < 7
 		and I_NumberOfSettlements england > 0
 		
 		spawn_army 
@@ -3913,7 +3914,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType france
 		and I_IsFactionAIControlled france
-		and I_NumberOfSettlements france < 5
+		and I_NumberOfSettlements france < 7
 		and I_NumberOfSettlements france > 0
 		
 		spawn_army 
@@ -4755,7 +4756,9 @@ end_monitor
 			increment_kings_purse spain -1500
 		end_if
 		
-        increment_kings_purse france -1500
+		if not I_IsFactionAIControlled france
+			increment_kings_purse france -1500
+		end_if
 		
 		if not I_IsFactionAIControlled england
 			increment_kings_purse england -1500
@@ -4798,7 +4801,9 @@ end_monitor
 			increment_kings_purse spain -2000
 		end_if
 		
-        increment_kings_purse france -2000
+		if not I_IsFactionAIControlled france
+			increment_kings_purse france -2000
+		end_if
 		
 		if not I_IsFactionAIControlled england
 			increment_kings_purse england -2000
@@ -5040,6 +5045,34 @@ end_monitor
 	and Treasury > 150000
 	
 		add_money chichimeca -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType england
+	and Treasury > 150000
+	
+		add_money england -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType france
+	and Treasury > 150000
+	
+		add_money france -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType apachean
+	and Treasury > 150000
+	
+		add_money apachean -15000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType tarascans
+	and Treasury > 150000
+	
+		add_money tarascans -15000
 	
 	end_monitor
 	

@@ -471,8 +471,6 @@ building barracks
         {
             capability
             {
-                recruit_pool "Crossbow Militia"  1   0.1   2  0  requires factions { hre, denmark, portugal, } 
-
                 recruit_pool "New World Cuirassers"  1   0.1   3  0  requires factions { england, france, }
 				recruit_pool "Pikemen"  1   0.15   3  0  requires factions { england, france, }
 				recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { france, }
@@ -483,6 +481,9 @@ building barracks
                 recruit_pool "Pike Militia"  1   0.15   3  0  requires factions { spain, }  
 
                 law_bonus bonus 2
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 5
             }
             material wooden
             construction  4
@@ -507,6 +508,9 @@ building barracks
 				
                 law_bonus bonus 3
 				weapon_melee_blade 1
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 10
             }
             material wooden
             construction  4 
@@ -525,12 +529,15 @@ building barracks
                 recruit_pool "Pikemen"  1   0.2   4  2  requires factions { england, france, } 
 				recruit_pool "Demi Lancers"  1   0.15   1  0  requires factions { england, france, } 
 				 
-				recruit_pool "Dismounted Conquistadores"  1   0.19   5  2  requires factions { spain, }
+				recruit_pool "Dismounted Conquistadores"  1   0.2   5  2  requires factions { spain, }
                 recruit_pool "Tercio Pikemen"  1   0.15   3  1  requires factions { spain, } 
-                recruit_pool "Conquistadores"  1   0.11   1  0  requires factions { spain, } 
+                recruit_pool "Conquistadores"  1   0.15   1  0  requires factions { spain, } 
                 
                 law_bonus bonus 4
 				weapon_melee_blade 2
+				
+				; need for AI - so they will prioritize this building
+				taxable_income_bonus 20
             }
             material wooden
             construction  5 
@@ -998,7 +1005,7 @@ building cannon
         {
             capability
             {
-                recruit_pool "NE Mortar"  1   0.1   1  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Mortar"  1   0.1   1  0  requires factions { england, france, spain, venice, papal_states, sicily, } 
                 recruit_pool "NE Culverin"  1   0.1   1  0  requires factions { england, france, spain, }
                 recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { portugal, milan, venice, papal_states, sicily, } 
                 recruit_pool "Musketeers"  1   0.1   2  0  requires factions { england, france, spain, }
@@ -1020,9 +1027,10 @@ building cannon
         {
             capability
             {
-                recruit_pool "NE Basilisk"  1   0.1   2  0  requires factions { england, france, spain, portugal,}                
-                recruit_pool "NE Serpentine"  1   0.1   2  0  requires factions { france, hre, } 
-                recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, } 
+                recruit_pool "NE Basilisk"  1   0.1   1  0  requires factions { england, france, spain, portugal,}                
+                recruit_pool "NE Serpentine"  1   0.1   1  0  requires factions { france, hre, } 
+                recruit_pool "NE Mortar"  1   0.1   1  0  requires factions { england, spain, venice, papal_states, sicily, }
+				
                 recruit_pool "Musketeers"  1   0.15   3  0  requires factions { england, france, spain, } 
 
                 weapon_naval_gunpowder 1
@@ -1040,14 +1048,12 @@ building cannon
         {
             capability
             {
-				recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, venice, papal_states, sicily, } 
-				recruit_pool "NE Culverin"  1   0.1   2  0  requires factions { england, france, spain, portugal, milan, venice, papal_states, }
+				recruit_pool "NE Mortar"  1   0.1   2  0  requires factions { england, france, venice, papal_states, sicily, }
+				recruit_pool "NE Basilisk"  1   0.1   2  0  requires factions { england, france, hre, spain, portugal, }
 				recruit_pool "NE Ribault"  1   0.1   2  0  requires factions { england, }
 				recruit_pool "NE Serpentine"  1   0.1   2  0  requires factions { france, hre, }
-				recruit_pool "NE Basilisk"  1   0.1   2  0  requires factions { france, hre, spain, portugal, }
-				recruit_pool "Musketeers"  1   0.2   3  0  requires factions { england, france, spain, } 
 				
-				
+				recruit_pool "Musketeers"  1   0.2   4  0  requires factions { england, france, spain, } 
 				
                 recruit_pool "NE Monster Ribault"  1   0.4   2  0  requires factions { milan, venice, } 
                 recruit_pool "EE Basilisk"  1   0.4   2  0  requires factions { russia, hungary, } 
@@ -1071,7 +1077,8 @@ building cannon
                 recruit_pool "GR Bombard"  1   0.2   5  0  requires factions { byzantium, } 
                 recruit_pool "ME Bombard"  1   0.2   5  0  requires factions { moors, egypt, turks, } 
                 recruit_pool "AS Rocket Launcher"  1   0.2   5  0  requires factions { mongols, } 
-                recruit_pool "AS Bombard"  1   0.2   5  0  requires factions { timurids, } 
+                recruit_pool "AS Bombard"  1   0.2   5  0  requires factions { timurids, }
+				
                 weapon_naval_gunpowder 1
             }
             material wooden
@@ -4333,6 +4340,7 @@ building meso_market
                 recruit_pool "Mayan Archers"  1   0.15   2  0  requires factions { mayans, }
                 recruit_pool "Mayan Javelinmen"  1   0.1   2  0  requires factions { mayans, }
                 recruit_pool "Zacatecos Archers"  1   0.1   2  0  requires factions { chichimeca, }
+				recruit_pool "Chichimec Archers"  1   0.1   2  0  requires factions { chichimeca, }
                 
                 trade_base_income_bonus bonus 3
             }
@@ -4351,7 +4359,7 @@ building meso_market
             {
                 recruit_pool "Mayan Archers"  1   0.15   3  0  requires factions { mayans, }
                 recruit_pool "Mayan Javelinmen"  1   0.15   3  0  requires factions { mayans, } 
-                recruit_pool "Zacatecos Archers"  1   0.2   3  0  requires factions { chichimeca, }
+                recruit_pool "Zacatecos Archers"  1   0.15   4  0  requires factions { chichimeca, }
                 
                 trade_base_income_bonus bonus 5
             }
