@@ -251,7 +251,7 @@
       <priest_religion_export float="0.5"/>      <!-- if my religion in foreign region < religion_export then then we will export our religion in this region -->
       <priest_max_prod_turns float="5.0"/>       <!-- max distance from a production center to a target region in turns -->
       <att_str_modifier float="0.8"/>            <!-- modifies the effective attackers strength when determining the priority of making attack decision (i.e. att_def_strength_ratio = ((att_str*att_str_modifier)/def_str) -->
-      <siege_att_str_modifier float="0.5"/>      <!-- modifies the effective sieging attackers strength when determining the priority of making attack decision -->
+      <siege_att_str_modifier float="0.7"/>      <!-- modifies the effective sieging attackers strength when determining the priority of making attack decision -->
       <crusade_att_str_modifier float="1.0"/>    <!-- modifies the effective crusading sieging attackers strength when determining the priority of making attack decision -->
       <sally_att_str_modifier float="1.0"/>      <!-- modifies the effective sallying attackers strength when determining the priority of making attack decision -->
       <ambush_att_str_modifier float="1.0"/>     <!-- modifies the effective ambushing attackers strength when determining the priority of making attack decision -->
