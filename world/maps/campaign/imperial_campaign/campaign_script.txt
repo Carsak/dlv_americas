@@ -3810,8 +3810,8 @@ end_monitor
 		spawn_army 
 			faction spain
 			character	random_name, general, age 42, x 112, y 26
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
@@ -3835,9 +3835,9 @@ end_monitor
 		spawn_army 
 			faction spain
 			character	random_name, general, age 42, x 114, y 26
-			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
-			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
-			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
