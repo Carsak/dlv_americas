@@ -213,6 +213,7 @@ settlement
 		type guild_knights_of_santiago_chapter_house knights_of_santiago_hq
 	}
 }
+
 settlement
 {
 	level large_town
@@ -220,6 +221,33 @@ settlement
 
 	year_founded 0
 	population 2500
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cuba_East
+
+	year_founded 0
+	population 1400
 	plan_set default_set
 	faction_creator spain
 	building
