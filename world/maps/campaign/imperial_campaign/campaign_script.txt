@@ -148,18 +148,41 @@ monitor_conditions I_SettlementUnderSiege Vera_Cruz
 and I_CompareCounter Vera_Cruz_siege = 0
 	if I_SettlementOwner Vera_Cruz = spain
 	and I_CompareCounter spain_start 0
-		create_unit Vera_Cruz, Musketeers, num 1, exp 0, arm 0, wep 0
-		create_unit Vera_Cruz, Crossbow Militia, num 1, exp 0, arm 0, wep 0
-		create_unit Vera_Cruz, Sword and Buckler Men, num 1, exp 0, arm 0, wep 0
-		create_unit Vera_Cruz, Dismounted Conquistadores, num 3, exp 0, arm 0, wep 0
-		create_unit Vera_Cruz, Conquistadores, num 1, exp 0, arm 0, wep 0
-		create_unit Vera_Cruz, Pike Militia, num 2, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Musketeers, 					num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Crossbow Militia, 			num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Sword and Buckler Men, 		num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Dismounted Conquistadores, 	num 3, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Conquistadores, 				num 1, exp 0, arm 0, wep 0
+		create_unit Vera_Cruz, Pike Militia, 				num 2, exp 0, arm 0, wep 0
 		
 		set_counter Vera_Cruz_spawn 1
 		add_money spain 10000
 	end_if
 	
 	set_counter Vera_Cruz_siege 1
+end_monitor
+
+monitor_conditions I_SettlementUnderSiege Vera_Cruz
+and I_CompareCounter Vera_Cruz_spawn = 1
+	if I_SettlementOwner Vera_Cruz = spain
+		spawn_army 
+			faction spain
+			character	random_name, general, age 29, x 106, y 30
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Dismounted Conquistadores	exp 0 armour 0 weapon_lvl 0
+			unit		Pike Militia				exp 0 armour 0 weapon_lvl 0
+			unit		Pike Militia				exp 0 armour 0 weapon_lvl 0
+		end
+	
+		set_counter Vera_Cruz_spawn 0
+	end_if		
 end_monitor
 
 ;/// spain /// Coatzalcoalcos /// Coatzalcoalcos /// Borderlands
