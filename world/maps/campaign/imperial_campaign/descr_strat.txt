@@ -213,6 +213,7 @@ settlement
 		type guild_knights_of_santiago_chapter_house knights_of_santiago_hq
 	}
 }
+
 settlement
 {
 	level large_town
@@ -220,6 +221,33 @@ settlement
 
 	year_founded 0
 	population 2500
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cuba_East
+
+	year_founded 0
+	population 1400
 	plan_set default_set
 	faction_creator spain
 	building
@@ -3141,6 +3169,10 @@ faction_standings	aztecs,		-0.6	tarascans
 faction_standings	tarascans,		-0.6	aztecs
 faction_standings	aztecs,		-0.4	chichimeca
 faction_standings	chichimeca,		-0.4	aztecs
+faction_standings	spain,		-0.9	mayans
+faction_standings	mayans,		-0.9	spain
+faction_standings	spain,		0.9	tlaxcalans
+faction_standings	tlaxcalans,		0.9	spain
 
 faction_relationships 	aztecs, at_war_with 	slave, tlaxcalans
 faction_relationships 	tlaxcalans, at_war_with 	slave, aztecs
@@ -3152,6 +3184,8 @@ faction_relationships 	spain, at_war_with 	slave
 faction_relationships 	slave, at_war_with 	aztecs, tlaxcalans, mayans, tarascans, chichimeca, apachean, spain, england, france
 faction_relationships 	england, at_war_with 	slave
 faction_relationships 	france, at_war_with 	slave
+faction_relationships 	spain, allied_to 	tlaxcalans
+faction_relationships 	tlaxcalans, allied_to 	spain
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of regions section <<<<

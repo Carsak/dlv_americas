@@ -70,6 +70,8 @@ Ahuacatlan_r
 Ahuacatlan
 Cuba
 Havana
+Cuba_East
+Santa_Clara
 Ocotlan_r
 Ocotlan
 Chichen_Itza_r
