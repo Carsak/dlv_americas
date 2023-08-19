@@ -174,7 +174,7 @@ resource	grain,	37,	63
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of factions section <<<<
 
-faction	spain, trader smith
+faction	spain, balanced smith
 ai_label		 catholic 
 denari	30000
 denari_kings_purse	5000
@@ -240,6 +240,17 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Trujillo_r
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator spain
+}
+
 character	Diego Velazquez, named character, male, leader, age 46, x 193, y 68, battle_model Spanish_Viceroy
 traits Factionleader 1 , GoodCommander 1 , Intelligent 1 , ReligionStarter 1 , GoodTrader 2 , GoodAdministrator 2
 army
@@ -285,6 +296,11 @@ unit		Sword and Buckler Men			exp 0 armour 0 weapon_lvl 0
 unit		Sword and Buckler Men			exp 0 armour 0 weapon_lvl 0
 unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
 unit		NE Culverin				exp 0 armour 0 weapon_lvl 0
+
+character	Agosto Bernaldo, general, male, age 27, x 176, y 15		;trujillo
+army
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
+unit		Crossbow Militia			exp 0 armour 0 weapon_lvl 0
 
 character	Alfonso Hortiz, diplomat, male, age 36, x 105, y 31 
 traits GoodDiplomat 2 , NaturalExplorer 1
@@ -2741,17 +2757,6 @@ settlement
 settlement
 {
 	level village
-	region Trujillo_r
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator mayans
-}
-
-settlement
-{
-	level village
 	region Tututepec_r
 
 	year_founded 0
@@ -2902,17 +2907,6 @@ unit		Native Archers				exp 0 armour 0 weapon_lvl 0
 unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
 unit		Native Warriors				exp 0 armour 0 weapon_lvl 0
 unit		Jaguar Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Hornet Throwers				exp 1 armour 0 weapon_lvl 0
-unit		Hornet Throwers				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction mayans, Chicilkin, general, male, age 27, x 176, y 15		;trujillo
-army
-unit		Native Warriors				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 1 armour 0 weapon_lvl 0
-unit		Native Archers				exp 0 armour 0 weapon_lvl 0
-unit		Native Archers				exp 0 armour 0 weapon_lvl 0
-unit		Native Warriors				exp 1 armour 0 weapon_lvl 0
 unit		Hornet Throwers				exp 1 armour 0 weapon_lvl 0
 unit		Hornet Throwers				exp 1 armour 0 weapon_lvl 0
 
