@@ -146,8 +146,8 @@
       <can_build_forts bool="false"/>
       <fort_fortification_level string="0"/>
       <games_races_cost_modifier float="0.25"/>     	  <!-- games and races cost modifier -->
-	  <num_units_sett_garrison_base int = "7"/>
-	  <num_units_sett_garrison_level_modifier int = "7"/>
+	  <num_units_sett_garrison_base int = "3"/>
+	  <num_units_sett_garrison_level_modifier int = "3"/>
    </settlement>
    <revolt>
       <end_turn_modifier float="2"/>

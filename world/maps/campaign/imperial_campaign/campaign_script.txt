@@ -3909,7 +3909,7 @@ end_monitor
 	
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain
-		and I_NumberOfSettlements spain < 6
+		and I_NumberOfSettlements spain < 7
 		and I_NumberOfSettlements spain > 0
 		
 		spawn_army 
