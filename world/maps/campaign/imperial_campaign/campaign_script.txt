@@ -5035,44 +5035,51 @@ end_monitor
 	;----------- Balancing Statistics ------------
 	
 	monitor_event FactionTurnStart FactionType spain
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money spain -15000
+		add_money spain -20000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType chichimeca
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money chichimeca -15000
+		add_money chichimeca -20000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType england
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money england -15000
+		add_money england -20000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType france
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money france -15000
+		add_money france -20000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType apachean
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money apachean -15000
+		add_money apachean -20000
 	
 	end_monitor
 	
 	monitor_event FactionTurnStart FactionType tarascans
-	and Treasury > 150000
+	and Treasury > 130000
 	
-		add_money tarascans -15000
+		add_money tarascans -20000
+	
+	end_monitor
+	
+	monitor_event FactionTurnStart FactionType tlaxcalans
+	and Treasury > 130000
+	
+		add_money tlaxcalans -20000
 	
 	end_monitor
 	
@@ -5212,7 +5219,7 @@ end_monitor
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 4000
+				increment_kings_purse england 3000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
