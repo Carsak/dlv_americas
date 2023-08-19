@@ -1,48 +1,49 @@
 spain
 hold_regions Chichen_Itza
-take_regions 30
+take_regions 25
 outlive aztecs mayans
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 aztecs
 hold_regions Tenochtitlan
-take_regions 30
+take_regions 25
 outlive tlaxcalans tarascans
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 chichimeca
 hold_regions
-take_regions 30
+take_regions 25
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 tlaxcalans
 hold_regions
-take_regions 30
+take_regions 25
 outlive aztecs
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 tarascans
 hold_regions
-take_regions 30
+take_regions 25
 outlive aztecs
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 apachean
-hold_regions Apache_Camp Aguapalam Comanche Coahulia Caddo Choctaw
-take_regions 30
+hold_regions Apache_Camp
+take_regions 25
+outlive france
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 mayans
-hold_regions Chichen_Itza
-take_regions 30
+hold_regions Chichen_Itza Vera_Cruz
+take_regions 25
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 slave
 hold_regions
@@ -52,14 +53,14 @@ take_regions 50
 
 england
 hold_regions
-take_regions 30
+take_regions 25
 outlive tarascans
 short_campaign hold_regions
-take_regions 20
+take_regions 15
 
 france
 hold_regions
-take_regions 30
+take_regions 25
 outlive chichimeca
 short_campaign hold_regions
-take_regions 20
+take_regions 15
