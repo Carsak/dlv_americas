@@ -4197,7 +4197,7 @@ building temple_pagan
 				recruit_pool "Zacatecos Raiders"  1   0.1   2  0  requires factions { chichimeca, } 
 								
                 
-                recruit_pool "Tarascan Spearmen"  1   0.11   2  0  requires factions { tarascans, }
+                recruit_pool "Tarascan Spearmen"  1   0.15   3  0  requires factions { tarascans, }
 				recruit_pool "Tarascan Warriors"  1   0.1   2  0  requires factions { tarascans, }	
 
 				recruit_pool "Tlaxcalan Spearmen"  1   0.15   3  0  requires factions { tlaxcalans, }
@@ -4590,7 +4590,7 @@ building skull_rack
             capability
             {
                 recruit_pool "Arrow Warriors"  1   0.1   2  0  requires factions { aztecs, }
-				recruit_pool "Priests of Quetzalcoatl"  1   0.1   3  0  requires factions { tlaxcalans, tarascans, }
+				recruit_pool "Priests of Quetzalcoatl"  1   0.12   3  0  requires factions { tlaxcalans, tarascans, }
 				
                 recruit_pool "Chichimec Riders"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_horses_1 1 
                 recruit_pool "Chichimec Gunners"  1   0.1   2  0  requires factions { chichimeca, }  and event_counter chichi_guns_1 1

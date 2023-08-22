@@ -1040,7 +1040,7 @@ Trait Fallen_to_Illness
 	Threshold  3
 
 	Effect Fertility -10
-        Effect MovementPoints -60
+        Effect MovementPoints -30
         Effect Command  -3
 	Effect HitPoints -3
 	
