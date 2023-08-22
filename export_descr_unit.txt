@@ -1176,7 +1176,7 @@ stat_health      1, 5
 stat_pri         11, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 50, 1
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 65, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
 stat_pri_armour  5, 5, 6, metal
@@ -1827,7 +1827,7 @@ stat_health      2, 6
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 50, 1
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 65, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
 stat_pri_armour  5, 5, 6, metal
@@ -15909,7 +15909,7 @@ stat_health      2, 8
 stat_pri         11, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 50, 1
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 65, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
 stat_pri_armour  8, 5, 6, metal
