@@ -202,7 +202,7 @@
       <assassinate_assassinate_attr_modifier float="0.18"/>
       <assassinate_chance_min int="5"/>
       <assassinate_chance_max int="95"/>
-      <acquisition_base_chance float="40.0"/>
+      <acquisition_base_chance float="10.0"/>
       <acquisition_level_modifier float="5.0"/>
       <acquisition_attack_trade_rights_modifier float="1.0"/>
       <acquisition_defence_trade_rights_modifier float="1.0"/>
