@@ -15900,7 +15900,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Conquistadores, 12, 0, 1
+soldier          Conquistadores, 10, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, general_unit, general_unit

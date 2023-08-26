@@ -11,7 +11,23 @@
 ; max_scale		maximum size for event
 
 event		earthquake
-frequency	20
+frequency	15
+winter		false
+summer		false
+warning		false
+climate		rocky_desert
+climate 	alpine
+climate 	highland
+climate 	mediterranean
+climate 	rocky_desert
+climate 	sandy_desert
+climate 	semi_arid
+climate 	steppe
+climate 	temperate_coniferous_forest
+climate 	temperate_deciduous_forest
+climate 	tropical
+climate 	unused1
+climate 	unused2
 min_scale	2
 max_scale	5
 
@@ -28,6 +44,19 @@ frequency	10
 winter		false
 summer		true
 warning		false
+climate		rocky_desert
+climate 	alpine
+climate 	highland
+climate 	mediterranean
+climate 	rocky_desert
+climate 	sandy_desert
+climate 	semi_arid
+climate 	steppe
+climate 	temperate_coniferous_forest
+climate 	temperate_deciduous_forest
+climate 	tropical
+climate 	unused1
+climate 	unused2
 min_scale	2
 max_scale	5
 
@@ -55,7 +84,19 @@ frequency	8
 winter		false
 summer		false
 warning		false
-climate		sandy_desert
+climate		rocky_desert
+climate 	alpine
+climate 	highland
+climate 	mediterranean
+climate 	rocky_desert
+climate 	sandy_desert
+climate 	semi_arid
+climate 	steppe
+climate 	temperate_coniferous_forest
+climate 	temperate_deciduous_forest
+climate 	tropical
+climate 	unused1
+climate 	unused2
 min_scale	2
 max_scale	5
 
@@ -64,6 +105,19 @@ frequency	15
 winter		false
 summer		false
 warning		false
+climate		rocky_desert
+climate 	alpine
+climate 	highland
+climate 	mediterranean
+climate 	rocky_desert
+climate 	sandy_desert
+climate 	semi_arid
+climate 	steppe
+climate 	temperate_coniferous_forest
+climate 	temperate_deciduous_forest
+climate 	tropical
+climate 	unused1
+climate 	unused2
 min_scale	2
 max_scale	5
 
