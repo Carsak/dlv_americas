@@ -11,15 +11,15 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
                 recruit_pool "Chichimec Scout"  1   0.1   2  0  requires factions { chichimeca, }  
-                recruit_pool "Crossbowmen"  0   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  0   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  0   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  0   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  0   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  0   0.000001   0.999  0  requires factions { france, } 
-                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Crossbowmen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Pikemen"  0   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Musketeers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "New World Cuirassers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Demi Lancers"  0   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Aventurier"  0   0.000001   0.999  0  requires factions { france, } 
+                ;recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
                
                 wall_level 0
                 tower_level 1
@@ -40,15 +40,15 @@ building core_building
         {
             capability
             {
-                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
-                recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
-                recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
+                ;recruit_pool "Pike Militia"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Swordsmen Militia"  0   0.000001   0.999  0  requires factions { spain, }
 				
                 wall_level 1
                 gate_strength 1
@@ -70,16 +70,16 @@ building core_building
         {
             capability
             {              
-                recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
-                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
-                recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Pike Militia"  0   0.000001   0.999  0 requires factions { spain, }
+                ;recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }  
+                ;recruit_pool "Dismounted Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
+                ;recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
+                ;recruit_pool "Conquistadores"  0   0.000001   0.999  0  requires factions { spain, }
          
                 wall_level 2
                 tower_level 1
@@ -101,17 +101,17 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }   
-                recruit_pool "Papal Guard"  1   0.000001   0.999  0  requires factions { papal_states, } 
-                recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }     
-                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
-                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
-                recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
+                ;recruit_pool "Pike Militia"  0 0.000001 0.999 0 requires factions { spain, }   
+                ;recruit_pool "Papal Guard"  1   0.000001   0.999  0  requires factions { papal_states, } 
+                ;recruit_pool "Swordsmen Militia"  0 0.000001 0.999 0 requires factions { spain, }     
+                ;recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+                ;recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
+                ;recruit_pool "Conquistadores"  0 0.000001 0.999 0  requires factions { spain, }
           
                 wall_level 3
                 tower_level 1
@@ -133,17 +133,17 @@ building core_building
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.000001   0.999  0  requires factions { spain, } 
-                recruit_pool "Swordsmen Militia"  1   0.000001   0.999  0  requires factions { spain, } 
-                recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }    
-                recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
+                ;recruit_pool "Pike Militia"  1   0.000001   0.999  0  requires factions { spain, } 
+                ;recruit_pool "Swordsmen Militia"  1   0.000001   0.999  0  requires factions { spain, } 
+                ;recruit_pool "Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }    
+                ;recruit_pool "Dismounted Conquistadores"  0 0.000001 0.999 0 requires factions { spain, }
 				
-                recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
-                recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
+                ;recruit_pool "Crossbowmen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Pikemen"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Musketeers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "New World Cuirassers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Demi Lancers"  1   0.000001   0.999  0  requires factions { england, france, } 
+                ;recruit_pool "Aventurier"  1   0.000001   0.999  0  requires factions { france, } 
         
                 wall_level 4
                 tower_level 1
@@ -982,7 +982,7 @@ building cannon
 {
     levels gunsmith cannon_maker cannon_foundry royal_arsenal 
     {
-        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
+        gunsmith city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks city_watch
         {
             capability
             {
@@ -998,7 +998,7 @@ building cannon
                 cannon_maker
             }
         }
-        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1
+        cannon_maker city requires factions { northern_european, timurids, egypt, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_count 1 and building_present_min_level barracks militia_drill_square
         {
             capability
             {
@@ -1021,7 +1021,7 @@ building cannon
                 cannon_foundry
             }
         }
-        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1
+        cannon_foundry city requires factions { northern_european, egypt, timurids, moors, turks, eastern_european, southern_european, }  and event_counter prestige_rank_marquis 1 and building_present_min_level barracks militia_barracks
         {
             capability
             {
@@ -1233,7 +1233,9 @@ building smith
                 armourer
             }
         }
-        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1
+        armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks city_watch
+		; building_present_min_level -- need for AI, so AI fisrt build barracks and could recruit troops,
+		; else Spain AI left witout army in mid-late game
         {
             capability
             {
@@ -1278,7 +1280,7 @@ building smith
                 gothic_armourer
             }
         }
-        gothic_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        gothic_armourer city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
@@ -1399,7 +1401,7 @@ building port
 {
     levels port shipwright dockyard naval_drydock 
     {
-        port city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 
+        port city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks town_guard
         {
             capability
             {
@@ -1422,7 +1424,7 @@ building port
                 shipwright
             }
         }
-        shipwright city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 
+        shipwright city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks city_watch
         {
             capability
             {
@@ -1439,7 +1441,8 @@ building port
                 recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
                 recruit_pool "fire ship"  1   1   2  0  requires factions { greek, } 
                 recruit_pool "war galley"  1   1   2  0  requires factions { spain, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { spain, } 
+                recruit_pool "lanternas"  1   1   2  0  requires factions { spain, }
+				
                 trade_base_income_bonus bonus 3
                 trade_fleet 1
             }
@@ -1452,7 +1455,7 @@ building port
                 dockyard
             }
         }
-        dockyard city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1 
+        dockyard city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_count 1 and building_present_min_level barracks militia_drill_square
         {
             capability
             {
@@ -1811,7 +1814,7 @@ building market
                 fairground
             }
         }
-        fairground city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 
+        fairground city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks city_watch
         {
             capability
             {
@@ -2042,7 +2045,7 @@ building hinterland_mines
                 mines+1
             }
         }
-        mines+1 city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and resource silver or resource gold and building_present_min_level port port
+        mines+1 city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1  and resource silver or resource gold
         {
             capability
             {
@@ -2282,7 +2285,7 @@ building temple_catholic
                 abbey
             }
         }
-        abbey city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, }  and event_counter prestige_rank_viscount 1 
+        abbey city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, }  and event_counter prestige_rank_viscount 1  and building_present_min_level barracks city_watch
         {
             capability
             {
@@ -2328,7 +2331,7 @@ building temple_catholic
                 huge_cathedral
             }
         }
-        huge_cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, }  and event_counter prestige_rank_marquis 1  and building_present_min_level port port
+        huge_cathedral city requires factions { normans, denmark, hre, scotland, france, england, hungary, poland, venice, papal_states, portugal, spain, sicily, milan, }  and event_counter prestige_rank_marquis 1
         {
             capability
             {
@@ -2337,8 +2340,8 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
 				
                 happiness_bonus bonus 4
+                religion_level bonus 6
 				
-                religion_level bonus 5
                 agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1

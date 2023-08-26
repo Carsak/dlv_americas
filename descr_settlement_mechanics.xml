@@ -148,7 +148,7 @@
          <castle_modifier value="0.9"/>
       </factor>
       <factor name="SIF_MINING">
-         <pip_modifier value="1.0"/>
+         <pip_modifier value="0.7"/>
       </factor>
       <factor name="SIF_TRADE">
          <pip_modifier value="0.6"/>
