@@ -5106,6 +5106,13 @@ end_monitor
 	
 	end_monitor
 	
+	monitor_event FactionTurnStart FactionType aztecs
+	and Treasury > 130000
+	
+		add_money aztecs -20000
+	
+	end_monitor
+	
 	;------------------------------------------------
 	
 	;----------For Debug AI - show all info about AI in the game ----------

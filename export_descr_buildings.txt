@@ -2859,6 +2859,9 @@ building city_hall
 				
                 law_bonus bonus 1
                 population_health_bonus bonus 1
+				
+				agent_limit diplomat 1
+				agent_limit spy 1
             }
             material wooden
             construction  3 
@@ -2896,6 +2899,10 @@ building city_hall
 				
                 law_bonus bonus 2
                 population_health_bonus bonus 2
+				
+				agent_limit diplomat 1
+				agent_limit spy 1
+				agent_limit assassin 1
             }
             material wooden
             construction  4 
@@ -2933,6 +2940,10 @@ building city_hall
 				
                 law_bonus bonus 4
                 population_health_bonus bonus 3
+				
+				agent_limit diplomat 1
+				agent_limit spy 1
+				agent_limit assassin 1
             }
             material wooden
             construction  4 
@@ -2970,6 +2981,10 @@ building city_hall
 				
                 law_bonus bonus 5
                 population_health_bonus bonus 4
+				
+				agent_limit diplomat 1
+				agent_limit spy 1
+				agent_limit assassin 1
             }
             material wooden
             construction  4 
@@ -4284,6 +4299,9 @@ building meso_palace
                 recruit_pool "Tlaxcalan Archers"  1   0.1   2  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tarascan Archers"  1   0.1   2  0  requires factions { tarascans, } 
                 
+				agent_limit diplomat 1
+				agent_limit spy 1
+				
                 population_health_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -4313,6 +4331,10 @@ building meso_palace
                 recruit_pool "Tarascan Archers"  1   0.15   2  0  requires factions { tarascans, } 
                 recruit_pool "Tarascan Spear Throwers"  1   0.1   2  0  requires factions { tarascans, } 
                 
+				agent_limit diplomat 1
+				agent_limit spy 1
+				agent_limit assassin 1
+				
                 population_health_bonus bonus 2
                 law_bonus bonus 2
             }
@@ -4342,6 +4364,10 @@ building meso_palace
                 recruit_pool "Tlaxcalan Spear Throwers"  1   0.15   3  0  requires factions { tlaxcalans, } 
                 recruit_pool "Tarascan Spear Throwers"  1   0.15   3  0  requires factions { tarascans, } 
                 
+				agent_limit diplomat 1
+				agent_limit spy 1
+				agent_limit assassin 1
+				
                 population_health_bonus bonus 3
                 law_bonus bonus 3
                 archer_bonus 1
@@ -4805,6 +4831,8 @@ building raiders_tent
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
                 income_bonus 1
+				
+				agent_limit spy 1
             }
             material wooden
             construction  2 
@@ -4827,6 +4855,9 @@ building raiders_tent
                 free_upkeep bonus 1
                 population_growth_bonus bonus 1
                 income_bonus 2
+				
+				agent_limit spy 1
+				agent_limit assassin 1
             }
             material wooden
             construction  3
@@ -4850,6 +4881,9 @@ building raiders_tent
                 free_upkeep bonus 2
                 population_growth_bonus bonus 1
                 income_bonus 3
+				
+				agent_limit spy 1
+				agent_limit assassin 1
             }
             material wooden
             construction  3
@@ -4875,6 +4909,8 @@ building traders_tent
             {
                 agent diplomat  0  requires factions { nativeindian, } 
                 trade_base_income_bonus bonus 2
+				
+				agent_limit diplomat 1
             }
             material wooden
             construction  2 
@@ -4891,6 +4927,8 @@ building traders_tent
             {
                 agent diplomat  0  requires factions { nativeindian, } 
                 trade_base_income_bonus bonus 4
+				
+				agent_limit diplomat 1
             }
             material wooden
             construction  3 
