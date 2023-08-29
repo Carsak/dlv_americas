@@ -3176,11 +3176,11 @@ faction_standings	tlaxcalans,		0.9	spain
 
 faction_relationships 	aztecs, at_war_with 	slave, tlaxcalans
 faction_relationships 	tlaxcalans, at_war_with 	slave, aztecs
-faction_relationships 	mayans, at_war_with 	slave
+faction_relationships 	mayans, at_war_with 	slave, spain
 faction_relationships 	tarascans, at_war_with 	slave
 faction_relationships 	chichimeca, at_war_with 	slave
 faction_relationships 	apachean, at_war_with 	slave
-faction_relationships 	spain, at_war_with 	slave
+faction_relationships 	spain, at_war_with 	slave, mayans
 faction_relationships 	slave, at_war_with 	aztecs, tlaxcalans, mayans, tarascans, chichimeca, apachean, spain, england, france
 faction_relationships 	england, at_war_with 	slave
 faction_relationships 	france, at_war_with 	slave
