@@ -5283,7 +5283,7 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 4000
+				increment_kings_purse spain 6000
 			end_if
 			
 			if I_IsFactionAIControlled france
