@@ -179,7 +179,7 @@
       <horde_target_resource_bonus int="1000"/>
    </hordes>
    <merchants>
-      <base_income_modifier float="4.5"/>
+      <base_income_modifier float="4.0"/>
       <trade_bonus_offset float="0.0"/>
    </merchants>
    <agents>

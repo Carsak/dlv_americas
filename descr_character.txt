@@ -41,7 +41,7 @@
 ;
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-starting_action_points	200	; default value for all characters and pathfinding calculations
+starting_action_points	180	; default value for all characters and pathfinding calculations
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type			named character
@@ -248,7 +248,7 @@ type			general
 
 actions	moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, exchange
 wage_base		50
-starting_action_points	160
+starting_action_points	180
 faction			venice
 dictionary		15
 strat_model		southern_captain
