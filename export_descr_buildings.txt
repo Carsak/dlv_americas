@@ -429,7 +429,7 @@ building barracks
         {
             capability
             {
-                recruit_pool "Pike Militia"  1   0.1   2  0  requires factions { spain, }
+                recruit_pool "Swordsmen Militia"  1   0.15   3  0  requires factions { spain, }
                 recruit_pool "Partisan Militia"  1   0.1   3  0  requires factions { france, }
                 recruit_pool "Bill Militia"  1   0.1   3  0  requires factions { england, }
             }
@@ -1411,7 +1411,8 @@ building port
                 recruit_pool "cog"  1   1   2  0  requires factions { hungary, poland, } 
                 recruit_pool "ladya"  1   1   2  0  requires factions { russia, } 
                 recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { spain, } and hidden_resource america 
+                recruit_pool "war galley"  1   1   2  0  requires factions { spain, }
+				
                 trade_base_income_bonus bonus 2
                 trade_fleet 1
             }
