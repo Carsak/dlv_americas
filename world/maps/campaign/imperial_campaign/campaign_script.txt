@@ -3816,8 +3816,8 @@ end_monitor
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
 			unit		Dismounted Conquistadores		exp 0 armour 0 weapon_lvl 0
-			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
-			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
@@ -3841,9 +3841,9 @@ end_monitor
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
 			unit		Sword and Buckler Men		exp 0 armour 0 weapon_lvl 0
-			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
-			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
-			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Musketeers					exp 0 armour 0 weapon_lvl 0
 			unit		Crossbowmen				exp 0 armour 0 weapon_lvl 0
@@ -3873,6 +3873,9 @@ end_monitor
 		spawn_army 
 			faction spain
 			character	random_name, general, age 29, x 178, y 10
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
@@ -3888,6 +3891,9 @@ end_monitor
 		spawn_army 
 			faction spain
 			character	random_name, general, age 29, x 166, y 2
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
+			unit		Conquistadores				exp 0 armour 0 weapon_lvl 0
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Spanish Dragoons			exp 1 armour 0 weapon_lvl 0
 			unit		Conquistadores				exp 1 armour 0 weapon_lvl 0
@@ -3905,7 +3911,7 @@ end_monitor
 
     ;;; Reinforcements for Spain AI, 
     ;;; cause with new reqruit system(1 unit spawn time about 5-10 turns) faction needs 
-    ;;; about 5-7 settlements for normal reqruiments. Spain AI cant capture anything at the start
+    ;;; about 7 settlements for normal reqruiments. Spain AI cant capture anything at the start
 	
 	monitor_event FactionTurnStart FactionType spain
 		and I_IsFactionAIControlled spain
