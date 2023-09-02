@@ -480,7 +480,7 @@ building barracks
                 law_bonus bonus 2
 				
 				; need for AI - so they will prioritize this building
-				taxable_income_bonus 5
+				taxable_income_bonus 20
             }
             material wooden
             construction  4
@@ -507,7 +507,7 @@ building barracks
 				weapon_melee_blade 1
 				
 				; need for AI - so they will prioritize this building
-				taxable_income_bonus 10
+				taxable_income_bonus 20
             }
             material wooden
             construction  4 
@@ -2273,7 +2273,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
 				
                 happiness_bonus bonus 2
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
                 pope_disapproval 1
             }
@@ -2295,7 +2295,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
 				
                 happiness_bonus bonus 3
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
                 pope_disapproval 1
             }
@@ -2317,7 +2317,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
 				
                 happiness_bonus bonus 3
-                religion_level bonus 4
+                religion_level bonus 7
                 agent_limit priest 1
                 pope_disapproval 1
                 pope_approval 1
@@ -2341,7 +2341,7 @@ building temple_catholic
                 agent priest  0  requires factions { papal_states, portugal, spain, sicily, milan, venice, }
 				
                 happiness_bonus bonus 4
-                religion_level bonus 6
+                religion_level bonus 10
 				
                 agent_limit priest 1
                 pope_disapproval 1

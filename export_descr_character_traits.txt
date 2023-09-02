@@ -1040,8 +1040,8 @@ Trait Fallen_to_Illness
 	Threshold  3
 
 	Effect Fertility -10
-        Effect MovementPoints -30
-        Effect Command  -3
+    Effect MovementPoints -15
+    Effect Command  -3
 	Effect HitPoints -3
 	
    Level Recovered_From_Illness
@@ -1245,21 +1245,20 @@ Trait TurnsAlive
         
 	  Effect HitPoints  1 
 	  Effect Fertility  1
-          Effect MovementPoints  20
 
     Level Middle_Aged
         Description Middle_Aged_desc
         EffectsDescription Middle_Aged_effects_desc        
         Threshold  36
 
-        Effect MovementPoints  15
+        Effect MovementPoints  1
 	
     Level Senior_Citizen
         Description Senior_Citizen_desc
         EffectsDescription Senior_Citizen_effects_desc        
         Threshold  76
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
         Effect HitPoints  -1 
         Effect PersonalSecurity -1
         Effect Fertility  -1
@@ -1286,7 +1285,7 @@ Trait DiplomatTurnsAlive
         EffectsDescription Youth2_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 
  
     Level Middle_Aged2
@@ -1294,7 +1293,7 @@ Trait DiplomatTurnsAlive
         EffectsDescription Middle_Aged2_effects_desc        
         Threshold  36  
    
- 	  Effect MovementPoints  15 
+ 	  Effect MovementPoints  1 
 
 
     Level Senior_Citizen2
@@ -1302,7 +1301,7 @@ Trait DiplomatTurnsAlive
         EffectsDescription Senior_Citizen2_effects_desc        
         Threshold  76
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
 	Effect Influence 1	  
 
 
@@ -1326,7 +1325,7 @@ Trait SpyTurnsAlive
         EffectsDescription Youth3_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 
 
     Level Middle_Aged3
@@ -1334,7 +1333,7 @@ Trait SpyTurnsAlive
         EffectsDescription Middle_Aged3_effects_desc        
         Threshold  36 
         
- 	  Effect MovementPoints  15 
+ 	  Effect MovementPoints  1 
     
 
     Level Senior_Citizen3
@@ -1342,7 +1341,7 @@ Trait SpyTurnsAlive
         EffectsDescription Senior_Citizen3_effects_desc        
         Threshold  76 
 
-        Effect MovementPoints  5	  
+        Effect MovementPoints  1  
 
 
     Level Elderly3
@@ -1365,7 +1364,7 @@ Trait AssassinTurnsAlive
         EffectsDescription Youth4_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 
 
     Level Middle_Aged4
@@ -1373,7 +1372,7 @@ Trait AssassinTurnsAlive
         EffectsDescription Middle_Aged4_effects_desc        
         Threshold  36
         
- 	  Effect MovementPoints  15 
+ 	  Effect MovementPoints  1 
     
 
     Level Senior_Citizen4
@@ -1381,7 +1380,7 @@ Trait AssassinTurnsAlive
         EffectsDescription Senior_Citizen4_effects_desc        
         Threshold  76
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
 	  Effect Subterfuge -1	  
 
 
@@ -1407,7 +1406,7 @@ Trait PrincessTurnsAlive
         EffectsDescription Youth5_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 	  Effect Charm 1
 
 
@@ -1416,7 +1415,7 @@ Trait PrincessTurnsAlive
         EffectsDescription Middle_Aged5_effects_desc        
         Threshold  36
         
- 	  Effect MovementPoints  15 
+ 	  Effect MovementPoints  1 
     
 
     Level Senior_Citizen5
@@ -1424,7 +1423,7 @@ Trait PrincessTurnsAlive
         EffectsDescription Senior_Citizen5_effects_desc        
         Threshold  76 
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
 	Effect Charm -1  
 
 
@@ -1450,7 +1449,7 @@ Trait MerchantTurnsAlive
         EffectsDescription Youth6_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 	  Effect Finance  0
 
 
@@ -1459,7 +1458,7 @@ Trait MerchantTurnsAlive
         EffectsDescription Middle_Aged6_effects_desc        
         Threshold  36 
         
- 	  Effect MovementPoints  15 
+ 	  Effect MovementPoints  1 
     	Effect Finance  1	 
 
     Level Senior_Citizen6
@@ -1467,7 +1466,7 @@ Trait MerchantTurnsAlive
         EffectsDescription Senior_Citizen6_effects_desc        
         Threshold  76 
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
 	Effect Finance  2 
 
 
@@ -1492,7 +1491,7 @@ Trait PriestTurnsAlive
         EffectsDescription Youth7_effects_desc
         Threshold  1 
         
-	  Effect MovementPoints  20 
+	  Effect MovementPoints  1 
 	  
 
     Level Middle_Aged7
@@ -1500,7 +1499,7 @@ Trait PriestTurnsAlive
         EffectsDescription Middle_Aged7_effects_desc        
         Threshold  36 
         
- 	Effect MovementPoints  15
+ 	Effect MovementPoints  1
     	Effect Piety  1	 
 
     Level Senior_Citizen7
@@ -1508,7 +1507,7 @@ Trait PriestTurnsAlive
         EffectsDescription Senior_Citizen7_effects_desc        
         Threshold  76 
 
-        Effect MovementPoints  5
+        Effect MovementPoints  1
 	Effect Piety  2 
 
 
@@ -1535,7 +1534,7 @@ Trait SummerWinterCampaign
         EffectsDescription SummerCampaigning_effects_desc
         Threshold  1
 
-    	Effect MovementPoints  5
+    	Effect MovementPoints  1
 	
     Level WinterCampaigning
         Description WinterCampaigning_desc
