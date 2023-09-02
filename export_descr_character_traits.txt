@@ -1251,14 +1251,13 @@ Trait TurnsAlive
         EffectsDescription Middle_Aged_effects_desc        
         Threshold  36
 
-        Effect MovementPoints  1
+        Effect PersonalSecurity  1
 	
     Level Senior_Citizen
         Description Senior_Citizen_desc
         EffectsDescription Senior_Citizen_effects_desc        
         Threshold  76
 
-        Effect MovementPoints  1
         Effect HitPoints  -1 
         Effect PersonalSecurity -1
         Effect Fertility  -1
