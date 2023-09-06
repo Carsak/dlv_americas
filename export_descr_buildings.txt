@@ -119,6 +119,7 @@ building core_building
                 free_upkeep bonus 9
                 happiness_bonus bonus 2
                 recruitment_slots 3
+				construction_time_bonus_wooden 35
             }
             material stone
             construction  4 
@@ -151,6 +152,7 @@ building core_building
                 free_upkeep bonus 12
                 happiness_bonus bonus 3
                 recruitment_slots 3
+				construction_time_bonus_wooden 55
             }
             material stone
             construction  4 
