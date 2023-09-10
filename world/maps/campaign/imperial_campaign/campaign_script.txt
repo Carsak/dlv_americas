@@ -5119,6 +5119,13 @@ end_monitor
 	
 	end_monitor
 	
+	monitor_event FactionTurnStart FactionType mayans
+	and Treasury > 130000
+	
+		add_money mayans -20000
+	
+	end_monitor
+	
 	;------------------------------------------------
 	
 	;----------For Debug AI - show all info about AI in the game ----------
@@ -5289,15 +5296,15 @@ end_monitor
 		and CampaignDifficulty = very_hard
 		
 			if I_IsFactionAIControlled spain
-				increment_kings_purse spain 6000
+				increment_kings_purse spain 8000
 			end_if
 			
 			if I_IsFactionAIControlled france
-				increment_kings_purse france 3000
+				increment_kings_purse france 6000
 			end_if
 			
 			if I_IsFactionAIControlled england
-				increment_kings_purse england 4000
+				increment_kings_purse england 6000
 			end_if
 			
 			if I_IsFactionAIControlled aztecs
