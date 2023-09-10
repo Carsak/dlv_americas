@@ -540,7 +540,7 @@ building barracks
             }
             material wooden
             construction  5 
-            cost  19200 
+            cost  12500 
             settlement_min huge_city
             upgrades
             {
@@ -565,7 +565,7 @@ building barracks
             }
             material wooden
             construction  5 
-            cost  24000 
+            cost  15000 
             settlement_min huge_city
             upgrades
             {
@@ -1228,7 +1228,7 @@ building smith
             }
             material wooden
             construction  4 
-            cost  5500 
+            cost  5000 
             settlement_min large_town
             upgrades
             {
@@ -1245,7 +1245,7 @@ building smith
             }
             material wooden
             construction  4 
-            cost  8500 
+            cost  7500 
             settlement_min city
             upgrades
             {
@@ -1260,7 +1260,7 @@ building smith
             }
             material wooden
             construction  4 
-            cost  11000 
+            cost  9600 
             settlement_min large_city
             upgrades
             {
@@ -4002,8 +4002,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
-				recruit_pool "Sword and Buckler Men"  1   0.11   3  0  requires factions { spain, }  and hidden_resource america
-				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america 				
+				recruit_pool "Sword and Buckler Men"  1   0.15   3  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Tercio Pikemen"  1   0.15   2  0  requires factions { spain, }  and hidden_resource america 				
             }
             material stone
             construction  1 
@@ -4018,8 +4018,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
-				recruit_pool "Sword and Buckler Men"  1   0.11   2  0  requires factions { spain, }  and hidden_resource america
-				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Sword and Buckler Men"  1   0.15   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Tercio Pikemen"  1   0.15   2  0  requires factions { spain, }  and hidden_resource america
             }
             material stone
             construction  1 
@@ -4033,8 +4033,8 @@ building guild_knights_of_santiago_chapter_house
         {
             capability
             {
-				recruit_pool "Sword and Buckler Men"  1   0.11   2  0 requires factions { spain, }  and hidden_resource america
-				recruit_pool "Conquistadores"  1   0.1   2  0  requires factions { spain, }  and hidden_resource america
+				recruit_pool "Sword and Buckler Men"  1   0.15   2  0 requires factions { spain, }  and hidden_resource america
+				recruit_pool "Tercio Pikemen"  1   0.15   2  0  requires factions { spain, }  and hidden_resource america
             }
             material stone
             construction  1 

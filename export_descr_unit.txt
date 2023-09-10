@@ -4428,7 +4428,7 @@ stat_pri_attr    ap
 stat_sec         7, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  0, 4, 0, flesh
+stat_pri_armour  0, 5, 0, flesh
 ;stat_armour_ex   0, 3, 0, 0, 2, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        4
