@@ -1407,14 +1407,6 @@ building port
         {
             capability
             {
-                recruit_pool "cog"  1   1   2  0  requires factions { hre, france, scotland, england, } 
-                recruit_pool "longboat"  1   1   2  0  requires factions { denmark, } 
-                recruit_pool "dhow"  1   1   2  0  requires factions { middle_eastern, } 
-                recruit_pool "cog"  1   1   2  0  requires factions { hungary, poland, } 
-                recruit_pool "ladya"  1   1   2  0  requires factions { russia, } 
-                recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { spain, }
-				
                 trade_base_income_bonus bonus 2
                 trade_fleet 1
             }
@@ -1430,22 +1422,7 @@ building port
         shipwright city requires factions { northern_european, middle_eastern, eastern_european, greek, southern_european, }  and event_counter prestige_rank_viscount 1 and building_present_min_level barracks city_watch
         {
             capability
-            {
-                recruit_pool "cog"  1   1   2  0  requires factions { hre, france, scotland, england, } 
-                recruit_pool "longboat"  1   1   2  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { hre, scotland, france, england, } 
-                recruit_pool "dragon boat"  1   1   2  0  requires factions { denmark, } 
-                recruit_pool "dhow"  1   1   2  0  requires factions { middle_eastern, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "cog"  1   1   2  0  requires factions { hungary, poland, } 
-                recruit_pool "ladya"  1   1   2  0  requires factions { russia, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { hungary, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { russia, poland, } 
-                recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "fire ship"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { spain, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { spain, }
-				
+            {				
                 trade_base_income_bonus bonus 3
                 trade_fleet 1
             }
@@ -1462,26 +1439,9 @@ building port
         {
             capability
             {
-                recruit_pool "cog"  1   1   2  0  requires factions { hre, france, scotland, england, } 
-                recruit_pool "longboat"  1   1   2  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { hre, scotland, france, england, } 
-                recruit_pool "dragon boat"  1   1   2  0  requires factions { denmark, } 
                 recruit_pool "gun holk"  1   1   2  0  requires factions { northern_european, } 
-                recruit_pool "dhow"  1   1   2  0  requires factions { middle_eastern, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "cog"  1   1   2  0  requires factions { hungary, poland, } 
-                recruit_pool "ladya"  1   1   2  0  requires factions { russia, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { hungary, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { russia, poland, } 
-                recruit_pool "gun holk"  1   1   2  0  requires factions { russia, poland, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { hungary, } 
-                recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "fire ship"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { spain, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { spain, } 
                 recruit_pool "caravel"  1   1   2  0  requires factions { spain, } 
+				
                 trade_base_income_bonus bonus 4
                 trade_fleet 1
             }
@@ -1498,31 +1458,12 @@ building port
         {
             capability
             {
-                recruit_pool "cog"  1   1   2  0  requires factions { hre, france, scotland, england, } 
-                recruit_pool "longboat"  1   1   2  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { hre, scotland, france, england, } 
-                recruit_pool "dragon boat"  1   1   2  0  requires factions { denmark, } 
+
                 recruit_pool "gun holk"  1   1   2  0  requires factions { northern_european, } 
                 recruit_pool "carrack"  1   1   2  0  requires factions { northern_european, } 
-                recruit_pool "dhow"  1   1   2  0  requires factions { middle_eastern, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "baghlah"  1   1   2  0  requires factions { egypt, moors, turks, } 
-                recruit_pool "cog"  1   1   2  0  requires factions { hungary, poland, } 
-                recruit_pool "ladya"  1   1   2  0  requires factions { russia, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { hungary, } 
-                recruit_pool "holk"  1   1   2  0  requires factions { russia, poland, } 
-                recruit_pool "gun holk"  1   1   2  0  requires factions { russia, poland, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { hungary, } 
-                recruit_pool "carrack"  1   1   2  0  requires factions { eastern_european, } 
-                recruit_pool "dromon"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "fire ship"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "carrack"  1   1   2  0  requires factions { greek, } 
-                recruit_pool "war galley"  1   1   2  0  requires factions { spain, } 
-                recruit_pool "lanternas"  1   1   2  0  requires factions { spain, } 
                 recruit_pool "caravel"  1   1   2  0  requires factions { spain, } 
                 recruit_pool "grande carrack"  1   1   2  0  requires factions { spain, } 
+				
                 trade_base_income_bonus bonus 5
                 trade_fleet 1
             }
